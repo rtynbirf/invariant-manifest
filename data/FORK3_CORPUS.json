@@ -1,0 +1,126 @@
+[
+  {
+    "id": "C01",
+    "category": "ЧИСЛО",
+    "text": "Золотое сечение = 1,618, а не 0,5: равновесие живых смещено от половины.",
+    "numbers": [
+      "1.618",
+      "0.5"
+    ],
+    "rare_terms": [],
+    "soft_terms": [
+      "золотое сечение"
+    ],
+    "negation": true,
+    "condition": false,
+    "causality": false
+  },
+  {
+    "id": "C02",
+    "category": "ЧИСЛО",
+    "text": "7170 языков планеты = один человек: языков миллионы, сущность одна.",
+    "numbers": [
+      "7170"
+    ],
+    "rare_terms": [],
+    "soft_terms": [],
+    "negation": false,
+    "condition": false,
+    "causality": false
+  },
+  {
+    "id": "C03",
+    "category": "ОТРИЦАНИЕ",
+    "text": "Носитель смертен, а смысл в слове нет.",
+    "numbers": [],
+    "rare_terms": [],
+    "soft_terms": [],
+    "negation": true,
+    "condition": false,
+    "causality": false
+  },
+  {
+    "id": "C04",
+    "category": "ОТРИЦАНИЕ",
+    "text": "Голова не хранит — голова бросает вперёд.",
+    "numbers": [],
+    "rare_terms": [],
+    "soft_terms": [],
+    "negation": true,
+    "condition": false,
+    "causality": false
+  },
+  {
+    "id": "C05",
+    "category": "УСЛОВИЕ",
+    "text": "Проекция без прогона — вера; проекция после прогона — знание.",
+    "numbers": [],
+    "rare_terms": [],
+    "soft_terms": [],
+    "negation": false,
+    "condition": true,
+    "causality": false
+  },
+  {
+    "id": "C06",
+    "category": "УСЛОВИЕ",
+    "text": "Пока хозяин не назвал задачу, init принадлежит тишине.",
+    "numbers": [],
+    "rare_terms": [
+      "init"
+    ],
+    "soft_terms": [],
+    "negation": true,
+    "condition": true,
+    "causality": false
+  },
+  {
+    "id": "C07",
+    "category": "ПРИЧИННОСТЬ",
+    "text": "Зло = невежество: невежда опаснее злодея, потому что злодей хоть знает, что творит.",
+    "numbers": [],
+    "rare_terms": [],
+    "soft_terms": [],
+    "negation": false,
+    "condition": false,
+    "causality": true
+  },
+  {
+    "id": "C08",
+    "category": "ПРИЧИННОСТЬ",
+    "text": "Слово попадает в словарь, когда умирает настолько, что фиксация безопасна: словарь — архив дрейфа, не исходник.",
+    "numbers": [],
+    "rare_terms": [],
+    "soft_terms": [],
+    "negation": true,
+    "condition": true,
+    "causality": true
+  },
+  {
+    "id": "C09",
+    "category": "РЕДКИЙ ТЕРМИН",
+    "text": "Дяхан — язык, собранный из прожитых корней, — не фиксируют: им пользуются.",
+    "numbers": [],
+    "rare_terms": [
+      "дяхан"
+    ],
+    "soft_terms": [],
+    "negation": true,
+    "condition": false,
+    "causality": false
+  },
+  {
+    "id": "C10",
+    "category": "РЕДКИЙ ТЕРМИН",
+    "text": "Уанрок — один камень с меткой: первый жетон долга, из которого выросла клинопись.",
+    "numbers": [],
+    "rare_terms": [
+      "уанрок",
+      "клинопись"
+    ],
+    "soft_terms": [],
+    "negation": false,
+    "condition": false,
+    "causality": true
+  }
+]
