@@ -1,0 +1,38 @@
+{
+  "claims": [
+    {
+      "claim_id": "INVARIANT-MANIFEST-PASS",
+      "statement": "invariant-manifest v0.2.3 FORK 3 passes all checks: 10/10 SOFT, 8/8 mutations",
+      "kind": "observation",
+      "scope": "invariant-manifest audit",
+      "scope_id": "inv-manifest",
+      "status": "SUPPORTED",
+      "evidence": [
+        {
+          "description": "Mutation tests: 8/8 PASS",
+          "method": "measurement",
+          "result": "8 tests passed",
+          "protocol": "python3 test_mutations.py",
+          "instrument": "unittest",
+          "unit": "count",
+          "measurement_value": 8,
+          "raw_data_ref": "evidence/inv_results.csv",
+          "raw_data_sha256": "b5cd748a83fa1c5d9c54f89a2a145857adedc7286950428ee60ac23e7c1a6165",
+          "quantity": "count",
+          "csv_row": 2,
+          "csv_column": "count",
+          "tolerance": 0
+        },
+        {
+          "description": "Run all output",
+          "method": "log_analysis",
+          "result": "PASS, 10/10 SOFT",
+          "protocol": "python3 run_all.py",
+          "raw_data_ref": "evidence/inv_log.txt",
+          "raw_data_sha256": "f32974286ff3e0405d3d3fb07d1a8c4b3ef1d4c8675409debe7d84f3b6c8fac6",
+          "excerpt": "[INVARIANT] run_all.py: PASS, 10/10 SOFT, 0 BREAK, 0 DRIFT"
+        }
+      ]
+    }
+  ]
+}
