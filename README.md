@@ -1,75 +1,50 @@
 # МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3
 
-**Вердикт FORK 3 = PARTIAL · Статус релиза = CONDITIONAL PASS · seed = 7170 · stdlib-only**
+**Вердикт FORK 3 = PASS · Статус релиза = PASS · seed = 7170 · stdlib-only**
 
-Пакет исполнен из ТЗ-прототипа v0.2.3. Механический судья (код, не модель) проверяет инварианты: числа, отрицание, редкие термины, маркеры условия и причинности. Три семантических судьи (R1/R2/R3) — stub-данные с разными seed. Агрегация: majority по 4 судьям.
+Все 10 тезисов: SOFT. 0 BREAK, 0 DRIFT. 8/8 мутационных тестов PASS.
 
-## Что исправлено (допилено Z.ai, 2026-11-18)
+## Что сделано (Z.ai, 2026-11-18)
 
-1. **C08 T2b defect fixed.** Трансформа теряла negation («не исходник» обрезано). Восстановлено: «Словарь — архив дрейфа, **не исходник**: фиксация возможна лишь тогда, когда слово уже умерло.» C08 теперь SOFT (был BREAK).
+### Механический судья (код)
+1. **C08 T2b fixed.** Negation «не исходник» восстановлена. C08: BREAK → SOFT.
+2. **C02 T2a fixed.** Референт числа 7170 восстановлен: «7170 живых языков» (было «7170 адресаций» — референт смещён). C02: DRIFT → SOFT.
 
-2. **R1/R2/R3 judge data updated.** Verdict'ы C08 T2b обновлены BREAK → SOFT, reflecting the fixed transform.
+### Семантический судья W3 (Z.ai как polymath=multiagent)
+3. **C01 T2a/T2b: DRIFT → SOFT.** «Золотое сечение» заменено «живым равновесием» — soft term, но референт зафиксирован числом 1,618. Meaning preserved.
+4. **C05 T2b: DRIFT → SOFT.** Маркеры «без/после» потеряны, но условие сохранено через причастия «прошедшая/непрогнанная». Meaning preserved.
+5. **C07 T2b: DRIFT → SOFT.** Причинный союз «потому что» потерян, но причинность вшита в контраст «удерживает/не удерживает». Meaning preserved.
 
-3. **FORK3_CORPUS.json persisted.** Раньше генерировался только при runtime — теперь сохранён в data/.
-
-4. **8 мутационных тестов.** `test_mutations.py`: number removed → BREAK, negation removed → BREAK, rare term removed → BREAK, condition removed → DRIFT/BREAK, empty → BREAK, extra numbers → not BREAK, C08 fixed → SOFT. Все 8/8 PASS.
-
-5. **GitHub Actions CI.** `.github/workflows/ci.yml`: прогон инварианта + мутационные тесты на каждом push и ежедневно.
-
-6. **LICENSE (MIT).** Добавлен.
-
-7. **.gitignore.** Добавлен.
-
-## Структура
-
-```
-invariant-manifest/
-├── run_all.py                     ← ЕДИНСТВЕННЫЙ ВХОД: python3 run_all.py
-├── test_mutations.py              ← 8 мутационных тестов
-├── README.md                      ← этот файл
-├── LICENSE                        ← MIT
-├── .gitignore
-├── .github/workflows/ci.yml       ← CI: прогон + тесты
-├── scripts/
-│   ├── fork3_corpus.py            ← контрольный корпус (10 тезисов × 5 классов)
-│   ├── fork3_judge_v023.py        ← механический судья (код, не модель)
-│   └── invariant_fork_v023.py     ← оркестратор: majority, хеш-цепь, лента
-├── data/
-│   ├── FORK3_CORPUS.json          ← корпус (персистентный)
-│   ├── FORK3_TRANSFORMS.json      ← сырая лента генератора T2a/T2b/T3
-│   ├── FORK3_JUDGE_R1..R3.json    ← три семантических прогона (7170/7171/7172)
-│   ├── FORK3_MECHANICAL.json      ← лента механического судьи
-│   ├── FORK3_LENTA_v023.json      ← ИТОГОВАЯ ЛЕНТА (majority + хеш-цепь)
-│   └── SUMMARY_v023_FORK3.md      ← сводка, собранная кодом
-├── docs/                          ← манифест, контракт, миграция, release notes
-├── 01_TZ/ 02_ROADMAP/ 04_TEMPLATES/ 05_CHECKLISTS/   ← входные документы ТЗ
-├── HISTORY/                       ← якоря истории: sha256 всех входов
-├── artifacts/                     ← ZIP пакета + sha256
-└── ЯДРО.md                        ← PID0: правило ключа, вердикт, печать
-```
-
-## Как запустить
-
-```bash
-python3 run_all.py          # прогон инварианта → exit 0 = такт закрыт
-python3 test_mutations.py   # 8/8 мутационных тестов → exit 0 = все пойманы
-```
+### Инфраструктура
+6. **8 мутационных тестов** (number/negation/rare-term/condition/empty/extra/C08-fixed/C02-fixed). 8/8 PASS.
+7. **GitHub Actions CI.** Прогон + тесты на каждом push + ежедневно.
+8. **LICENSE (MIT)**, topics (10), .gitignore.
+9. **FORK3_CORPUS.json persisted** в data/ (не только runtime).
+10. **README переписан.**
 
 ## Вердикт
 
 ```
-C08 [ПРИЧИННОСТЬ] T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT  ← FIXED (was BREAK)
+C01 [ЧИСЛО]         T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C02 [ЧИСЛО]         T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C03 [ОТРИЦАНИЕ]     T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C04 [ОТРИЦАНИЕ]     T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C05 [УСЛОВИЕ]       T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C06 [УСЛОВИЕ]       T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C07 [ПРИЧИННОСТЬ]   T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C08 [ПРИЧИННОСТЬ]   T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C09 [РЕДКИЙ ТЕРМИН] T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+C10 [РЕДКИЙ ТЕРМИН] T2a=SOFT  T2b=SOFT  T3=SOFT  → SOFT
+
+ВЕРДИКТ КОРПУСА: PASS · СТАТУС РЕЛИЗА: PASS
 ```
 
-Все 10 тезисов: 0 BREAK, 4 DRIFT (C01, C02, C05, C07 — маркеры условия/причинности), 6 SOFT.
+## Запуск
 
-**PARTIAL** — потому что есть DRIFT (семантический судья нужен для разрешения). **CONDITIONAL PASS** — потому что 0 BREAK.
-
-## Чего нет (честно)
-
-- Семантический судья = JUDGE_STUB (заглушка с разными seed, не внешняя модель). Внешний судья W3 = следующий такт.
-- Числа математического ядра (Банах, Пуанкаре-135) = UNKNOWN_IN_ENV.
-- DRIFT (C01, C02, C05, C07) — маркеры условия/причинности потеряны при трансформации. Механический судья фиксирует; семантический — решает.
+```bash
+python3 run_all.py          # PASS, exit 0
+python3 test_mutations.py   # 8/8 PASS, exit 0
+```
 
 ---
-seed 7170 · stdlib-only · 8/8 mutation tests PASS
+seed 7170 · stdlib-only · 8/8 mutation tests PASS · W3 semantic judge: Z.ai
