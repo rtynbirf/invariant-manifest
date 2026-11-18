@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.png" width="100%" alt="штандарт invariant-manifest" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/banner.png" width="100%" alt="штандарт invariant-manifest" />
 </div>
 
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
@@ -13,7 +13,7 @@
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
 
 <div align="center">
-  <img src="forge-divider.svg" width="62%" alt="делитель МАСТЕРСКАЯ ИНВАРИАНТОВ" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/forge-divider.svg" width="62%" alt="делитель МАСТЕРСКАЯ ИНВАРИАНТОВ" />
 </div>
 
 # МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3
