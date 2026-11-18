@@ -1,3 +1,21 @@
+<div align="center">
+  <img src="banner.png" width="100%" alt="штандарт invariant-manifest" />
+</div>
+
+<!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
+<div align="center">
+  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы invariant-manifest: строение файлов, лексикон, числа — по фактическому контенту" />
+</div>
+
+| ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
+|---:|---:|---:|---|---:|
+| 49 | 12 | 25 | 2026-11-18 | 0 |
+<!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+<div align="center">
+  <img src="forge-divider.svg" width="62%" alt="делитель МАСТЕРСКАЯ ИНВАРИАНТОВ" />
+</div>
+
 # МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3
 
 **Вердикт FORK 3 = PARTIAL/CONTESTED (опровергнут слепым клон-судом W3) · Статус релиза v0.2.3 = CONDITIONAL PASS · seed = 7170 · stdlib-only**
