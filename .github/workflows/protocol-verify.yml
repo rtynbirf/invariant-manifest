@@ -1,6 +1,16 @@
 name: protocol-verify
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
 
 jobs:
   protocol:
+    # SSOT механизма сборки: rtynbirf/assembly-protocol
+    # «Верификация через исполнение»: compendium_run.py (12 случаев, v6 против v7)
+    # + protocol_fsm.py (конечный автомат: порядок расследования enforced)
     uses: rtynbirf/assembly-protocol/.github/workflows/protocol.yml@main
