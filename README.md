@@ -1,4 +1,10 @@
 <div align="center">
+
+<a href="https://github.com/rtynbirf/invariant-manifest"><img src="banner.png" width="100%" alt="invariant-manifest — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/banner.png" width="100%" alt="штандарт invariant-manifest" />
 </div>
 
@@ -9,7 +15,7 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 71 | 14 | 75 | 2026-11-19 | 0 |
+| 71 | 14 | 76 | 2026-11-19 | 0 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
 
 <div align="center">

@@ -10,7 +10,7 @@
 import hashlib, json, os, re, subprocess
 
 try:
-    CFG = json.loads(r'''{"name": "invariant-manifest", "num": 125, "school": "МИФО-РЕАЛИЗМ", "desc": "МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3 · CONDITIONAL PASS · seed 7170 · stdlib-only · порождение должно мочь быть опровергнутым", "topics": ["deterministic", "fork3", "hash-chain", "invariant", "manifest", "mechanical-judge", "mutation-testing", "python", "semantic-judge", "stdlib-only"], "releases": 0, "palette": {"bg": "#EFE6CF", "bg2": "#F6EFDC", "ink": "#241C10", "gold": "#9A7B23", "gold2": "#C9A227", "dim": "#6E6249", "accent": "#C43B27"}}''')
+    CFG = json.loads(r'''{"name": "invariant-manifest", "num": 28, "school": "НОВОСТРОЙ РОЯ", "desc": "МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3 · CONDITIONAL PASS · seed 7170 · stdlib-only · порождение должно мочь быть опровергнутым", "topics": ["deterministic", "fork3", "hash-chain", "invariant"], "releases": 0, "palette": {"bg": "#171512", "bg2": "#232017", "ink": "#F2E9D4", "gold": "#D4AF37", "gold2": "#E8C868", "dim": "#A99E82", "accent": "#B03A2A"}}''')
 except Exception:
     CFG = {"name": "REVO", "num": 0, "school": "", "desc": "", "topics": [], "releases": 0,
            "palette": dict(bg="#EFE6CF", bg2="#F6EFDC", ink="#241C10", gold="#9A7B23",
