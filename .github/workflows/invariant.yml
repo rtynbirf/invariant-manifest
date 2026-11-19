@@ -1,0 +1,25 @@
+name: invariant
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  takt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: ЯДРО · такт целиком
+        run: python3 run_all.py
+      - name: АВТОМАТ · конечный автомат такта
+        run: python3 scripts/invariant_automaton_v024.py
+      - name: ПЕЧАТЬ · сверка артефакта с якорем
+        run: sha256sum -c artifacts/INVARIANT_v0.2.3_FORK3_PACKAGE.zip.sha256
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tapes
+          path: data/
