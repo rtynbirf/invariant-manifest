@@ -1,0 +1,121 @@
+ID,Name_RU,Name_EN,Type,Subdomain,Maturity_2026,Priority,Verdict,Seal,File
+001,Мультиагентные системы,Multi-Agent Systems,Архитектура,Agents,Deployed,Critical,KEEP,889643c7fa05bce19837f7b7bc9195b813b50cdb05f7654f4d574f1e23947adf,A-001.md
+002,Агентная автоматизация,Agentic Automation,Практика,Agents,Experimental→Deployed,Critical,KEEP,3df0a7382c6d1b29e22780f23af232b38eec076df7ee34e21895a84206692b2f,A-002.md
+003,ИИ-оркестрация,AI Orchestration,Практика/Архитектура,Agents,Deployed,High,KEEP,878ecb88d111ba37e7e07fc18389168f8dc517a66162eac505a7271228f86e2a,A-003.md
+004,Человек в контуре управления,Human-in-the-Loop,Принцип,Control,Mainstream,High,KEEP,17288e1f1aa6d5cbb862ff957b394b4a4d019d33200debae9b62e392fa96dd68,A-004.md
+005,Человек как управляющий системой,Human-on-the-Loop,Принцип,Control,Deployed,High,KEEP,2fdcf22bcd2e1578cf66f45b57d68ee3c43ba4b4b4c6da5d6fdbf2a124006bd9,A-005.md
+006,Специализированные языковые модели,Domain-Specific Language Models,Технология,Models,Deployed→Mainstream,Critical,KEEP,13df39db3bfbbbdee86bc553f446edb2862962bc276b5ddaff2e4efe1e542da9,A-006.md
+007,Локальный ИИ,Local / On-Device AI,Архитектура,Deployment,Deployed→Mainstream,High,KEEP,c17dd3855f1dd31b9e937620277a9caf02d796fd490add57c386d75a5a6976f8,A-007.md
+008,Гибридный ИИ,Hybrid AI,Архитектура,Deployment,Deployed,Medium,KEEP,f4a1ff22f5d05865dca61124c0cb0f05790e159954d46d5fcc823c3b4ddf1c71,A-008.md
+009,Мультимодальный ИИ,Multimodal AI,Технология,Models,Mainstream,High,KEEP,f79d663b187cc9812c734e701dc697b0548a81ffd4b90c46be9e12ee069c6778,A-009.md
+010,ИИ с долговременной памятью,Persistent AI Memory,Метод/Компонент,Agents,Experimental→Deployed,High,KEEP,9f5a1be82365b9e986cca78a1c2688f05c04d77b87c41fa66adb9c9afd84af52,A-010.md
+011,Контекстно-зависимые агенты,Context-Aware Agents,Практика,Agents,Deployed,High,KEEP,958d4f55b97160f6434b984b38a9ab2ec4309c4a7fdcf8ccbbf21b03638313c7,A-011.md
+012,Самопроверяющиеся ИИ-системы,Self-Verifying AI Systems,Метод,Reliability,Experimental→Deployed,High,KEEP,8d645f79e884fc274c6d87171406a320d6b491239ae4aae93ac3bcffcf3140e7,A-012.md
+013,ИИ-исследователи,AI for Scientific Discovery,Применение,Science,Deployed,High,KEEP,c63bec74055371984c878a50dfd430e9d92608f28171659e1041c052a6b040e6,A-013.md
+014,ИИ-разработка ПО,AI Software Engineering,Практика,Engineering,Deployed→Mainstream,Critical,KEEP,d45d26b56ca8fe141878d08d27f75880fc57edf9b7993d591792a0c60af951db,A-014.md
+015,ИИ-генерация интерфейсов,AI Interface Generation,Практика,Engineering,Deployed,Medium,KEEP,f99a3b36dfd0e3d9d15e9bfaeed1ced6af625c47b80062a8df4ee5d62727fc61,A-015.md
+016,Physical AI / Воплощённый ИИ,Physical AI,Архитектура,Embodied,Experimental→Deployed,Critical,KEEP,30ecc2409409f917c31e60057eb1bcd302023d2b9956cb99206c29ee6035a6e2,A-016.md
+017,Воплощённый интеллект,Embodied AI,Архитектура,Embodied,Experimental→Deployed,Critical,KEEP (soft-merge candidate),531eeb704f61219bbc15f75448262460f1cc37d6a9dcb309705f6338cf35fd2f,A-017.md
+018,Роевые системы,Swarm Intelligence,Метод/Архитектура,Collective,Experimental→Deployed,Medium,KEEP,3b4c10a16b6945df3dd1587c362c8ca34d90df476fad1930e2f89876ba627abc,A-018.md
+019,Машинное обучение с подкреплением,Reinforcement Learning,Метод,Learning,Mainstream,High,KEEP,904de81b761292024f9a815c8a6638a281729028d12c0596d9b10c94978fabaa,A-019.md
+020,Непрерывное обучение,Continual Learning,Метод,Learning,Experimental→Deployed,High,KEEP,aff7833ee64574597e73a7ee15313f0917d45172821aab67d03743e2ebd9a3df,A-020.md
+021,AI-Native Development,AI-Native Development,Практика,Engineering,Deployed,Critical,KEEP,cb3d11fc764c69564153dd92e89db322fd06ec1f51009d030d34b214d20374c5,A-021.md
+022,Spec-Driven Development,Spec-Driven Development,Практика,Engineering,Deployed,Medium,KEEP,7eb82375d7300d0e14c9c1a72d9e21a9167192516de526d78bd84ddf2df1afee,A-022.md
+023,Test-Driven Development (TDD),Test-Driven Development,Практика,Engineering,Mainstream,Medium,KEEP,e7b3ca0fc8e013888c39ebdd6b67ba5b53cc64b4bc7006b20edf4ae8ca603787,A-023.md
+024,Property-Based Testing,Property-Based Testing,Метод,Engineering,Deployed,Medium,KEEP,35381381025010a14efb2b3beec8696b346b54ca463b38f8d2fed96f06276c9c,A-024.md
+025,Mutation Testing,Mutation Testing,Метод,Engineering,Deployed,Low-Medium,KEEP,c41e2094264456692d47851fc8e33b444484f97bdffeeed9ce224c6546976ae9,A-025.md
+026,Differential Testing,Differential Testing,Метод,Engineering,Deployed,Medium,KEEP,b1d5dcf0c11a7a26b5075d8ca385eab9a86ae0799ed3f5ecafb4cab29797be73,A-026.md
+027,Reproducible Builds,Reproducible Builds,Практика,Security,Deployed→Mainstream,High,KEEP,b6829a7aac51a5b26949e279c510df71aaa97191abf94788d94a30ae6b77c0d4,A-027.md
+028,Безопасность цепочки поставки ПО,Software Supply Chain Security,Практика,Security,Mainstream,Critical,KEEP,bf52a1341ee9f8ff6bfc031fe765604341419cc728e0dfeeb5e4a589476539c6,A-028.md
+029,SBOM,Software Bill of Materials,Стандарт/Артефакт,Security,Mainstream,High,KEEP,ff8824edc8026fcfb814652b2f3f280baaee687f1070d35b0fd29dacd088f24a,A-029.md
+030,Digital Provenance,Digital Provenance,Принцип/Практика,Trust,Deployed,Critical,KEEP,1c4fc6e4e004e15613597b4e6f19dfb7aa967cb0625416658f39254f8011cc36,A-030.md
+031,Immutable Infrastructure,Immutable Infrastructure,Архитектура,Infra,Mainstream,Medium,KEEP,4ba105ffe35b26f319f8632ba9e6d1353fff82ee8e32b6d85cbfaa4339361252,A-031.md
+032,Infrastructure as Code,Infrastructure as Code,Практика,Infra,Mainstream,High,KEEP,7cf8b1c43eea96f9cd7724625e29fb0748498652f6173ff68105d55e0b21c0ef,A-032.md
+033,GitOps,GitOps,Практика,Infra,Mainstream,High,KEEP,cd0e333cbb9c9f2abfaabd04bf5a85930a3e25f477029990313518ccd8a4ee54,A-033.md
+034,Platform Engineering,Platform Engineering,Организационная модель,Org,Deployed→Mainstream,High,KEEP,fc50ec952434223268cb80a448c962f62c7c61bf18ccf804d0da3397f65a0b0a,A-034.md
+035,Микросервисная архитектура,Microservices Architecture,Архитектура,Architecture,Mainstream,Medium,KEEP,b7adfa9e78bf2432d5d17e8f6e31637c6c40823035da787da78ad32f89dd5c08,A-035.md
+036,Event-Driven Architecture,Event-Driven Architecture,Архитектура,Architecture,Mainstream,Medium,KEEP,04e999a762e3788ce7d7638f74360b8012fdbb647e25617e8f2649ae7213d45d,A-036.md
+037,CQRS,CQRS,Паттерн,Architecture,Deployed,Low-Medium,KEEP,94edb1491de97251b3407eed05beef16365d1b664bac460b624e32e1438b3d28,A-037.md
+038,Event Sourcing,Event Sourcing,Паттерн,Architecture,Deployed,Low-Medium,KEEP,5541bbe6ae4b04f5977b6f840af89056915bcc9afde105c08aced0c669b02817,A-038.md
+039,WebAssembly (WASM),WebAssembly,Технология,Runtime,Deployed→Mainstream,High,KEEP,f26054ff41b22a8c6619bc91f579e2286acd5078dc0dba7e493d9b394652fd9e,A-039.md
+040,Edge Computing,Edge Computing,Архитектура,Deployment,Mainstream,High,KEEP,6db07b5b0f6cbe446107fb3e1e2aeeacd8cf79b4202332b866589aa687d020a9,A-040.md
+041,Data Mesh,Data Mesh,Архитектура,Data,Deployed,Medium,KEEP,4f911d9fe8ac6c0e448369ae02e9685b4514569737402cb71502fb8a5e5e4c48,A-041.md
+042,Data Fabric,Data Fabric,Архитектура,Data,Deployed,Medium,KEEP,20cca0bb526dd3e5580230d77def75f7abf0b2a90cc5b44268883e0c3f7f137f,A-042.md
+043,Графы знаний,Knowledge Graphs,Технология,Data,Deployed→Mainstream,High,KEEP,67adfd3fc3cc14fd36a3d8f7fca6321b906eada3cf948537be8b3e48b86ff5ae,A-043.md
+044,Векторные базы данных,Vector Databases,Технология,Data,Mainstream,Critical,KEEP,36a5a437004184de8ed28849675ac4e8cba2548efde783440d51cb03b1ef16c5,A-044.md
+045,RAG,Retrieval-Augmented Generation,Метод,Data,Mainstream,Critical,KEEP,19d536a0d798c1da2509036c0d3e3830f01970f4e895dbfb09139200b6967a74,A-045.md
+046,GraphRAG,GraphRAG,Метод,Data,Deployed,High,KEEP,37fdb2c3217f7afd011f0e520ca8355390e841045ba8eb75e34c9a0863d7e5ab,A-046.md
+047,Семантический поиск,Semantic Search,Метод,Data,Mainstream,Medium,KEEP,205bc6e4035529f43b2aa799cc78633eb419c199e570d1205109df6bc7af6eeb,A-047.md
+048,Происхождение данных,Data Lineage,Практика,Data,Deployed→Mainstream,High,KEEP,0a4e16e6eb789821cea0ec95609ad3f2578bd66355aa1f1da0f6407a3c230f9f,A-048.md
+049,Контракты данных,Data Contracts,Практика,Data,Deployed,Medium,KEEP,8203b5698ad6921f047d106d8364952df383e571c2d8e4e30209f1943b7e4338,A-049.md
+050,Наблюдаемость данных,Data Observability,Практика,Data,Deployed,Medium,KEEP,42a2c50ffb0b1b6f4750f0fcdb8e6747639e88e8856c1fed97fe54a3f9473a85,A-050.md
+051,Конфиденциальные вычисления,Confidential Computing,Технология,Security,Deployed,Critical,KEEP,5bdfd975665cba5e3c7b29ea1bd646b3a88b6ea6e59c87ed3cda0b42cf43aba0,A-051.md
+052,PETs,Privacy-Enhancing Technologies,Класс технологий,Security,Deployed,High,KEEP,046c734094a95019105ff9d21f173eafa5a01625652450499a7a8d5e13b0be09,A-052.md
+053,Федеративное обучение,Federated Learning,Метод,Learning,Deployed,High,KEEP,6d7d3f5156c9f11b4832f0691ed46ed1126df960e50151eebe8eb12215af3b89,A-053.md
+054,Дифференциальная приватность,Differential Privacy,Метод,Security,Deployed,Medium,KEEP,c983c06c6c4db395cd057205ebdfc6ceddce1c458e6213870f8b98f6179a9b7b,A-054.md
+055,Доказательства с нулевым разглашением,Zero-Knowledge Proofs,Технология,Security,Deployed,High,KEEP,31df59a7ee0a98ccf51f82abe799e4adbcd77d95acb1e3acc8472049a0087037,A-055.md
+056,Децентрализованная идентичность,Decentralized Identity,Архитектура,Identity,Deployed,High,KEEP,19cc8daa10f4e2bb451b494e1ebecc09975781aff80cfecdde4445a3f4fae0fc,A-056.md
+057,Self-Sovereign Identity,Self-Sovereign Identity,Принцип/Модель,Identity,Deployed,Medium,KEEP (soft-reclassify),5b20c6031dfdff35ce4c494cb59a0674363509e488e69b2974a10e27c33ada17,A-057.md
+058,Passkeys,Passkeys,Технология/Стандарт,Identity,Mainstream,High,KEEP,652b69bf140e5057647cb9151e30cec3bdadd4960fcb08c34fb42a909e80dabb,A-058.md
+059,Постквантовая криптография,Post-Quantum Cryptography,Технология,Security,Deployed (migration),High,KEEP,539e9f483a2cdf420cc9c11e12b6339c12c87e06f733f95b961cefcda80092c4,A-059.md
+060,Архитектура нулевого доверия,Zero Trust Architecture,Архитектура,Security,Mainstream,Critical,KEEP,9660d6e09f72053de2bf8dc730bd2366ad2e81690d9ee7f3319b18cc95c813f7,A-060.md
+061,Упреждающая кибербезопасность,Preemptive Cybersecurity,Практика,Security,Deployed,High,KEEP,ad41982024922dc0eb887d5801cfe5925507f4b30b2db734c91d050fa9de9ec0,A-061.md
+062,Непрерывная проверка безопасности,Continuous Security Validation,Практика,Security,Deployed,Medium,KEEP,cdce8f3d269ab491ef50bed9a8f727148918a72fc33db9b117d9efc52ce9e774,A-062.md
+063,Adversarial Testing,Adversarial Testing,Метод,Security,Deployed,Medium,KEEP,68680a80bea5a12332b331b5c070b9bb2bf9686e6ff1396577455ed3cef73a53,A-063.md
+064,Red Team / Blue Team,Red Team / Blue Team,Практика,Security,Mainstream,Medium,KEEP,dee6b7d1fd6c73caa0f8d35a3eec0e860b618db715275b0a64382329c2724264,A-064.md
+065,Chaos Engineering,Chaos Engineering,Практика,Reliability,Deployed→Mainstream,Medium,KEEP,add632c68041bbc78581a4e9b4b98c691b06a1c818fab78b470bb2332ae7e7bb,A-065.md
+066,Отказоустойчивая архитектура,Fault-Tolerant Architecture,Архитектура,Reliability,Mainstream,Medium,KEEP,592d31f8c93ab3bf0e6a4ff6656635458f79398385589a3aa291be57d744ecb0,A-066.md
+067,Самовосстанавливающиеся системы,Self-Healing Systems,Архитектура/Свойство,Reliability,Deployed,High,KEEP,508685bbde814a84d869afd96bea9210c7a6acb6cc86813cbec47875ec868248,A-067.md
+068,Observability Engineering,Observability Engineering,Практика,Reliability,Mainstream,High,KEEP,cab747b838f673d51b54ff71c08c7755f4e97018e988634b782724c17dc0d450,A-068.md
+069,Распределённая трассировка,Distributed Tracing,Метод,Reliability,Mainstream,Medium,KEEP,f22d0b2ffc7296b12653d0d12374eced83d437dfb57473f9452b85719dadd062,A-069.md
+070,SRE,Site Reliability Engineering,Организационная модель,Reliability,Mainstream,High,KEEP,e3888a47ef9b4156c4c72011d95e5f5a4809cdeaf1f474d898ed633b283ed592,A-070.md
+071,Автоматизация реагирования на инциденты,Incident Response Automation,Практика,Reliability,Deployed,Medium,KEEP,4f1105b0d0e077046f87f0af80c7e0e4c7c52d70b0d61e4bd9fd234c2a210229,A-071.md
+072,Тестирование безопасности ИИ,AI Security Testing,Практика,Security,Deployed,Critical,KEEP,dd04795438b5e94b4058a183686f1ecd2e5cecd978af4853f24ced6d30cca848,A-072.md
+073,Model Red Teaming,Model Red Teaming,Практика,Security,Deployed,Critical,KEEP,d43e0583a613f70c3e42192b1f529909a13d6a2d4000af9796a060799c336d7a,A-073.md
+074,Фреймворки оценки моделей,Model Evaluation Frameworks,Метод/Инструмент,Reliability,Deployed→Mainstream,High,KEEP,3a32a389d86dc10aabbd8d4194501011250e35740eaaa12040cb1b0fe9fce4e8,A-074.md
+075,Журналы аудита ИИ,AI Audit Trails,Практика,Trust,Deployed,High,KEEP,df7e7beaf47cceffc1d027ba6a745cfaff3362adb545fc0d9151e86aef84ffed,A-075.md
+076,Криптографическая аттестация,Cryptographic Attestation,Технология,Security,Deployed,Medium,KEEP,06a8bc170882345ccfb54ebf8281c0204ba8af23c0e68702a514f91bf51648a0,A-076.md
+077,Secure-by-Design,Secure-by-Design,Принцип,Security,Mainstream,High,KEEP,735ef087cf79b1428a6e3680737b3db87a3acfa93fa3aa895a1f5a4465c0f0c2,A-077.md
+078,Принцип наименьших привилегий,Least Privilege,Принцип,Security,Mainstream,High,KEEP,1b61e65e24b9cfd29139287d8291466fb5c0ac1fb5fd30cd798744895ae88d3c,A-078.md
+079,Capability-Based Security,Capability-Based Security,Архитектура,Security,Deployed,Medium,KEEP,9399573b1d73eced71d6d94755289e5ddf140616eb597bb2656f3829aa4a07bc,A-079.md
+080,Безопасные значения по умолчанию,Fail-Safe Defaults,Принцип,Security,Mainstream,Medium,KEEP,16d4f39dc9b9b748fcaf84fa8781b192af63ba0bcf14c4d0f4a3507b6b489b71,A-080.md
+081,AI Supercomputing,AI Supercomputing,Инфраструктура,Infra,Deployed→Mainstream,Critical,KEEP,c9270f9b44ac954087832a6638739269ec85123469eff98c5c7866820c25cc8d,A-081.md
+082,Нейроморфные вычисления,Neuromorphic Computing,Технология,Hardware,Research→Experimental,Medium,KEEP,5c517c9b422718ca269cf5c927e2cf553ae58e99bb685c90d91e7d1c81e38511,A-082.md
+083,Квантовые вычисления,Quantum Computing,Технология,Hardware,Experimental,Medium,KEEP,84a7edcd657a239272de558a2d85242ba828ac843dd02ce026f27135356c7deb,A-083.md
+084,Фотонные вычисления,Photonic Computing,Технология,Hardware,Research→Experimental,Low-Medium,KEEP,9aa58844b4383ce7d555dcf8fb9152b7c36b61d16fff48921b8567dc41ad68f5,A-084.md
+085,Специализированные полупроводники,Application-Specific Semiconductors,Технология,Hardware,Mainstream (for AI),High,KEEP,8377865de23cdd4a55fb26836e581233ea46b84c3f728b9ae2d50f486b644e3d,A-085.md
+086,Chiplet Architecture,Chiplet Architecture,Архитектура,Hardware,Deployed→Mainstream,Medium,KEEP,2d3e6c2baa95ca60087a9a452a47ba65b25f52bd9fc0010097a8a2bf2d60e013,A-086.md
+087,Гетерогенные вычисления,Heterogeneous Computing,Архитектура,Hardware,Mainstream,High,KEEP,df9d897d6c3c1bf05863d61f36e8eca684aaaed3a1dea0fa9f053908e2d21b59,A-087.md
+088,Энергоэффективные вычисления,Energy-Efficient Computing,Принцип/Практика,Infra,Deployed,Critical,KEEP,d1d9edfb83a5fe92201bc286d40a35968794daf8417ebcb82f0601d2d1e7770b,A-088.md
+089,Цифровые двойники,Digital Twins,Технология/Метод,Simulation,Deployed→Mainstream,High,KEEP,fb6134070685aa3a1c7ac8ba6acb79d6087153bbddcf24427eecdf93f6cc143a,A-089.md
+090,Simulation-First Development,Simulation-First Development,Практика,Engineering,Deployed,Medium,KEEP,e67fa95733269751e769e5390eabc1b0eb327d0669aa8246717a1d2ed1e288c2,A-090.md
+091,Пространственные вычисления,Spatial Computing,Архитектура,Interface,Deployed,Medium,KEEP,862988899e7f3f9c171732d3b01efb39e3c2d94606a8b8bb75153ee3dbf53b82,A-091.md
+092,Extended Reality (XR),Extended Reality,Технология,Interface,Deployed,Medium,KEEP,2f7e242b4c6286c9a17ec4c9f714b7fdd9eaa208189480fe4a0a90c0878f0729,A-092.md
+093,Ambient Computing,Ambient Computing,Архитектура,Interface,Experimental→Deployed,Medium,KEEP,92c7770798276af8ae3b38cd6fcd2152d7f0a0d29ec3d418fe720e4ded7bd14c,A-093.md
+094,Интернет вещей (IoT),Internet of Things,Архитектура,Infra,Mainstream,Medium,KEEP,54d93c1484c7828956c12a6a0a36ca7628e5e3b66e2ada892df8fba48560d63b,A-094.md
+095,Цифровые паспорта продуктов,Digital Product Passports,Стандарт/Практика,Trust,Deployed (EU regulation),High,KEEP,f91f11a33899f465b3437433c308de0bf65dd14ea50bd29bd51d907beb2a7ac4,A-095.md
+096,Интероперабельность по дизайну,Interoperability by Design,Принцип,Architecture,Deployed,High,KEEP,466965a189f829143775fe86f948f15abb1cf3de056ef498a3c1208080df7649,A-096.md
+097,Открытые стандарты,Open Standards,Принцип,Architecture,Mainstream,High,KEEP,f83daeba7e469107577fdf8491394d6fcbae74d585d365a261aa2bb30b77d3c3,A-097.md
+098,Переносимые вычислительные среды,Portable Computing Environments,Архитектура,Runtime,Deployed,High,KEEP,a958000ac06c5ba49ed5c7d7cccf3f085b633a7d8f631fd8ab0af74ee2649e78,A-098.md
+099,Offline-First Architecture,Offline-First Architecture,Архитектура,Deployment,Deployed,High,KEEP,46d70c19cb92d21179cde8622aaa07c9b200cbe3c95b15f93ca591013d22ba09,A-099.md
+100,Пользователь-контролируемые цифровые экосистемы,User-Controlled Digital Ecosystems,Принцип/Архитектура,Sovereignty,Experimental→Deployed,High,KEEP,02207cef5429862acf105f1005598002b338f984cada2416bb65fb46d5925ec5,A-100.md
+1001,Фундаментальные модели,Foundation Models,Технология,Models,Mainstream,Critical,NEW,0414a76eeb8a28cd7164a4d562c37d376a790fd990a28edfc026ac3968c0748b,A-1001.md
+1002,Мультимодальные фундаментальные модели,Multimodal Foundation Models,Технология,Models,Deployed→Mainstream,Critical,NEW,bb1bbe0e3bac2d681061d39dd8178bd204480c404da349c2d358e3dfd334a370,A-1002.md
+1003,MLOps,MLOps,Практика,Engineering,Mainstream,Critical,NEW,9c3d77bfb0e3a6131249258b92f704fd0b5e904224b69a2a7f2bf427b97029e4,A-1003.md
+1004,LLMOps,LLMOps,Практика,Engineering,Deployed,Critical,NEW,6ee86af6f50164887ef2d5810bfc8d35bb166985cf7de594fce817308195537c,A-1004.md
+1005,Сжатие моделей,Model Compression,Метод,Optimization,Deployed,High,NEW,738091929f57900049815372053c24766d48cf4dcdf4dcdf58effcdd864ebb33,A-1005.md
+1006,Дистилляция знаний,Knowledge Distillation,Метод,Optimization,Deployed,High,NEW,481c322e6adf0aa1eb20268fde8027cb651a0c1dfda3317cbd52473301232576,A-1006.md
+1007,Квантизация моделей,Model Quantization,Метод,Optimization,Mainstream,Critical,NEW,acc9b75d25ad71e9aa4d090ce38cc7b5d86e0092cc14efc21de8700d6f860df1,A-1007.md
+1008,Малые языковые модели (SLM),Small Language Models,Технология,Models,Deployed,High,NEW,830e9294b757f5d72b2c436f7225b688994ff6264e923561196d5888763410bb,A-1008.md
+1009,Инженерия контекста,Context Engineering,Практика,Agents,Experimental→Deployed,Critical,NEW,e2b714a8d17ef3fb284bbf320b853324d7cf620afde3b9c339c691ec3e95eaff,A-1009.md
+1010,Промпт-инженерия,Prompt Engineering,Практика,Agents,Mainstream,Medium,NEW,dfd3212732a61ab5f636de410b5ce12560f5cc0c603a662c0b7830efd5546b08,A-1010.md
+1011,Механистическая интерпретируемость,Mechanistic Interpretability,Метод,Trust,Research→Experimental,High,NEW,8588c8f0ca6e8176e3f87addfeb96e640737201101738b37fb95d1bbb59535ef,A-1011.md
+1012,Объяснимый ИИ (XAI),Explainable AI,Метод,Trust,Deployed,High,NEW,1ab88e04e83cc971abcbe693e594886d93e281d31f914c157849d5fec392fc64,A-1012.md
+1013,Инженерия выравнивания ИИ,AI Alignment Engineering,Практика,Trust,Experimental,High,NEW,79c5580d853725f08cf12ec1f9d79cee7e149d72557ec94b85837447c557d421,A-1013.md
+1014,Управление ИИ,AI Governance,Организационная модель,Trust,Deployed,Critical,NEW,eea933844e8a4a418263d4112382599c0628c67ff249163df57e1f9c2d9d0990,A-1014.md
+1015,AI Red Teaming,AI Red Teaming,Практика,Security,Deployed,Critical,NEW,18a64161e15bd54e5c461db8064caa60f8278a8ded76409a4c0f3ef521ec05bb,A-1015.md
+1016,"Агенты, управляющие компьютером",Computer-Use Agents,Технология,Agents,Experimental→Deployed,Critical,NEW,2b0ac094adeb98ecfea58c21323955920cfa23e3f088a8c089d320039866a91b,A-1016.md
+1017,Агенты автоматизации браузера,Browser Automation Agents,Технология,Agents,Deployed,High,NEW,fba59d7d19b81be7e408f6da68e0664e5d42ea330c8e47960e4874d186046f13,A-1017.md
+1018,Гуманоидная робототехника,Humanoid Robotics,Технология,Embodied,Experimental,High,NEW,dc7687acf63dabc2d6e700cf2605d4dfb27d6fe13aaf3af97b9ceb0972f93831,A-1018.md
+1019,Physical AI,Physical AI,Архитектура,Embodied,Experimental→Deployed,Critical,NEW,20d550941972e165e2ea7ecb7482dd1f22a92734c27eda6ad81668ecea4d5bb2,A-1019.md
+1020,Автономные автопарки,Autonomous Vehicle Fleets,Система,Embodied,Deployed (limited geographies),High,NEW,57e0b01fbc1756a78444449f91cc55db8f4e6f3f8f68270343a7b89e2d55c87a,A-1020.md
