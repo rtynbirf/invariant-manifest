@@ -1,0 +1,101 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+501,Lunar In-Situ Resource Utilization (ISRU) / Лунное использование ресурсов на месте,Технология,"PART-OF:Cislunar Economy; RELATED:502,503,519,522",Research→Experimental,High (ntrs.nasa.gov; nature.com; researchandmarkets.com),KEEP
+502,Lunar Polar Water Ice Prospecting / Разведка водяного льда в полярных регионах Луны,Технология,"IS-A:501; RELATED:503,519,522",Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+503,Regolith Oxygen Extraction / Экстракция кислорода из реголита,Метод,"IS-A:501; RELATED:502,506,516",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+504,Mars In-Situ Propellant Production / Производство топлива на месте на Марсе,Технология,"RELATED:501,515,516; PART-OF:Cislunar Economy",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+505,Asteroid Mining / Добыча ресурсов на астероидах,Технология,"RELATED:501,506,515; PART-OF:Cislunar Economy",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+506,In-Space Manufacturing (Microgravity Production) / Производство в космосе в условиях микрогравитации,Технология,"RELATED:505,515,524; COMPLEMENTARY:514",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+507,On-Orbit Satellite Servicing and Life Extension / Обслуживание и продление жизни спутников на орбите,Система,"RELATED:508,509,525; PART-OF:Space Sustainability",Experimental→Deployed,Medium (astroscale.com),KEEP
+508,Active Debris Removal (ADR) / Активное удаление космического мусора,Система,"RELATED:507,509,525; PART-OF:Space Sustainability",Experimental,High (esa.int; astroscale.com; clearspace.today),KEEP
+509,Space Traffic Management and Space Situational Awareness / Управление космическим трафиком и ситуационная осведомлённость,Система,"RELATED:508,521,525; PART-OF:Space Governance",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+510,LEO Broadband Constellations / Широкополосные созвездия на низкой орбите,Инфраструктура,"SAME:1034; RELATED:523,524; PART-OF:Space Infrastructure",Deployed→Mainstream,Medium (атлас),KEEP
+511,Earth Observation Analytics / Аналитика данных дистанционного зондирования Земли,Технология,"RELATED:512,518,561; COMPLEMENTARY:445",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+512,Small Satellite Rideshare Launch / Попутные запуски малых спутников,Практика,"RELATED:513,514,520; PART-OF:Space Infrastructure",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+513,Responsive Space Launch / Оперативный (тактический) космический запуск,Практика,"IS-A:512; RELATED:514,520; PART-OF:Space Infrastructure",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+514,Reusable Launch Vehicles / Многоразовые ракеты-носители,Технология,"RELATED:512,513,515; PART-OF:Space Infrastructure",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+515,Orbital Refueling and Propellant Depots / Заправка в орбите и топливные депо,Технология,"RELATED:501,504,514,522; PART-OF:Cislunar Economy",Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+516,Space Habitats and Closed-Loop Life Support / Обитаемые модули и замкнутые системы жизнеобеспечения,Система,"RELATED:501,503,517; PART-OF:Space Infrastructure",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+517,Crew Radiation Protection / Защита экипажей от радиации,Метод,"RELATED:516,518; PART-OF:Space Infrastructure",Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+518,Space Weather Forecasting Services / Сервисы прогнозирования космической погоды,Система,"RELATED:511,517,568; PART-OF:Space Infrastructure",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+519,Lunar Surface Mobility (Rovers and Drills) / Лунная мобильность (роверы и буровые комплексы),Технология,"RELATED:501,502,520; PART-OF:Cislunar Economy",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+520,Spaceports and Launch Site Infrastructure / Космодромы и инфраструктура пусковых площадок,Инфраструктура,"RELATED:512,513,514; PART-OF:Space Infrastructure",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+521,Artemis Accords and Space Governance Principles / Соглашения Артемиды и принципы космического управления,Принцип,"RELATED:509,525; PART-OF:Space Governance",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+522,Cislunar Logistics Network / Окололунная логистическая сеть,Архитектура,"PART-OF:Cislunar Economy; RELATED:501,515,519",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+523,Satellite Direct-to-Device Connectivity / Спутниковая связь напрямую с обычными устройствами,Технология,SAME:1035; RELATED:510; PART-OF:Space Infrastructure,Experimental→Deployed,Medium (атлас),KEEP
+524,Orbital Data Centers and In-Space Compute / Орбитальные дата-центры и вычисления в космосе,Архитектура,"RELATED:506,510,1021; PART-OF:Space Infrastructure",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+525,Orbital Debris Mitigation Standards / Стандарты снижения засорения орбиты,Стандарт,"RELATED:508,509,521; PART-OF:Space Governance",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+526,Physical Internet / Физический интернет (Physical Internet),Архитектура,"RELATED:527,528,532,547; COMPLEMENTARY:530",Experimental,High (sciencedirect.com; etp-logistics.eu; thescxchange.com),KEEP
+527,Open Shared Logistics Hubs / Открытые совместно используемые логистические узлы,Инфраструктура,"PART-OF:Physical Internet (526); RELATED:526,541,547",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+528,Modular Standardized Freight Containers (PI boxes) / Модульные стандартизированные грузовые контейнеры,Стандарт,"PART-OF:Physical Internet (526); RELATED:526,527,536",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+529,Supply Chain Digital Twin / Цифровой двойник цепочки поставок,Технология,"RELATED:530,548,551; PART-OF:Supply Chain Resilience",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+530,Supply Chain Control Tower / Центр управления цепочкой поставок,Практика,"RELATED:529,531,532; PART-OF:Supply Chain Resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+531,N-Tier Supply Chain Mapping / Картирование цепочки поставок до нижних уровней,Метод,"RELATED:530,551,559; PART-OF:Supply Chain Resilience",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+532,Real-Time Freight Visibility Platforms / Платформы отслеживания грузов в реальном времени,Технология,"RELATED:530,533,536,548; PART-OF:Supply Chain Resilience",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+533,Digital Freight Matching Platforms / Цифровые платформы поиска грузовых рейсов,Технология,"RELATED:532,548; PART-OF:Logistics Digitalization",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+534,"Digital Transport Documents (e-CMR, eFTI) / Электронные транспортные документы (e-CMR, eFTI)",Стандарт,"RELATED:535,555; PART-OF:Logistics Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+535,Port Community Systems / Портовые сообщества данных,Инфраструктура,"RELATED:534,536; PART-OF:Logistics Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+536,Smart Containers and IoT Tracking / Умные контейнеры и IoT-отслеживание,Технология,"RELATED:532,537,528; PART-OF:Logistics Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+537,Cold Chain Monitoring / Мониторинг холодовой цепи,Практика,"RELATED:536,552; PART-OF:Logistics Digitalization",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+538,Autonomous Mobile Robots (AMR) in Warehousing / Автономные мобильные роботы на складе,Технология,"RELATED:539,540; PART-OF:Warehouse Automation; COMPLEMENTARY:801",Deployed→Mainstream,High (fortunebusinessinsights.com; interactanalysis.com; pudurobotics.com),KEEP
+539,Goods-to-Person Systems and Automated Storage / Системы «товар к человеку» и автоматизированное хранение,Технология,"RELATED:538,540; PART-OF:Warehouse Automation",Deployed→Mainstream,Medium (fortunebusinessinsights.com),KEEP
+540,Multi-Vendor Warehouse Orchestration Software / Оркестрация разнородной робототехники на складе,Технология,"RELATED:538,539,801; PART-OF:Warehouse Automation",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+541,Urban Micro-Hubs and Consolidation Centers / Микроузлы и консолидационные центры в городах,Практика,"RELATED:526,527,542,553; PART-OF:Urban Logistics",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+542,Cargo Bikes in Last-Mile Delivery / Грузовые велосипеды в доставке последней мили,Практика,"RELATED:541,543,553; PART-OF:Urban Logistics",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+543,Sidewalk Delivery Robots / Тротуарные роботы-доставщики,Технология,"RELATED:544,541,809; PART-OF:Urban Logistics",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+544,Delivery Drones / Беспилотная доставка летательными аппаратами,Технология,"RELATED:543,512,541; PART-OF:Urban Logistics",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+545,Autonomous Trucking / Автономные грузоперевозки,Система,"RELATED:1020,546,532; PART-OF:Autonomous Transport",Experimental→Deployed,Medium (атлас),KEEP
+546,Battery-Electric Trucking / Батарейные грузоперевозки,Технология,"RELATED:545,554; PART-OF:Transport Decarbonization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+547,Synchromodal Transport / Синхромодальный транспорт,Метод,"RELATED:526,530,532; PART-OF:Logistics Digitalization",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+548,Predictive ETA and AI Transport Scheduling / Прогнозное время прибытия и ИИ-планирование перевозок,Метод,"RELATED:529,532,530; PART-OF:Logistics Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+549,Multi-Echelon Inventory Optimization / Многозвенная оптимизация запасов,Метод,"RELATED:550,530,529; PART-OF:Supply Chain Resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+550,Demand Sensing / Краткосрочное чувствование спроса,Метод,"RELATED:549,551,530; PART-OF:Supply Chain Resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+551,Event-Driven Supply Chain Risk Sensing / Событийное обнаружение рисков цепочки поставок,Технология,"RELATED:529,531,569; PART-OF:Supply Chain Resilience",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+552,Reverse Logistics and Returns Management / Обратная логистика и управление возвратами,Практика,"RELATED:553,538; PART-OF:Circular Economy",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+553,Parcel Lockers and Out-of-Home Delivery / Посылочные автоматы и выдача вне дома,Инфраструктура,"RELATED:541,542,552; PART-OF:Urban Logistics",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+554,Logistics Emissions Measurement (GLEC Framework) / Учёт выбросов логистики (рамка GLEC),Стандарт,"RELATED:546,557,558; PART-OF:Transport Decarbonization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+555,Electronic Bill of Lading (eBL) / Электронный коносамент,Стандарт,"RELATED:534,535; PART-OF:Logistics Digitalization",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+556,Enterprise Risk Management (ISO 31000) / Корпоративное управление рисками (ISO 31000),Стандарт,"RELATED:557,565,566,569; PART-OF:Risk Management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+557,ISSB Climate Disclosure Standards (IFRS S1/S2) / Стандарты климатической отчётности ISSB (IFRS S1/S2),Стандарт,"RELATED:558,560,554; PART-OF:Sustainability Disclosure",Deployed→Mainstream,High (ifrs.org; iasplus.com),KEEP
+558,EU CSRD/ESRS Reporting / Отчётность CSRD/ESRS в ЕС,Стандарт,"RELATED:557,559,554; PART-OF:Sustainability Disclosure",Deployed,Medium (commission.europa.eu; accountancyeurope.eu),KEEP
+559,EU CSDDD Due Diligence / Директива о должной осмотрительности CSDDD,Стандарт,"RELATED:531,558; PART-OF:Sustainability Disclosure",Deployed,High (commission.europa.eu; debevoise.com),KEEP
+560,Climate Scenario Analysis and Stress Testing / Сценарный анализ и стресс-тесты климата,Метод,"RELATED:557,561,566; PART-OF:Climate Risk",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+561,Catastrophe Modeling / Катастрофическое моделирование рисков,Метод,"RELATED:560,562,511; PART-OF:Climate Risk",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+562,Parametric Insurance / Параметрическое страхование,Технология,"RELATED:561,567; COMPLEMENTARY:561; PART-OF:Climate Risk",Deployed,High (weforum.org; aon.com; researchandmarkets.com),KEEP
+563,Cyber Risk Quantification (FAIR) / Количественная оценка киберрисков (FAIR),Метод,"RELATED:564,556; PART-OF:Risk Management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+564,NIS2 Compliance Program / Программа соответствия NIS2,Практика,"RELATED:563,568; PART-OF:Cyber Resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+565,Business Continuity Management (ISO 22301) / Управление непрерывностью бизнеса (ISO 22301),Стандарт,"RELATED:556,566,971; PART-OF:Risk Management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+566,Crisis Simulation and Tabletop Exercises / Симуляции кризисов и настольные учения,Практика,"RELATED:560,565; PART-OF:Risk Management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+567,Multi-Hazard Early Warning Systems / Многоопасные системы раннего предупреждения,Система,"RELATED:562,568,518; PART-OF:Disaster Resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+568,Critical Infrastructure Resilience (CER/NIS2 context) / Устойчивость критической инфраструктуры,Практика,"RELATED:564,567,565; PART-OF:Cyber Resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+569,Geopolitical Risk Monitoring / Мониторинг геополитических рисков,Практика,"RELATED:551,556,570; PART-OF:Risk Management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+570,AML and Fraud Analytics / Аналитика противодействия отмыванию и мошенничеству,Технология,"RELATED:569,586; PART-OF:Financial Compliance",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+571,Legal Tech Transformation / Цифровая трансформация юридической отрасли,Практика,"RELATED:572,573,597; PART-OF:Legal Digitalization",Deployed→Mainstream,High (legal.thomsonreuters.com; americanbar.org),KEEP
+572,Generative AI in Legal Practice / Генеративный ИИ в юридической практике,Технология,"RELATED:571,577,574; PART-OF:Legal Digitalization",Deployed,High (legal.thomsonreuters.com; americanbar.org),KEEP
+573,Contract Lifecycle Management (CLM) / Управление жизненным циклом контрактов,Система,"RELATED:574,590,597; PART-OF:Legal Digitalization",Deployed→Mainstream,High (pwc.com; leahai.com),KEEP
+574,AI Contract Review / ИИ-разбор контрактов,Технология,"RELATED:573,572; PART-OF:Legal Digitalization",Deployed,Medium (pwc.com; leahai.com),KEEP
+575,Legal Document Automation / Автоматизация юридических документов,Технология,"RELATED:573,578; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+576,E-Discovery / Электронный судебный разбор доказательств,Метод,"RELATED:577,572; PART-OF:Legal Digitalization",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+577,Legal Research AI Assistants / ИИ-ассистенты юридического поиска,Технология,"RELATED:572,576,571; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+578,Legal Design and Plain Language / Юридический дизайн и простой язык,Метод,"RELATED:575,579; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+579,Access to Justice Technology / Технологии доступа к правосудию,Практика,"RELATED:580,578,581; PART-OF:Legal Digitalization",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+580,Online Dispute Resolution / Онлайн-урегулирование споров,Метод,"RELATED:581,579; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+581,Court Digitalization and E-Courts / Цифровизация судов,Инфраструктура,"RELATED:580,579,592; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+582,Formal Verification / Формальная верификация,Метод,"RELATED:583,584,915; PART-OF:Formal Methods",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+583,Smart Contracts / Смарт-контракты,Технология,"SAME:1036; RELATED:582,584; PART-OF:Legal Digitalization",Deployed,Medium (атлас),KEEP
+584,Rules as Code / Нормы как код,Метод,"RELATED:582,583,592; PART-OF:Computational Law",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+585,Regulatory Sandboxes / Регуляторные песочницы,Практика,"RELATED:584,586; PART-OF:Regulatory Innovation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+586,RegTech Compliance Automation / Автоматизация комплаенса (RegTech),Технология,"RELATED:570,587,588; PART-OF:Financial Compliance",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+587,Privacy Compliance Management / Управление соответствием по защите данных,Технология,"RELATED:586,589; PART-OF:Data Governance",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+588,AI Act Compliance Management / Управление соответствием Регламенту об ИИ,Практика,"RELATED:586,1014; PART-OF:AI Governance",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+589,"Digital Identity (eIDAS 2.0, EUDI Wallet) / Цифровая идентичность (eIDAS 2.0, кошелёк EUDI)",Инфраструктура,"RELATED:590,591,587; PART-OF:Digital Trust Infrastructure",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+590,Electronic Signatures (Advanced/Qualified) / Электронные подписи (усовершенствованные и квалифицированные),Технология,"RELATED:589,573; PART-OF:Digital Trust Infrastructure",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+591,Legal Entity Identification (GLEIF LEI) / Глобальный идентификатор юридических лиц (LEI),Стандарт,"RELATED:589,570; PART-OF:Digital Trust Infrastructure",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+592,Legal Knowledge Graphs (ELI and Linked Law) / Юридические графы знаний (ELI и связанное право),Технология,"RELATED:584,576,982; PART-OF:Computational Law",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+593,Judicial Analytics / Судебная аналитика,Технология,"RELATED:577,594; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+594,Litigation Funding / Финансирование судебных споров третьими лицами,Организационная модель,RELATED:593; PART-OF:Legal Economy,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+595,IP Management Technology / Технологии управления интеллектуальной собственностью,Технология,"RELATED:575,577; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+596,Whistleblowing Systems / Системы сообщений о нарушениях,Практика,RELATED:586; PART-OF:Corporate Governance,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+597,Legal Operations and ALSP / Юридические операции и альтернативные провайдеры услуг,Организационная модель,"RELATED:571,573; PART-OF:Legal Digitalization",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+598,Skills-Based Hiring / Найм по навыкам,Практика,"RELATED:599,600; PART-OF:Workforce Transformation",Deployed→Mainstream,High (naceweb.org; testlify.com),KEEP
+599,Skills Taxonomies and Ontologies (ESCO) / Таксономии и онтологии навыков (ESCO и аналоги),Стандарт,"RELATED:598,600; PART-OF:Workforce Transformation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+600,Internal Talent Marketplaces / Внутренние маркетплейсы талантов,Организационная модель,"RELATED:598,599; PART-OF:Workforce Transformation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)

@@ -1,0 +1,101 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+601,Connectomics / Коннектомика,Технология,"RELATED:602,603,605,606",Experimental→Deployed,High (nature.com),KEEP
+602,FlyWire Adult Fly Brain Connectome / Полный коннектом мозга взрослой дрозофилы (FlyWire),Инфраструктура,"IS-A:601; RELATED:603,610,607",Deployed→Mainstream,"High (nature.com, princeton.edu)",KEEP
+603,Male Fly Brain-and-Cord Connectome / Коннектом мозга и нервного канатика самца дрозофилы,Инфраструктура,"IS-A:601; RELATED:602,608,607",Deployed,"High (research.google, hms.harvard.edu)",KEEP
+604,Functional Connectomics of Mouse Visual Cortex / Функциональная коннектомика зрительной коры мыши,Инфраструктура,"RELATED:601,606,634",Deployed,High (nature.com),KEEP
+605,Human Connectome Projects / Проекты коннектома человека,Инфраструктура,"PART-OF:601; RELATED:612,613,644",Deployed→Mainstream,High (nature.com),KEEP
+606,Synaptic-Resolution Connectomics / Синаптически-разрешающая коннектомика,Метод,"IS-A:601; RELATED:602,604,609",Experimental→Deployed,High (nature.com),KEEP
+607,Connectome-Derived Circuit Simulation / Симуляция схем по коннектому,Метод,"RELATED:602,608,637",Experimental,High (nature.com),KEEP
+608,Distributed Control in Brain-and-Cord / Распределённые контуры управления мозга и канатика,Метод,"PART-OF:603; RELATED:607,699",Research→Experimental,High (nature.com),KEEP
+609,Connectome Graph Analytics / Графовая аналитика коннектома,Метод,"PART-OF:601; RELATED:606,654",Experimental→Deployed,Medium (nature.com),KEEP
+610,AI-Assisted EM Annotation / ИИ-ассистированная аннотация электронных микрограмм,Практика,"COMPLEMENTARY:602,603; RELATED:606",Experimental→Deployed,"High (nature.com, research.google)",KEEP
+611,Neurodata Standards / Стандарты нейроданных,Стандарт,"RELATED:601,618; COMPLEMENTARY:610",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+612,Ultra-High-Gradient Connectomics MRI / Сверхвысокоградиентная МРТ коннектомики,Технология,"PART-OF:605; RELATED:613,644",Research→Experimental,High (nature.com),KEEP
+613,Metabolic Connectome Imaging / Метаболический коннектом,Метод,"PART-OF:605; RELATED:640,641",Experimental,High (nature.com),KEEP
+614,Neuropixels Opto / Зонд Neuropixels Opto,Технология,"RELATED:615,616,618",Experimental→Deployed,High (nature.com),KEEP
+615,Holographic Two-Photon Optogenetics / Голографическая двухфотонная оптогенетика,Технология,COMPLEMENTARY:614; RELATED:616,Experimental,High (nature.com),KEEP
+616,Optogenetics / Оптогенетика,Метод,"RELATED:614,615,618",Deployed→Mainstream,High (nature.com),KEEP
+617,Whole-Brain Activity Imaging / Полномозговая регистрация активности,Технология,RELATED:616; PART-OF:601,Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+618,Multi-Area Primate Recordings / Мультиареальные записи у бодрствующих приматов,Метод,"RELATED:616,634",Experimental,Medium (nature.com),KEEP
+619,Intracortical Speech BCI / Интракортикальный речевой нейроинтерфейс,Технология,"RELATED:620,621,624",Experimental→Deployed,High (nature.com),KEEP
+620,Multimodal BCI Speech and Gesture / Мультимодальный нейроинтерфейс речи и жестов,Технология,COMPLEMENTARY:619; RELATED:622,Experimental,High (nature.com),KEEP
+621,BCI for ALS Communication / Нейроинтерфейс для коммуникации при БАС,Технология,"IS-A:619; RELATED:625,624",Experimental→Deployed,"High (nature.com, nytimes.com)",KEEP
+622,High-Performance Motor BCI / Высокопроизводительный моторный нейроинтерфейс,Технология,"RELATED:619,620",Experimental,High (nature.com),KEEP
+623,Non-Invasive Silent-Speech BCI / Неинвазивный нейроинтерфейс молчаливой речи,Технология,COMPLEMENTARY:619; RELATED:611,Research→Experimental,Medium (nature.com),KEEP
+624,BCI Translation Protocols / Протоколы трансляции нейроинтерфейсов,Метод,"RELATED:619,621,625",Deployed,High (nature.com),KEEP
+625,Commercial Implanted BCI / Коммерческие имплантируемые нейроинтерфейсы,Технология,"RELATED:619,621,624",Experimental→Deployed,"Medium (neuralink.com, nih.gov)",KEEP
+626,Adaptive Deep Brain Stimulation / Адаптивная глубокая стимуляция мозга,Технология,COMPLEMENTARY:625; RELATED:638,Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+627,Neuroethics and Neurorights / Нейроэтика и нейроправа,Принцип,"RELATED:625,645; COMPLEMENTARY:623",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+628,Neuromorphic Computing / Нейроморфные вычисления,Технология,"PART-OF:635; RELATED:629,630,636",Experimental→Deployed,Medium (innovationnewnetwork.com),KEEP
+629,Neuromorphic Training Architecture / Многоядерная архитектура обучения глубоких спайковых сетей,Архитектура,"IS-A:628; RELATED:630,635",Research→Experimental,High (nature.com),KEEP
+630,Trustworthy Spiking Networks / Доверительные байесовские спайковые сети,Метод,COMPLEMENTARY:629; RELATED:628,Research→Experimental,Medium (wiley.com),KEEP
+631,Predictive Coding and Active Inference / Предиктивное кодирование и активный вывод,Метод,"RELATED:632,634",Experimental,"Medium (frontiersin.org, nature.com)",KEEP
+632,Precision-Weighted Predictive Processing / Предиктивная обработка с весами точности,Принцип,IS-A:631,Research,Medium (frontiersin.org),KEEP
+633,Adversarial Consciousness Science / Адверсариальная наука сознания,Метод,RELATED:631; COMPLEMENTARY:634,Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+634,Model-to-Neuron Alignment / Сопоставление единиц моделей ИИ и нейронов,Метод,"RELATED:618,631; PART-OF:604",Experimental,High (nature.com),KEEP
+635,Neuromorphic Edge AI / Нейроморфный ИИ на краю сети,Практика,"PART-OF:628; RELATED:1007,007",Research→Experimental,Medium (innovationnewnetwork.com),KEEP
+636,In-Memory Neuromorphic Devices / Нейристорные устройства с обработкой в памяти,Технология,"RELATED:628,629",Research,Medium (nature.com),KEEP
+637,Virtual Brain Modeling / Виртуальное моделирование мозга,Метод,"PART-OF:639; RELATED:638,642",Experimental→Deployed,"Medium (frontiersin.org, medicalxpress.com)",KEEP
+638,Digital Twin Brain Simulator / Симулятор цифрового двойника мозга,Система,"IS-A:637; RELATED:639,641,626",Experimental,High (nature.com),KEEP
+639,Closed-Loop Digital Twin Brains / Цифровые двойники мозга с замкнутым контуром,Архитектура,"PART-OF:638; RELATED:637,641,626",Research→Experimental,High (nature.com),KEEP
+640,Personalized Brain-Atrophy Twins / Персональные двойники атрофии мозга,Метод,"COMPLEMENTARY:638; RELATED:641,613",Experimental,Medium (nature.com),KEEP
+641,Digital-Twin Cognitive Screening / Скрининг когнитивных нарушений через цифровые двойники,Практика,"PART-OF:640; RELATED:637,638",Research→Experimental,Medium (nature.com),KEEP
+642,Whole-Brain Biophysical Simulation / Крупномасштабное биофизическое моделирование мозга,Метод,"RELATED:637,638; PART-OF:637",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+643,Earth-Brain-Health Commission / Комиссия Земля-Мозг-Здоровье,Организационная модель,"RELATED:659,661",Deployed,High (nature.com),KEEP
+644,Developmental Connectomics of Youth / Развивающая коннектомика молодёжи,Метод,"PART-OF:605; RELATED:612,613",Experimental→Deployed,High (nature.com),KEEP
+645,Brain Organoids / Мозговые органоиды,Технология,"RELATED:646,648,649",Experimental→Deployed,Medium (med.stanford.edu),KEEP
+646,Organoid Task Learning / Обучение органоидов целенаправленным задачам,Метод,"PART-OF:647; RELATED:645,647",Research→Experimental,Medium (ucsc.edu),KEEP
+647,Organoid-Machine Interfaces / Органоид-машинные интерфейсы,Технология,"IS-A:646; RELATED:650,623",Research→Experimental,Medium (frontiersin.org),KEEP
+648,Xenocortication Models / Ксенокортикация: человеческие органоиды в мозге животного,Метод,"COMPLEMENTARY:645; RELATED:649,675",Research→Experimental,"High (nature.com, arxiv.org)",KEEP
+649,Long-Term Organoid Culture / Долгосрочное культивирование органоидов,Метод,PART-OF:645; RELATED:648,Experimental,Medium (medicalxpress.com),KEEP
+650,Biohybrid Muscle Robots / Биогибридные роботы на мышечных тканях,Технология,"RELATED:647,688",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+651,Organ-on-Chip Systems / Системы орган-на-чипе,Технология,COMPLEMENTARY:645; PART-OF:645,Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+652,Complex Adaptive Systems / Сложные адаптивные системы,Принцип,"RELATED:653,654,663; IS-A:657",Deployed,Medium (frontiersin.org),KEEP
+653,Scaling Laws for Functional Diversity / Законы масштабирования функционального разнообразия,Метод,PART-OF:652,Research→Experimental,Medium (pnas.org),KEEP
+654,Network Science / Наука о сетях,Метод,"PART-OF:652; RELATED:609,662",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+655,Early Warning Signals for Tipping Points / Сигналы раннего предупреждения точек невозврата,Метод,"RELATED:656,657,658",Experimental→Deployed,High (nature.com),KEEP
+656,Time-Irreversibility Tipping Indicators / Необратимость времени как индикатор приближения порога,Метод,IS-A:655; RELATED:658,Research→Experimental,High (nature.com),KEEP
+657,Ecological Tipping Points / Точки невозврата в экологических системах,Принцип,"PART-OF:652; RELATED:655,659",Deployed,High (nature.com),KEEP
+658,Critical Slowing Down / Критическое замедление,Метод,IS-A:655; RELATED:656,Deployed,Medium (pnas.org),KEEP
+659,Climate Tipping Point Policy / Политика климатических точек невозврата,Практика,"PART-OF:657; RELATED:660,643",Deployed,Medium (parliament.uk),KEEP
+660,Adaptive Security Architecture / Адаптивная безопасность,Архитектура,RELATED:652; PART-OF:652,Research→Experimental,Medium (royalsociety.org),KEEP
+661,Complex Adaptive Systems in Medicine / Сложные адаптивные системы в медицине,Практика,"PART-OF:652; RELATED:667,643",Experimental,Medium (frontiersin.org),KEEP
+662,Self-Organized Criticality in Brains / Самоорганизованная критичность мозга,Принцип,"PART-OF:652; RELATED:654,631",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+663,Agent-Based Modeling / Агентное моделирование,Метод,"PART-OF:652; RELATED:664,666,667; RELATED:001",Deployed,High (nature.com),KEEP
+664,Differentiable Agent-Based Simulation / Дифференцируемое агентное моделирование,Метод,IS-A:663,Research→Experimental,Medium (nature.com),KEEP
+665,Humanitarian Displacement ABM / Агентное моделирование вынужденных переселений,Система,IS-A:663; RELATED:666,Deployed,Medium (nature.com),KEEP
+666,Epidemic ABM for Policy / Эпидемическое агентное моделирование для политики,Метод,"IS-A:663; RELATED:665,667",Deployed,High (nature.com),KEEP
+667,ABM Healthcare Stress-Testing / Стресс-тесты систем здравоохранения агентными моделями,Практика,"PART-OF:663; RELATED:661,666",Deployed,High (nature.com),KEEP
+668,Complex Systems Simulation Toolkits / Инструментарий симуляции сложных систем,Инфраструктура,PART-OF:663; RELATED:654,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+669,AI Protein Structure Prediction / ИИ-предсказание структуры белков,Технология,"RELATED:670,671",Mainstream,High (chemistryworld.com),KEEP
+670,Computational Protein Design / Вычислительный дизайн белков,Технология,COMPLEMENTARY:669; RELATED:671,Experimental→Deployed,"High (genengnews.com, donga.com)",KEEP
+671,AI Drug Candidate Design / ИИ-дизайн лекарственных кандидатов,Метод,PART-OF:670; RELATED:669,Experimental→Deployed,Medium (eurekalert.org),KEEP
+672,Human Cell Atlas / Атлас клеток человека,Инфраструктура,"RELATED:673,674,676,680",Deployed→Mainstream,High (asbmb.org),KEEP
+673,Brain-Disorder Vulnerability Atlas / Атлас транскриптомной уязвимости мозга при болезнях,Инфраструктура,"PART-OF:672; RELATED:674,677",Experimental→Deployed,High (nature.com),KEEP
+674,Lifespan Prefrontal Cortex Atlas / Атлас префронтальной коры на протяжении жизни,Инфраструктура,PART-OF:672; RELATED:673,Experimental→Deployed,High (nature.com),KEEP
+675,Cross-Species Brain Atlas / Кросс-видовый атлас мозга миноги,Инфраструктура,COMPLEMENTARY:672; RELATED:648,Experimental,Medium (science.org),KEEP
+676,Cell Atlas of Facial Diversity / Атлас клеток лицевого разнообразия,Инфраструктура,PART-OF:672,Experimental→Deployed,High (nature.com),KEEP
+677,Basal Ganglia Cell-Type Map / Карта типов клеток базальных ганглиев,Инфраструктура,PART-OF:673; RELATED:672,Experimental→Deployed,Medium (nih.gov),KEEP
+678,Atlas Population Representation Equity / Репрезентативность популяций в клеточных атласах,Принцип,"RELATED:672,679",Deployed,Medium (mountsinai.org),KEEP
+679,Atlas Consortia Governance / Управление консорциумами клеточных атласов,Организационная модель,PART-OF:672; RELATED:678,Deployed,Medium (statnews.com),KEEP
+680,Spatial Transcriptomics / Пространственная транскриптомика,Технология,"RELATED:672,673",Deployed,High (nature.com),KEEP
+681,Base-Editing Therapies / Терапии базового редактирования,Технология,"RELATED:682,683,684",Experimental→Deployed,Medium (biopharmadive.com),KEEP
+682,In-Vivo Brain Base Editing / Прямое редактирование генов в мозге,Технология,IS-A:681; RELATED:684,Research→Experimental,High (nature.com),KEEP
+683,Gene Editing in Cardiovascular Medicine / Редактирование генов в кардиологии,Стандарт,PART-OF:681; RELATED:682,Research→Experimental,Medium (jacc.org),KEEP
+684,Gene-Editing Trial Safety Governance / Управление безопасностью генно-редакционных испытаний,Организационная модель,"RELATED:681,682,683",Deployed,High (science.org),KEEP
+685,Engineered Probiotic Therapeutics / Терапия инженерными пробиотиками,Технология,"RELATED:686,687",Experimental,Medium (mountsinai.org),KEEP
+686,Fecal Microbiota Transplantation / Трансплантация фекальной микробиоты,Практика,"RELATED:685,687",Deployed,Medium (frontiersin.org),KEEP
+687,Purified Microbiome Therapeutics / Очищенные микробиомные терапевтики,Технология,PART-OF:686; COMPLEMENTARY:685,Experimental→Deployed,High (nature.com),KEEP
+688,Soft Robotics / Мягкая робототехника,Технология,"RELATED:689,691,695; RELATED:801",Experimental→Deployed,High (nature.com),KEEP
+689,Ultralight Electrostatic Soft Actuators / Сверхлёгкие электростатические актуаторы,Технология,"IS-A:688; RELATED:690,693",Experimental→Deployed,High (nature.com),KEEP
+690,Stiffness-Modulating Soft Actuators / Мягкие актуаторы с модуляцией жёсткости,Технология,IS-A:689,Experimental,High (nature.com),KEEP
+691,Electrohydraulic Actuators / Электрогидравлические актуаторы,Технология,IS-A:688; COMPLEMENTARY:689,Experimental→Deployed,"High (nature.com, science.org)",KEEP
+692,Phase-Transition Soft Actuators / Мягкие актуаторы на фазовых переходах,Технология,IS-A:688,Research→Experimental,High (nature.com),KEEP
+693,Vacuum-Gap Soft Actuators for Space / Вакуум-зазорные актуаторы для космоса,Технология,IS-A:689; RELATED:501,Research→Experimental,High (nature.com),KEEP
+694,Biodegradable Artificial Muscles / Биоразлагаемые искусственные мышцы,Технология,PART-OF:688; RELATED:691,Research→Experimental,Medium (colorado.edu),KEEP
+695,Data-Driven Control of Soft Muscles / Управление мягкими мышцами по данным,Метод,PART-OF:688; RELATED:696,Research→Experimental,High (nature.com),KEEP
+696,Accelerated RL for Soft Robots / Ускоренное обучение с подкреплением для мягких роботов,Метод,COMPLEMENTARY:695; RELATED:697; RELATED:806,Research→Experimental,Medium (arxiv.org),KEEP
+697,Damage Adaptation for Soft Robots / Адаптация мягких роботов к повреждениям,Метод,RELATED:696; RELATED:880,Research→Experimental,Medium (arxiv.org),KEEP
+698,Ferrofluid and Magnetic Soft Matter Control / Управление ферромагнитными мягкими материалами,Метод,PART-OF:688; RELATED:699,Research→Experimental,Medium (arxiv.org),KEEP
+699,Bioinspired Soft Locomotion / Биовдохновлённая мягкая локомоция,Технология,"PART-OF:688; RELATED:698,608",Experimental,Medium (arxiv.org),KEEP
+700,Soft Grippers and Medical Soft Robots / Мягкие захваты и медицинские мягкие роботы,Технология,"PART-OF:688; RELATED:690,691",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)

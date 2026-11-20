@@ -1,0 +1,101 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+801,Multi-Robot Systems / Системы многих роботов,Технология,RELATED:001; RELATED:802; RELATED:803; PART-OF:1019,Deployed→Mainstream,Medium (api.crossref.org; ieeexplore.ieee.org),KEEP
+802,Swarm Robotics / Роевая робототехника (Swarm Robotics),Технология,IS-A:801; RELATED:001; PART-OF:1019,Experimental→Deployed,Medium (api.crossref.org),KEEP
+803,Multi-Robot Task Allocation / Распределение задач между роботами (MRTA),Метод,PART-OF:801; RELATED:805; RELATED:001,Experimental→Deployed,Medium (api.crossref.org),KEEP
+804,Distributed Consensus for Robot Teams / Распределённый консенсус в группах роботов,Метод,PART-OF:801; RELATED:803; RELATED:582,Deployed,Medium (api.crossref.org),KEEP
+805,Cloud Robotics and Fleet Management / Облачная робототехника и управление парком,Архитектура,RELATED:801; RELATED:803; RELATED:1020,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+806,Sim-to-Real Transfer / Перенос из симуляции в реальность (Sim-to-Real),Метод,RELATED:807; RELATED:808; PART-OF:1019,Experimental→Deployed,Medium (api.crossref.org),KEEP
+807,Domain Randomization / Рандомизация предметной области (Domain Randomization),Метод,IS-A:806; RELATED:808; COMPLEMENTARY:806,Experimental→Deployed,Medium (api.crossref.org),KEEP
+808,Robot Simulation Platforms / Платформы робототехнической симуляции,Инфраструктура,RELATED:806; RELATED:807; PART-OF:805,Deployed,Medium (api.crossref.org),KEEP
+809,Embodied AI / Воплощённый ИИ (Embodied AI),Архитектура,PART-OF:1019; RELATED:810; RELATED:819,Experimental→Deployed,Medium (api.crossref.org),KEEP
+810,Vision-Language-Action Models / Модели зрение-язык-действие (VLA),Технология,IS-A:809; RELATED:1002; PART-OF:809,Research→Experimental,High (arxiv.org; proceedings.mlr.press),KEEP
+811,Imitation Learning and Behavior Cloning / Имитационное обучение и клонирование поведения,Метод,PART-OF:809; RELATED:810; RELATED:814,Experimental→Deployed,Medium (api.crossref.org; arxiv.org),KEEP
+812,Reinforcement Learning for Robot Control / Обучение с подкреплением для управления роботами,Метод,PART-OF:809; RELATED:806; RELATED:819,Experimental→Deployed,Medium (api.crossref.org),KEEP
+813,Cross-Embodiment Transfer / Межкорпусной перенос навыков,Метод,RELATED:811; RELATED:810; PART-OF:809,Research→Experimental,Medium (api.crossref.org),KEEP
+814,Teleoperation for Data Collection / Телепортация для сбора робототехнических данных,Практика,COMPLEMENTARY:811; RELATED:826; PART-OF:809,Deployed,Medium (api.crossref.org),KEEP
+815,Dexterous Robotic Hands / Ловкие роботые руки и захватные устройства,Технология,PART-OF:809; RELATED:816; RELATED:811,Experimental,Medium (api.crossref.org),KEEP
+816,Soft Grippers and Tactile Sensing / Мягкие гриферы и тактильная сенсорика,Технология,RELATED:815; PART-OF:809,Experimental→Deployed,Medium (api.crossref.org),KEEP
+817,Robot Motion Planning / Планирование движения роботов,Метод,RELATED:801; RELATED:818; PART-OF:809,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+818,SLAM / Одновременная локализация и картографирование (SLAM),Технология,RELATED:817; RELATED:833; PART-OF:809,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+819,Legged Locomotion Learning / Обучение локомоции шагающих роботов,Метод,PART-OF:809; RELATED:812; RELATED:806,Experimental→Deployed,Medium (api.crossref.org),KEEP
+820,Proactive Human-Robot Collaboration / Проактивное человеко-роботное сотрудничество,Метод,RELATED:821; RELATED:831; RELATED:004,Experimental→Deployed,Medium (api.crossref.org),KEEP
+821,Collaborative Robots (Cobots) / Коллаборативные роботы (коботы),Технология,RELATED:820; RELATED:831; RELATED:835,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+822,Autonomous Mobile Robots (AMR) / Автономные мобильные роботы (AMR),Технология,IS-A:801; RELATED:818; RELATED:805,Deployed→Mainstream,High (gminsights.com; marketsandmarkets.com),KEEP
+823,Agricultural Robotics / Сельскохозяйственная робототехника,Технология,RELATED:802; RELATED:816; PART-OF:801,Experimental→Deployed,Medium (api.crossref.org),KEEP
+824,Inspection Robotics / Робототехника инспекции и обследования,Технология,RELATED:829; RELATED:828; PART-OF:801,Deployed,Medium (api.crossref.org),KEEP
+825,Construction Robotics / Строительная робототехника,Технология,RELATED:824; RELATED:860; PART-OF:801,Experimental→Deployed,Medium (api.crossref.org),KEEP
+826,Telemanipulation / Телепортационное манипулирование,Технология,RELATED:814; RELATED:834; PART-OF:809,Deployed,Medium (api.crossref.org),KEEP
+827,Rehabilitation Robotics / Реабилитационная робототехника,Технология,RELATED:835; RELATED:834; PART-OF:809,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+828,Underwater Robotics (AUV Groups) / Подводная робототехника и группы АНПА,Технология,RELATED:801; RELATED:826; PART-OF:801,Experimental,Medium (api.crossref.org),KEEP
+829,UAV Inspection / БПЛА-инспекция инфраструктуры,Технология,RELATED:824; RELATED:801; PART-OF:801,Deployed,Medium (api.crossref.org),KEEP
+830,Last-Mile Delivery Robots / Роботы последней мили доставки,Система,RELATED:822; RELATED:1020; PART-OF:805,Experimental→Deployed,Medium (api.crossref.org),KEEP
+831,Human-Robot Safety Management / Управление безопасностью человеко-роботных систем,Практика,RELATED:820; RELATED:821; COMPLEMENTARY:834,Deployed,Medium (api.crossref.org),KEEP
+832,Robot Middleware (ROS 2) / Роботомiddleware и ROS 2,Инфраструктура,PART-OF:801; RELATED:808; RELATED:805,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+833,3D Perception for Robots / Трёхмерное восприятие роботов,Технология,RELATED:818; RELATED:810; PART-OF:809,Deployed,Medium (api.crossref.org),KEEP
+834,Impedance Control / Импедансное управление,Метод,RELATED:826; RELATED:820; COMPLEMENTARY:817,Deployed,Medium (api.crossref.org),KEEP
+835,Industrial Exoskeletons / Промышленные экзоскелеты,Технология,RELATED:827; RELATED:821; PART-OF:820,Experimental→Deployed,High (grandviewresearch.com),KEEP
+836,Mechanical Metamaterials / Механические метаматериалы,Технология,RELATED:837; RELATED:844; RELATED:845,Research→Experimental,Medium (api.crossref.org; fortunebusinessinsights.com),KEEP
+837,Auxetic Metamaterials / Ауксетические метаматериалы,Технология,IS-A:836; RELATED:838; PART-OF:836,Research→Experimental,Medium (api.crossref.org),KEEP
+838,Architectural Metamaterials / Метаматериалы в архитектуре и строительстве,Практика,IS-A:836; RELATED:839; RELATED:860,Experimental,Medium (api.crossref.org),KEEP
+839,Acoustic Metamaterials / Акустические метаматериалы,Технология,IS-A:836; RELATED:838; PART-OF:836,Research→Experimental,High (strategicmarketresearch.com),KEEP
+840,Electromagnetic Metamaterials and Metasurfaces / Электромагнитные метаматериалы и метаповерхности,Технология,IS-A:836; RELATED:841; PART-OF:836,Experimental→Deployed,Medium (api.crossref.org),KEEP
+841,Metalenses / Металинзы и плоская оптика,Технология,IS-A:840; RELATED:840; PART-OF:840,Experimental,Medium (api.crossref.org),KEEP
+842,Thermal Metamaterials / Тепловые метаматериалы,Технология,IS-A:836; RELATED:860; PART-OF:836,Research,Medium (api.crossref.org; sciencedirect.com),KEEP
+843,Programmable Matter and Kirigami Structures / Программируемые материалы и кир Eigen-структуры,Технология,RELATED:836; RELATED:847; PART-OF:836,Research,Medium (api.crossref.org),KEEP
+844,Architected Metamaterials via Additive Manufacturing / Аддитивное производство архитектированных структур,Практика,COMPLEMENTARY:836; RELATED:845; RELATED:846,Experimental→Deployed,Medium (api.crossref.org; nature.com),KEEP
+845,Topology Optimization / Топологическая оптимизация,Метод,COMPLEMENTARY:844; RELATED:846; RELATED:101,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+846,Lattice and Cellular Structures / Решётчатые и ячеистые конструкции,Технология,RELATED:844; RELATED:845; PART-OF:836,Experimental→Deployed,Medium (api.crossref.org),KEEP
+847,Self-Healing Materials / Самовосстанавливающиеся материалы,Технология,RELATED:067; RELATED:849; PART-OF:846,Research→Experimental,Medium (api.crossref.org; idtechex.com),KEEP
+848,Shape Memory Materials / Материалы с памятью формы,Технология,RELATED:843; RELATED:849; PART-OF:846,Research→Experimental,Medium (api.crossref.org),KEEP
+849,High-Entropy Alloys / Сплавы высокой энтропии,Технология,RELATED:852; RELATED:848; PART-OF:846,Research→Experimental,Medium (api.crossref.org),KEEP
+850,Stimuli-Responsive Smart Materials / Стимул-отзывчивые умные материалы,Технология,RELATED:848; RELATED:851; PART-OF:846,Research,Medium (api.crossref.org; sciencedirect.com),KEEP
+851,4D Printing / 4D-печать (печатная морфинг-конструкции),Практика,COMPLEMENTARY:848; RELATED:850; PART-OF:101,Research→Experimental,Medium (api.crossref.org),KEEP
+852,"2D Materials (Graphene, MXene) / Двумерные материалы (графен, MXene)",Технология,RELATED:849; RELATED:853; PART-OF:846,Research→Experimental,Medium (api.crossref.org),KEEP
+853,ML-Driven Materials Discovery / Поиск материалов с помощью машинного обучения,Метод,RELATED:852; RELATED:849; RELATED:101,Experimental→Deployed,Medium (api.crossref.org),KEEP
+854,Critical Raw Materials Governance / Управление критическими сырьевыми материалами,Организационная модель,RELATED:855; RELATED:887; PART-OF:870,Deployed,High (single-market-economy.ec.europa.eu; whitecase.com),KEEP
+855,Lithium-Ion Battery Recycling / Переработка литий-ионных аккумуляторов,Практика,RELATED:854; RELATED:866; PART-OF:854,Experimental→Deployed,Medium (api.crossref.org),KEEP
+856,Structural Batteries / Структурные батареи (энергонесущие конструкции),Технология,RELATED:846; RELATED:866; PART-OF:846,Research→Experimental,High (chalmers.se; pubmed.ncbi.nlm.nih.gov),KEEP
+857,Flexible Electronics / Гибкая и растяжимая электроника,Технология,RELATED:858; RELATED:816; PART-OF:846,Experimental→Deployed,Medium (api.crossref.org),KEEP
+858,Biodegradable Polymers / Биоразлагаемые полимеры,Технология,RELATED:860; RELATED:857; PART-OF:846,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+859,Advanced Ceramics and Coatings / Керамические материалы и защитные покрытия,Технология,RELATED:849; RELATED:847; PART-OF:846,Deployed,Medium (api.crossref.org),KEEP
+860,Low-Carbon Cement / Малоуглеродный цемент и бетон,Технология,RELATED:825; RELATED:838; PART-OF:846,Experimental→Deployed,Medium (api.crossref.org),KEEP
+861,Ambient Energy Harvesting / Сбор энергии из окружающих источников,Технология,RELATED:862; RELATED:863; RELATED:864,Experimental→Deployed,Medium (api.crossref.org; arxiv.org),KEEP
+862,Piezoelectric Energy Harvesting / Пьезоэлектрический сбор энергии,Технология,IS-A:861; RELATED:864; PART-OF:861,Research→Experimental,Medium (api.crossref.org),KEEP
+863,Thermoelectric Generators / Термогенераторы (TEG),Технология,IS-A:861; RELATED:869; PART-OF:861,Research→Experimental,Medium (api.crossref.org),KEEP
+864,Triboelectric Nanogenerators / Трибоэлектрические наногенераторы (TENG),Технология,IS-A:861; RELATED:862; PART-OF:861,Research→Experimental,Medium (api.crossref.org; arxiv.org),KEEP
+865,Perovskite Solar Cells / Перовскитные солнечные элементы,Технология,RELATED:860; RELATED:852; PART-OF:861,Research→Experimental,High (ossila.com; ceramics.org; techxplore.com),KEEP
+866,Solid-State Batteries / Твердотельные аккумуляторы,Технология,RELATED:855; RELATED:867; RELATED:856,Research→Experimental,Medium (api.crossref.org),KEEP
+867,Sodium-Ion Batteries / Натрий-ионные аккумуляторы,Технология,RELATED:866; RELATED:854; PART-OF:866,Experimental→Deployed,High (catl.com; ess-news.com),KEEP
+868,"Grid-Forming Inverters / Инверторы, формирующие сеть (grid-forming)",Технология,RELATED:425; PART-OF:423,Experimental→Deployed,High (esig.energy; sciencedirect.com),KEEP
+869,Industrial Waste Heat Recovery / Утилизация промышленного теплового отхода,Практика,RELATED:424; COMPLEMENTARY:863,Deployed,High (iifiir.org; climeon.com),KEEP
+870,Personal Computing Sovereignty / Личная вычислительная независимость,Принцип,PART-OF:871; RELATED:900; RELATED:099,Deployed,Medium (api.crossref.org),KEEP
+871,Local-First Software / Локально-ориентированное ПО (Local-First),Архитектура,RELATED:872; RELATED:873; RELATED:098,Experimental→Deployed,Medium (api.crossref.org; heavybit.com),KEEP
+872,Offline-First / Офлайн-первичный дизайн (Offline-First),Практика,RELATED:871; RELATED:883; COMPLEMENTARY:871,Deployed,Medium (api.crossref.org),KEEP
+873,Conflict-Free Replicated Data Types / CRDT: бесконфликтные реплицированные типы данных,Метод,PART-OF:871; RELATED:874; RELATED:001,Experimental→Deployed,Medium (api.crossref.org; arxiv.org),KEEP
+874,Sync Engines / Синхронизационные движки,Технология,PART-OF:871; RELATED:873; RELATED:875,Deployed,Medium (api.crossref.org; heavybit.com),KEEP
+875,Embedded Local Databases / Встроенные локальные базы данных,Технология,PART-OF:871; RELATED:874; RELATED:873,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+876,Self-Hosting / Самостоятельный хостинг сервисов,Практика,PART-OF:870; RELATED:887; RELATED:897,Deployed,Medium (api.crossref.org),KEEP
+877,Fediverse and ActivityPub / Федиверс и протокол ActivityPub,Стандарт,RELATED:878; RELATED:895; PART-OF:870,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+878,Community Mesh Networks / Комьюнити-меш-сети,Инфраструктура,RELATED:879; RELATED:877; PART-OF:870,Experimental→Deployed,Medium (api.crossref.org; seeedstudio.com),KEEP
+879,Off-Grid LoRa Mesh / Автономные LoRa-меш-сети (Meshtastic и аналоги),Технология,IS-A:878; RELATED:898; PART-OF:878,Experimental→Deployed,Medium (api.crossref.org; meshtastic.org),KEEP
+880,Graceful Degradation / Плавная деградация (Graceful Degradation),Паттерн,RELATED:881; RELATED:883; RELATED:067,Deployed,Medium (api.crossref.org),KEEP
+881,Circuit Breaker Pattern / Паттерн выключатель (Circuit Breaker),Паттерн,IS-A:880; RELATED:885; PART-OF:880,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+882,Load Shedding / Отключение нагрузки (load shedding),Практика,RELATED:880; RELATED:868; PART-OF:880,Deployed,Medium (api.crossref.org),KEEP
+883,Progressive Enhancement / Прогрессивное улучшение и PWA,Практика,IS-A:880; RELATED:872; PART-OF:880,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+884,Feature Flags / Флаги возможностей (Feature Flags),Практика,RELATED:885; RELATED:881; PART-OF:880,Deployed→Mainstream,Medium (api.crossref.org; flagsmith.com),KEEP
+885,Chaos Engineering / Инженерия хаоса (Chaos Engineering),Практика,RELATED:881; RELATED:880; RELATED:971,Experimental→Deployed,High (arxiv.org; cloud.google.com; docs.aws.amazon.com),KEEP
+886,Backup and Disaster Recovery / Резервное копирование и аварийное восстановление,Практика,RELATED:880; RELATED:887; PART-OF:971,Deployed→Mainstream,Medium (api.crossref.org),KEEP
+887,Sovereign Cloud / Суверенные облака,Инфраструктура,RELATED:876; RELATED:854; PART-OF:870,Deployed,High (fortunebusinessinsights.com; grandviewresearch.com),KEEP
+888,Platform Interoperability Standards / Стандарты межплатформенной совместимости,Стандарт,RELATED:877; RELATED:890; PART-OF:870,Deployed,Medium (api.crossref.org),KEEP
+889,Right to Repair / Право на ремонт,Принцип,RELATED:890; RELATED:870; PART-OF:870,Deployed,High (commission.europa.eu; repair.eu),KEEP
+890,Modular Repairable Design / Модульное ремонтопригодное проектирование,Практика,COMPLEMENTARY:889; RELATED:888; PART-OF:889,Experimental→Deployed,Medium (api.crossref.org),KEEP
+891,Software Bill of Materials / Перечень компонентов ПО (SBOM),Практика,RELATED:892; RELATED:870; COMPLEMENTARY:892,Deployed→Mainstream,High (openssf.org; fossa.com),KEEP
+892,Reproducible Builds / Воспроизводимые сборки,Практика,RELATED:891; RELATED:870; PART-OF:891,Experimental→Deployed,High (reproducible-builds.org; cloudsmith.com),KEEP
+893,Digital Heritage Preservation / Цифровое сохранение наследия,Практика,RELATED:876; RELATED:888; PART-OF:870,Deployed,Medium (api.crossref.org),KEEP
+894,Permacomputing / Пермакомпьютинг и устойчивые вычисления,Практика,RELATED:899; RELATED:890; PART-OF:870,Experimental,Medium (api.crossref.org; permacomputing.net),KEEP
+895,IndieWeb / IndieWeb: собственный веб вместо платформ,Практика,RELATED:877; RELATED:876; PART-OF:870,Experimental→Deployed,Medium (api.crossref.org; indieweb.org),KEEP
+896,RISC-V Open ISA / Открытая архитектура набора команд RISC-V,Стандарт,RELATED:897; RELATED:870; PART-OF:897,Experimental→Deployed,High (riscv.org),KEEP
+897,Open-Source Hardware / Открытое аппаратное обеспечение (OSH),Практика,RELATED:896; RELATED:876; PART-OF:896,Experimental→Deployed,Medium (api.crossref.org),KEEP
+898,Amateur Radio Emergency Communications / Любительская радиоаварийная связь,Практика,RELATED:879; RELATED:878; PART-OF:870,Deployed,Medium (api.crossref.org),KEEP
+899,Energy-Efficient and Carbon-Aware Computing / Энергоэффективные и углеродно-осведомлённые вычисления,Практика,RELATED:894; RELATED:887; PART-OF:870,Experimental→Deployed,High (greensoftware.foundation),KEEP
+900,"Personal Data Stores / Персональные хранилища данных (Solid, PDS)",Архитектура,RELATED:870; RELATED:871; PART-OF:870,Experimental,High (solidproject.org),KEEP

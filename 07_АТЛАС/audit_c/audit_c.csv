@@ -1,0 +1,101 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+201,Circular Economy / Циркулярная экономика,Принцип,"PART-OF:Sustainability; RELATED:202,203,207,209,222",Deployed→Mainstream,Medium (circularity-gap.world),KEEP
+202,Material Flow Analysis / Анализ потоков материалов,Метод,"IS-A:Quantitative method; PART-OF:Circular Economy (201); RELATED:203,215",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+203,Circularity Metrics (Circularity Gap Report) / Метрики циркулярности (Circularity Gap Report),Метод,"RELATED:201,202; IS-A:Benchmarking",Deployed,Medium (circularity-gap.world; circulareconomy.europa.eu),KEEP
+204,Ecodesign Regulation (ESPR) / Регламент по экодизайну (ESPR),Стандарт,"RELATED:205,207,208,219; PART-OF:EU product policy",Deployed,High (single-market-economy.ec.europa.eu),KEEP
+205,Digital Product Passport / Цифровой паспорт продукта,Стандарт,"PART-OF:ESPR (204); RELATED:217,214,245",Experimental→Deployed,High (single-market-economy.ec.europa.eu; inriver.com),KEEP
+206,Extended Producer Responsibility / Расширенная ответственность производителя,Система,"PART-OF:Circular Economy (201); RELATED:213,216,222",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+207,Right to Repair / Право на ремонт,Принцип,"RELATED:204,210,220; PART-OF:Circular Economy (201)",Deployed,High (commission.europa.eu; repair.eu; e360.yale.edu),KEEP
+208,Design for Disassembly / Проектирование для разборки,Метод,"IS-A:Ecodesign practice; RELATED:204,214,210",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+209,Industrial Symbiosis / Промышленный симбиоз,Практика,"RELATED:201,215; PART-OF:Circular Economy (201)",Deployed,Medium (symbiosis.dk),KEEP
+210,Remanufacturing / Ремануфактура,Практика,"RELATED:208,207; IS-A:Recovery process",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+211,Product-as-a-Service / Продукт как услуга,Организационная модель,"RELATED:201,224; COMPLEMENTARY:205",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+212,Reusable Packaging Systems / Системы многоразовой упаковки,Система,"RELATED:206,213; PART-OF:Circular Economy (201)",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+213,Deposit Return Systems / Депозитно-возвратные системы,Система,"RELATED:206,212; PART-OF:Extended producer responsibility",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+214,Material Passports for Buildings / Материальные паспорта зданий,Метод,"RELATED:205,208,215; PART-OF:Circular construction",Experimental→Deployed,Medium (madaster.com),KEEP
+215,Urban Mining / Городская добыча,Практика,"RELATED:216,228,214; PART-OF:Circular Economy (201)",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+216,E-waste Management / Управление электронными отходами,Система,"RELATED:206,215,207; PART-OF:Waste management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+217,Battery Passport / Паспорт батареи,Стандарт,"PART-OF:Digital Product Passport (205); RELATED:218,228",Experimental→Deployed,High (inriver.com; eur-lex.europa.eu; circularise.com),KEEP
+218,Lithium-Ion Battery Recycling / Переработка литий-ионных батарей,Технология,"RELATED:217,215,228; PART-OF:Battery value chain",Deployed,High (eur-lex.europa.eu; circularise.com),KEEP
+219,Circular Textiles / Циркулярный текстиль,Практика,"RELATED:204,205,206; PART-OF:Circular Economy (201)",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+220,Repair Cafés / Ремонтные кафе,Паттерн,"RELATED:207,224; PART-OF:Community repair movement",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+221,Circular Public Procurement / Циркулярные государственные закупки,Практика,"RELATED:201,204,206; PART-OF:Public procurement",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+222,Waste Hierarchy / Иерархия обращения с отходами,Принцип,"PART-OF:Waste policy; RELATED:201,206,223",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+223,Food Waste Reduction / Сокращение пищевых отходов,Практика,"RELATED:222,206; PART-OF:Food system",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+224,Sharing Economy / Экономика совместного потребления,Организационная модель,"RELATED:211,225,290; PART-OF:Collaborative consumption",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+225,Tool Libraries / Библиотеки инструментов,Паттерн,"RELATED:224,220; IS-A:Sharing infrastructure",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+226,Complementary Currencies / Дополнительные валюты,Система,"RELATED:227,295,289; IS-A:Monetary innovation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+227,Time Banks / Банки времени,Организационная модель,"RELATED:226,289; IS-A:Mutual exchange",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+228,Critical Raw Materials Act / Акт о критическом сырьё (EU CRMA),Стандарт,"RELATED:215,217,218,229; PART-OF:EU industrial policy",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+229,Carbon Border Adjustment Mechanism (CBAM) / Пограничный углеродный механизм (CBAM),Стандарт,"RELATED:291,250,204; PART-OF:EU climate policy",Deployed,High (taxation-customs.ec.europa.eu),KEEP
+230,Global Plastics Treaty / Глобальный договор по пластмассам,Стандарт,"RELATED:206,222,201; PART-OF:International environmental law",Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+231,Supply Chain Resilience / Устойчивость цепочек поставок,Принцип,"PART-OF:Resilience Engineering (971); RELATED:232,236,238,255",Deployed→Mainstream,Low (crossmark.crossref.org; linkedin.com),KEEP
+232,Supply Chain Risk Management / Управление рисками цепочек поставок,Практика,"IS-A:Risk management; RELATED:231,240,255",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+233,Multi-Tier Supply Chain Visibility / Многоуровневая видимость цепочки поставок,Практика,"RELATED:231,234,247,259",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+234,Supply Chain Digital Twin / Цифровой двойник цепочки поставок,Технология,"RELATED:231,233,235,255; COMPLEMENTARY:001",Experimental→Deployed,Medium (crossmark.crossref.org),KEEP
+235,Supply Chain Control Tower / Управленческая вышка цепочки поставок,Система,"RELATED:233,234,232; IS-A:Operations center",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+236,Just-in-Case Strategy / Стратегия «на всякий случай» (Just-in-Case),Паттерн,"COMPLEMENTARY:Just-in-Time; RELATED:231,237,241",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+237,Dual and Multi-Sourcing / Двойные и множественные источники поставок,Практика,"RELATED:236,238,240; PART-OF:Supply Chain Resilience (231)",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+238,Nearshoring and Friendshoring / Ближний шоринг и френдшоринг,Паттерн,"RELATED:237,239,228; PART-OF:Supply Chain Resilience (231)",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+239,China+1 Strategy / Стратегия Китай+1,Паттерн,"IS-A:Supplier diversification; RELATED:238,237",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+240,Supplier Risk Monitoring / Мониторинг рисков поставщиков,Практика,"IS-A:Continuous monitoring; RELATED:232,233,247",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+241,Inventory Optimization / Оптимизация запасов,Метод,"RELATED:236,242,243,254",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+242,"Vendor-Managed Inventory / Запасы, управляемые поставщиком (VMI)",Практика,"RELATED:241,243; IS-A:Collaborative replenishment",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+243,Sales and Operations Planning (S&OP/IBP) / Сквозное планирование продаж и операций (S&OP/IBP),Метод,"RELATED:241,242,254; PART-OF:Integrated business planning",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+244,SCOR Model / Модель SCOR,Стандарт,"RELATED:232,243,241; IS-A:Reference model",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+245,GS1 Standards and EPCIS / Стандарты GS1 и EPCIS,Стандарт,"RELATED:246,205,233; PART-OF:Data standards for trade",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+246,Pharmaceutical Serialization (DSCSA) / Сериализация фармпродукции (DSCSA),Система,"RELATED:245,233; PART-OF:Track and trace regulation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+247,Supply Chain Due Diligence Laws / Законы о должной осмотрительности в цепочках поставок,Стандарт,"RELATED:248,249,233; PART-OF:Regulatory compliance",Deployed,Low (integritynext.com; qima.com),KEEP
+248,Conflict Minerals Compliance / Соответствие по конфликтным минералам,Практика,"RELATED:247,228,245; PART-OF:Responsible sourcing",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+249,Deforestation-Free Supply Chains (EUDR) / Цепочки поставок без вырубки лесов (EUDR),Стандарт,"RELATED:247,233,250; PART-OF:EU green regulation",Experimental→Deployed,High (lw.com; integritynext.com),KEEP
+250,Scope 3 GHG Accounting / Учёт выбросов Scope 3,Стандарт,"PART-OF:GHG Protocol; RELATED:229,300,247",Deployed,Medium (ghgprotocol.org),KEEP
+251,Supply Chain Finance / Финансирование цепочек поставок,Метод,"RELATED:243,240; PART-OF:Trade finance",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+252,Reverse Logistics / Обратная логистика,Практика,"RELATED:201,259,213; PART-OF:Supply Chain Resilience ecosystem",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+253,Cold Chain Monitoring / Мониторинг холодовой цепи,Система,"RELATED:245,260,233; PART-OF:Quality assurance in logistics",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+254,AI Demand Forecasting / Прогнозирование спроса на основе ИИ,Технология,"RELATED:241,243; COMPLEMENTARY:001",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+255,Supply Chain Stress Testing / Стресс-тестирование цепочек поставок,Метод,"RELATED:231,232,234; IS-A:Scenario analysis",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+256,Supplier Development / Развитие поставщиков,Практика,"RELATED:240,237,247; PART-OF:Supplier relationship management",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+257,Fair Trade Certification / Сертификация справедливой торговли,Стандарт,"RELATED:247,248,260; PART-OF:Responsible sourcing",Deployed,Medium (fairtrade.net),KEEP
+258,Strategic Stockpiles / Стратегические резервы,Практика,"RELATED:236,231,228; PART-OF:National security economics",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+259,Open Supply Chain Transparency / Открытая прозрачность цепочек поставок,Инфраструктура,"RELATED:233,247,252; COMPLEMENTARY:030",Deployed,Medium (opensupplyhub.org),KEEP
+260,Humanitarian Supply Chains / Гуманитарные цепочки поставок,Система,"RELATED:231,253,259; PART-OF:Humanitarian logistics",Deployed,Medium (wfp.org),KEEP
+261,Sociocracy / Социократия,Организационная модель,"RELATED:262,263,264,265; PART-OF:Self-management",Deployed,Medium (peerdom.com; sociocracyforall.org),KEEP
+262,Sociocracy 3.0 / Социократия 3.0,Метод,"IS-A:Governance framework; RELATED:261,263,266",Deployed,Medium (patterns.sociocracy30.org; peerdom.com),KEEP
+263,Consent Decision-Making / Принятие решений по согласию,Метод,"IS-A:Decision-making method; RELATED:261,262,276",Deployed,Medium (patterns.sociocracy30.org; sociocracyforall.org),KEEP
+264,Double-Linking / Двойная связь кругов,Паттерн,"PART-OF:Sociocracy (261); RELATED:262,263",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+265,Holacracy / Холакратия,Организационная модель,"RELATED:261,262,266; IS-A:Self-management framework",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+266,Self-Management (Teal Organizations) / Самоуправление (Teal-организации),Принцип,"RELATED:261,265,263; PART-OF:Organizational development",Deployed,Medium (corporaterebels.com),KEEP
+267,Team Topologies / Team Topologies,Метод,"RELATED:266,277; PART-OF:Organizational design for fast flow",Deployed,Medium (teamtopologies.com),KEEP
+268,Beyond Budgeting / Beyond Budgeting,Организационная модель,"RELATED:266,269,271; PART-OF:Management model",Deployed,Medium (bbrt.org),KEEP
+269,Objectives and Key Results (OKR) / Цели и ключевые результаты (OKR),Метод,"RELATED:270,268; IS-A:Goal-setting method",Mainstream,Medium (whatmatters.com),KEEP
+270,Hoshin Kanri / Хосин канри,Метод,"RELATED:269,271,275; IS-A:Policy deployment",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+271,Lean Management / Бережливое управление,Организационная модель,"RELATED:272,273,275,270; PART-OF:Continuous improvement",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+272,Kaizen / Кайдзен,Практика,"PART-OF:Lean Management (271); RELATED:275,271",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+273,Theory of Constraints / Теория ограничений,Метод,"RELATED:271,241,243; IS-A:Management methodology",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+274,Six Sigma / Шесть сигм,Метод,"RELATED:271,272; IS-A:Quality methodology",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+275,Toyota Kata / Тойота ката,Метод,"RELATED:272,271,270; IS-A:Coaching method",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+276,Psychological Safety / Психологическая безопасность,Принцип,"RELATED:263,266,277; PART-OF:Team effectiveness",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+277,Remote-First Organizations / Организации с распределённой работой (remote-first),Организационная модель,"RELATED:276,266,267; PART-OF:Distributed work",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+278,Four-Day Workweek / Четырёхдневная рабочая неделя,Практика,"RELATED:277,266; PART-OF:Work time experiments",Deployed,Medium (engoo.com.br),KEEP
+279,Employee Ownership (ESOP) / Владение сотрудниками (ESOP),Организационная модель,"RELATED:280,281; PART-OF:Ownership models",Deployed,Medium (bizjournals.com; linkedin.com),KEEP
+280,Worker Cooperatives / Производственные кооперативы,Организационная модель,"RELATED:279,290,281; PART-OF:Ownership models",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+281,Steward-Ownership / Опекунское владение,Организационная модель,"RELATED:280,279; PART-OF:Ownership models",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+282,B Corp Certification / Сертификация B Corp,Стандарт,"RELATED:300,292; PART-OF:Sustainability standards",Deployed,Medium (bcorporation.net),KEEP
+283,Participatory Budgeting / Партисипативное бюджетирование,Метод,"RELATED:284,285; PART-OF:Democratic innovation",Deployed,Medium (participatorybudgeting.org),KEEP
+284,Citizens' Assemblies / Гражданские ассамблеи,Организационная модель,"RELATED:283,285; PART-OF:Democratic innovation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+285,Liquid Democracy / Жидкая демократия,Метод,"RELATED:283,286; IS-A:Delegative voting method",Deployed,Medium (liquidfeedback.org),KEEP
+286,Decentralized Autonomous Organizations / Децентрализованные автономные организации (DAO),Организационная модель,"RELATED:285,290; COMPLEMENTARY:1036",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+287,Commons Governance Principles / Принципы управления общими ресурсами (Острем),Принцип,"RELATED:288,289,297; PART-OF:Institutional economics",Deployed,Medium (iasc-commons.org),KEEP
+288,Community Land Trusts / Общинные земельные трасты,Организационная модель,"RELATED:287,280; PART-OF:Affordable housing models",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+289,Mutual Aid Networks / Сети взаимопомощи,Паттерн,"RELATED:227,287,226; PART-OF:Community resilience",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+290,Platform Cooperativism / Платформенный кооперативизм,Организационная модель,"RELATED:280,224,286; PART-OF:Ownership models",Deployed,Medium (platform.coop),KEEP
+291,Emissions Trading Systems / Системы торговли квотами на выбросы,Система,"RELATED:229,250,293; PART-OF:Carbon pricing",Deployed,Medium (taxation-customs.ec.europa.eu; niskanencenter.org),KEEP
+292,Impact Investing / Импакт-инвестирование,Практика,"RELATED:293,299,295; PART-OF:Sustainable finance",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+293,Green Bonds / Зелёные облигации,Инфраструктура,"RELATED:292,294,291; PART-OF:Sustainable debt markets",Deployed→Mainstream,Medium (climatebonds.net; oecd.org),KEEP
+294,EU Taxonomy for Sustainable Activities / Таксономия ЕС устойчивых видов деятельности,Стандарт,"RELATED:293,300; PART-OF:Sustainable finance regulation",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+295,Microfinance / Микрофинансирование,Система,"RELATED:292,226; PART-OF:Financial inclusion",Mainstream,Medium (kiva.org),KEEP
+296,Universal Basic Income Pilots / Пилоты базового дохода,Метод,RELATED:295; PART-OF:Social policy experiments,Experimental→Deployed,Medium (givedirectly.org),KEEP
+297,Community-Supported Agriculture / Сельское хозяйство при поддержке сообщества (CSA),Организационная модель,"RELATED:287,223; PART-OF:Local food systems",Deployed,Medium (urgenci.net),KEEP
+298,Data Cooperatives / Кооперативы данных,Организационная модель,"RELATED:290,287; PART-OF:Data governance",Experimental→Deployed,Medium (midata.coop),KEEP
+299,Social Impact Bonds / Социальные облигации воздействия,Метод,"RELATED:292,300; IS-A:Outcomes-based contracting",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+300,Corporate Sustainability Reporting (CSRD/ESRS/ISSB) / Корпоративная отчётность устойчивости (CSRD/ESRS/ISSB),Стандарт,"RELATED:250,294,282; PART-OF:Non-financial reporting",Deployed,High (finance.ec.europa.eu),KEEP

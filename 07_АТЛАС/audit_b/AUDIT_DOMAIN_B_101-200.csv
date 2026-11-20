@@ -1,0 +1,101 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+101,Open Science / Открытая наука,Принцип,"PART-OF:Scientific Method; RELATED:102,108,109,115; COMPLEMENTARY:982",Mainstream,High (unesco.org),KEEP
+102,Open Access Publishing / Издание в открытом доступе,Практика,"PART-OF:101; RELATED:103,118,121; IS-A:Scholarly Communication",Deployed→Mainstream,High (crossref.org),KEEP
+103,Diamond Open Access / Бриллиантовый открытый доступ,Организационная модель,"IS-A:102; RELATED:101,115,119; COMPLEMENTARY:102",Deployed,High (crossref.org),KEEP
+104,Preprints / Препринты,Практика,"PART-OF:101; RELATED:102,105; COMPLEMENTARY:989",Mainstream,High (arxiv.org),KEEP
+105,Open Peer Review / Открытое рецензирование,Практика,"PART-OF:101; RELATED:102,106,989; COMPLEMENTARY:120",Deployed→Mainstream,High (crossref.org),KEEP
+106,Registered Reports / Регистрируемые отчёты,Практика,"IS-A:105; RELATED:107,117,122; COMPLEMENTARY:989",Deployed,High (crossref.org),KEEP
+107,Preregistration / Предварительная регистрация исследования,Практика,"PART-OF:106; RELATED:117,122; COMPLEMENTARY:989",Deployed,High (crossref.org),KEEP
+108,Open Research Data / Открытые исследовательские данные,Практика,"PART-OF:101; RELATED:109,110,141; COMPLEMENTARY:871",Deployed,Medium (crossref.org),KEEP
+109,FAIR Principles / Принципы FAIR,Стандарт,"PART-OF:101; RELATED:108,110,132,141; COMPLEMENTARY:982",Mainstream,High (crossref.org),KEEP
+110,Research Data Management Plans / Планы управления данными исследования,Практика,PART-OF:108; RELATED:109; IS-A:Governance Practice,Deployed,Medium (crossref.org),KEEP
+111,Open Source Research Software / Открытый исследовательский код,Практика,"PART-OF:101; RELATED:108,112,117; COMPLEMENTARY:989",Deployed,Medium (crossref.org),KEEP
+112,Open Source Hardware for Science / Открытая аппаратная часть для науки,Практика,"PART-OF:101; RELATED:111,180; COMPLEMENTARY:870",Experimental→Deployed,Medium (crossref.org),KEEP
+113,Persistent Identifiers for Researchers and Organizations / Постоянные идентификаторы исследователей и организаций,Инфраструктура,"PART-OF:101; RELATED:108,109,119; COMPLEMENTARY:120",Mainstream,Medium (crossref.org),KEEP
+114,Research Assessment Reform / Реформа оценки научной деятельности,Организационная модель,"PART-OF:101; RELATED:118,122; COMPLEMENTARY:121",Deployed,High (crossref.org),KEEP
+115,European Open Science Cloud / Европейское облако открытой науки,Инфраструктура,"PART-OF:101; RELATED:108,109,141; COMPLEMENTARY:119",Deployed,High (crossref.org),KEEP
+116,Citizen Science / Гражданская наука,Организационная модель,"PART-OF:101; RELATED:108,110; COMPLEMENTARY:121",Deployed,High (crossref.org),KEEP
+117,Replication and Reproducibility Studies / Исследования воспроизводимости и повторяемости,Практика,"PART-OF:101; RELATED:107,111,122; COMPLEMENTARY:989",Deployed,High (crossref.org),KEEP
+118,Open Science Monitoring / Мониторинг открытой науки,Метод,"PART-OF:101; RELATED:114,119,120; COMPLEMENTARY:122",Deployed,High (crossref.org),KEEP
+119,Open Scholarly Infrastructure / Открытая научная инфраструктура,Принцип,"PART-OF:101; RELATED:113,118,120; COMPLEMENTARY:870",Deployed,Medium (crossref.org),KEEP
+120,Open Citations and Scholarly Metadata / Открытые цитирования и метаданные,Инфраструктура,"PART-OF:101; RELATED:113,118,119; COMPLEMENTARY:982",Deployed,Medium (crossref.org),KEEP
+121,Living Systematic Reviews / Живые систематические обзоры,Метод,"PART-OF:101; RELATED:122,124; COMPLEMENTARY:117",Experimental→Deployed,High (crossref.org),KEEP
+122,Metascience and Research on Research / Метанаука и исследования исследований,Метод,"PART-OF:101; RELATED:114,117,118; COMPLEMENTARY:982",Deployed,High (crossref.org),KEEP
+123,Open Notebook Science / Открытые лабораторные журналы,Практика,"PART-OF:101; RELATED:108,111; COMPLEMENTARY:075",Experimental,Medium (crossref.org),KEEP
+124,Generative AI in Scholarly Publishing / Генеративный ИИ в научном издании,Практика,"PART-OF:101; RELATED:121,001; RELATED:1001",Experimental→Deployed,Medium (crossref.org),KEEP
+125,Materials Genome Initiative / Инициатива «Геном материалов»,Принцип,"PART-OF:Materials Engineering; RELATED:126,127,141; COMPLEMENTARY:131",Mainstream,High (nist.gov),KEEP
+126,High-Throughput Computational Screening / Высокопроизводительный вычислительный скрининг,Метод,"PART-OF:125; RELATED:127,128,129; COMPLEMENTARY:131",Deployed,High (crossref.org),KEEP
+127,Machine-Learned Interatomic Potentials / Межатомные потенциалы на машинном обучении,Технология,"IS-A:Surrogate Model; RELATED:126,128,131; COMPLEMENTARY:155",Deployed,High (arxiv.org),KEEP
+128,Foundation Models for Materials / Фундаментальные модели для материаловедения,Технология,"IS-A:1001; RELATED:127,126,132; COMPLEMENTARY:129",Research→Experimental,Medium (arxiv.org),KEEP
+129,Active Learning and Bayesian Optimization in Materials / Активное обучение и байесовская оптимизация материалов,Метод,"PART-OF:126; RELATED:127,128,180; COMPLEMENTARY:134",Deployed,Medium (crossref.org),KEEP
+130,High-Entropy Alloys / Высокоэнтропийные сплавы,Технология,"PART-OF:Materials Engineering; RELATED:126,129,131; COMPLEMENTARY:143",Experimental→Deployed,High (crossref.org),KEEP
+131,CALPHAD and ICME / CALPHAD и интегрированная вычислительная материаловедческая инженерия,Метод,"PART-OF:125; RELATED:126,130,143; COMPLEMENTARY:127",Deployed,High (crossref.org),KEEP
+132,Polymer Informatics / Полимерная информатика,Метод,"PART-OF:125; RELATED:126,128,109; COMPLEMENTARY:129",Experimental→Deployed,Medium (crossref.org),KEEP
+133,Perovskite Photovoltaics Stability Engineering / Инженерия стабильности перовскитных солнечных элементов,Технология,"PART-OF:Materials Engineering; RELATED:126,129,146; COMPLEMENTARY:134",Experimental→Deployed,Medium (crossref.org),KEEP
+134,ML-Guided Electrocatalyst Discovery / ML-направляемый поиск электрокатализаторов,Метод,"PART-OF:126; RELATED:129,140,146; COMPLEMENTARY:131",Experimental→Deployed,High (crossref.org),KEEP
+135,2D Materials and Graphene Commercialization / Коммерциализация двумерных материалов и графена,Технология,"PART-OF:Materials Engineering; RELATED:126,142,146; COMPLEMENTARY:871",Deployed,Medium (crossref.org),KEEP
+136,All-Solid-State Batteries / Всесостоятельные аккумуляторы с твёрдым электролитом,Технология,"PART-OF:Energy Storage; RELATED:137,138,144; COMPLEMENTARY:155",Experimental→Deployed,High (crossref.org),KEEP
+137,Dry Electrode Manufacturing / Производство сухих электродов,Технология,"PART-OF:Battery Manufacturing; RELATED:136,138,144; COMPLEMENTARY:169",Experimental→Deployed,Medium (crossref.org),KEEP
+138,Lithium-Ion Battery Recycling / Переработка литий-ионных аккумуляторов,Практика,"PART-OF:Sustainability; RELATED:136,137,144,201; COMPLEMENTARY:140",Deployed,Medium (crossref.org),KEEP
+139,Green Chemistry and Sustainable Synthesis / Зелёная химия и устойчивый синтез,Принцип,"PART-OF:101; RELATED:145,146; COMPLEMENTARY:132",Deployed,Medium (crossref.org),KEEP
+140,Critical Raw Materials Substitution / Замещение критического минерального сырья,Практика,"PART-OF:Sustainability; RELATED:130,138,144; COMPLEMENTARY:134",Deployed,Medium (crossref.org),KEEP
+141,Open Materials Data Infrastructure / Открытая материаловедческая инфраструктура данных,Инфраструктура,"PART-OF:125; RELATED:108,109,126",Deployed,Medium (nist.gov),KEEP
+142,Automated Microscopy Characterization / Автоматизированная микроскопическая характеризация,Технология,"PART-OF:125; RELATED:126,129; COMPLEMENTARY:180",Experimental→Deployed,Medium (crossref.org),KEEP
+143,Grain Boundary and Interface Engineering / Инженерия границ зёрен и интерфейсов,Метод,"PART-OF:Materials Engineering; RELATED:130,131,127; COMPLEMENTARY:155",Experimental→Deployed,Medium (arxiv.org),KEEP
+144,Sodium-Ion and Alternative Battery Chemistries / Натрий-ионные и альтернативные химии накопителей,Технология,"COMPLEMENTARY:136; RELATED:137,138,140; PART-OF:Energy Storage",Experimental→Deployed,Medium (crossref.org),KEEP
+145,Green Nanomaterials Synthesis / Зелёный синтез наноматериалов,Метод,"PART-OF:139; RELATED:135,146; COMPLEMENTARY:126",Experimental→Deployed,Medium (crossref.org),KEEP
+146,Materials Sustainability Accounting / Учёт устойчивости материалов,Метод,"PART-OF:139; RELATED:167,140; COMPLEMENTARY:109",Deployed,Medium (crossref.org),KEEP
+147,Additive Manufacturing / Аддитивное производство,Технология,"PART-OF:Manufacturing; RELATED:148,150,152; COMPLEMENTARY:162",Deployed→Mainstream,High (crossref.org),KEEP
+148,Laser Powder Bed Fusion / Лазерное сплавление порошкового слоя,Технология,"IS-A:147; RELATED:153,154,158; COMPLEMENTARY:164",Deployed,High (crossref.org),KEEP
+149,Directed Energy Deposition / Направленное осаждение энергии,Технология,"IS-A:147; RELATED:170,162; COMPLEMENTARY:148",Deployed,Medium (crossref.org),KEEP
+150,Metal Binder Jetting / Металлическая струйная печать со связующим,Технология,"IS-A:147; RELATED:168,161; COMPLEMENTARY:148",Experimental→Deployed,High (crossref.org),KEEP
+151,Vat Photopolymerization / Фотополимеризация в ванне,Технология,"IS-A:147; RELATED:165,167; COMPLEMENTARY:148",Deployed,Medium (crossref.org),KEEP
+152,Large-Format Additive Manufacturing / Крупноформатное аддитивное производство,Технология,"IS-A:147; RELATED:166,170; COMPLEMENTARY:151",Deployed,High (crossref.org),KEEP
+153,In-Situ Process Monitoring in AM / Контроль процесса в аддитивном производстве в реальном времени,Практика,"PART-OF:148; RELATED:154,155,158; COMPLEMENTARY:163",Deployed,High (crossref.org),KEEP
+154,Machine Learning for AM Process Optimization / Машинное обучение для оптимизации процессов аддитивного производства,Метод,"PART-OF:153; RELATED:155,129,126; COMPLEMENTARY:158",Deployed,High (crossref.org),KEEP
+155,Digital Twin for Additive Manufacturing / Цифровой двойник аддитивного производства,Архитектура,"PART-OF:147; RELATED:153,154,158; COMPLEMENTARY:190",Experimental→Deployed,Medium (arxiv.org),KEEP
+156,Topology Optimization for AM / Топологическая оптимизация под аддитивное производство,Метод,"PART-OF:147; RELATED:157,148,160; COMPLEMENTARY:150",Deployed,High (crossref.org),KEEP
+157,Lattice and Architected Structures / Решётчатые и архитектурные структуры,Технология,"COMPLEMENTARY:156; RELATED:148,164; PART-OF:AM-Design",Deployed,High (crossref.org),KEEP
+158,Rapid Qualification of Metal AM / Ускоренная квалификация металлического аддитивного производства,Практика,"PART-OF:147; RELATED:153,155,169; IS-A:Qualification Practice",Experimental→Deployed,High (crossref.org),KEEP
+159,Additive Manufacturing in Aerospace / Аддитивное производство в аэрокосмической отрасли,Практика,"PART-OF:147; RELATED:158,156,148; IS-A:Industry Application",Deployed,High (crossref.org),KEEP
+160,Patient-Specific 3D Printed Implants / Пациент-специфичные 3D-печатные имплантаты,Практика,"PART-OF:147; RELATED:157,194,161; COMPLEMENTARY:149",Deployed,High (crossref.org),KEEP
+161,Post-Processing in Metal AM / Постобработка металлических аддитивных деталей,Практика,"PART-OF:148; RELATED:150,158,163; IS-A:Post-Processing",Deployed,High (crossref.org),KEEP
+162,Hybrid Additive-Subtractive Manufacturing / Гибридное аддитивно-субтрактивное производство,Архитектура,"COMPLEMENTARY:147; RELATED:149,170; PART-OF:Manufacturing",Experimental→Deployed,High (crossref.org),KEEP
+163,Multi-Material Additive Manufacturing / Многоматериальное аддитивное производство,Технология,"PART-OF:147; RELATED:157,151; COMPLEMENTARY:162",Experimental,High (crossref.org),KEEP
+164,Electron Beam Powder Bed Fusion / Электронно-лучевое сплавление порошкового слоя,Технология,"IS-A:147; RELATED:148,157,159",Deployed,Medium (crossref.org),KEEP
+165,Volumetric 3D Printing / Объёмная 3D-печать,Технология,"IS-A:147; RELATED:151,194",Research→Experimental,Medium (crossref.org),KEEP
+166,Distributed Manufacturing and Spare Parts on Demand / Распределённое производство и запчасти по требованию,Организационная модель,"PART-OF:147; RELATED:152,167; COMPLEMENTARY:871",Experimental→Deployed,Medium (crossref.org),KEEP
+167,Sustainability and LCA of Additive Manufacturing / Устойчивость и оценка жизненного цикла аддитивного производства,Метод,"PART-OF:139; RELATED:166,169,146",Deployed,High (crossref.org),KEEP
+168,AM Powder Feedstock Quality Management / Управление качеством порошкового сырья для аддитивного производства,Практика,"PART-OF:148; RELATED:161,158,153; COMPLEMENTARY:139",Deployed,Medium (crossref.org),KEEP
+169,AM Standardization / Стандартизация аддитивного производства,Стандарт,"PART-OF:147; RELATED:158,153; IS-A:Standards Framework",Deployed,High (crossref.org),KEEP
+170,AM Repair and MRO / Ремонт и техобслуживание с аддитивными технологиями,Практика,"PART-OF:147; RELATED:149,162,166; COMPLEMENTARY:159",Experimental→Deployed,Medium (crossref.org),KEEP
+171,Next-Generation Sequencing / Секвенирование нового поколения,Технология,"PART-OF:Biotech; RELATED:176,177,173; COMPLEMENTARY:197",Mainstream,Medium (crossref.org),KEEP
+172,CRISPR Genome Editing / Геномное редактирование CRISPR,Технология,"PART-OF:Biotech; RELATED:177,181,175; COMPLEMENTARY:198",Deployed,High (genome.gov),KEEP
+173,Protein Structure Prediction / Предсказание структуры белков,Метод,"PART-OF:Biotech; RELATED:174,175,196; COMPLEMENTARY:127",Mainstream,High (crossref.org),KEEP
+174,AI Drug Discovery / ИИ-поиск лекарств,Метод,"PART-OF:Biotech; RELATED:173,175,193; COMPLEMENTARY:196",Deployed,High (crossref.org),KEEP
+175,Generative Protein Design / Генеративный дизайн белков,Технология,"PART-OF:Biotech; RELATED:173,174,196; COMPLEMENTARY:178",Experimental→Deployed,Medium (crossref.org),KEEP
+176,Single-Cell Sequencing / Одноклеточное секвенирование,Метод,"PART-OF:Biotech; RELATED:171,192,173; COMPLEMENTARY:190",Deployed,Medium (crossref.org),KEEP
+177,DNA and Gene Synthesis / Синтез ДНК и генов,Технология,"PART-OF:Biotech; RELATED:172,178,179; COMPLEMENTARY:198",Mainstream,Medium (crossref.org),KEEP
+178,Biofoundries / Биофаундрии,Инфраструктура,"PART-OF:Biotech; RELATED:179,180,177",Experimental→Deployed,High (crossref.org),KEEP
+179,Design-Build-Test-Learn Cycles / Циклы Design-Build-Test-Learn,Метод,"PART-OF:Biotech; RELATED:178,180,175; COMPLEMENTARY:129",Deployed,High (crossref.org),KEEP
+180,Lab Automation and Autonomous Experimentation / Лабораторная автоматизация и автономные эксперименты,Технология,"PART-OF:Biotech; RELATED:178,179,129; COMPLEMENTARY:801",Experimental→Deployed,Medium (crossref.org),KEEP
+181,Cell and Gene Therapy Manufacturing / Производство клеточных и генных терапий,Технология,"PART-OF:Biotech; RELATED:182,183,189; COMPLEMENTARY:192",Deployed,High (crossref.org),KEEP
+182,CAR-T Manufacturing Workflows / Производственные контуры CAR-T,Практика,"IS-A:181; RELATED:183,189,190; COMPLEMENTARY:186",Deployed,High (crossref.org),KEEP
+183,Viral Vector Manufacturing / Производство вирусных векторов,Технология,"PART-OF:181; RELATED:182,184,186; COMPLEMENTARY:190",Deployed,High (crossref.org),KEEP
+184,mRNA and LNP Manufacturing / Производство mRNA и липидных наночастиц,Технология,"PART-OF:181; RELATED:183,187,189; COMPLEMENTARY:171",Deployed,High (crossref.org),KEEP
+185,Bioreactor Scale-Up / Масштабирование биореакторов,Метод,"PART-OF:Biomanufacturing; RELATED:186,187,190",Deployed,Medium (crossref.org),KEEP
+186,Perfusion and Continuous Bioprocessing / Перфузионное и непрерывное биопроизводство,Технология,"PART-OF:Biomanufacturing; RELATED:185,187,191; COMPLEMENTARY:190",Experimental→Deployed,Medium (crossref.org),KEEP
+187,Process Analytical Technology in Bioprocess / Технология аналитического контроля процессов в биопроизводстве,Практика,"PART-OF:Biomanufacturing; RELATED:185,186,190; COMPLEMENTARY:153",Deployed,Medium (crossref.org),KEEP
+188,Quality by Design / Качество через проектирование,Принцип,"PART-OF:Biomanufacturing; RELATED:187,185,190; COMPLEMENTARY:158",Mainstream,Medium (crossref.org),KEEP
+189,AI-Enabled Digital Biomanufacturing / ИИ-усиленное цифровое биопроизводство,Организационная модель,"PART-OF:Biomanufacturing; RELATED:187,190,184; COMPLEMENTARY:1003",Experimental→Deployed,High (crossref.org),KEEP
+190,Bioprocess Modeling and Control / Моделирование и управление биопроцессами,Метод,"PART-OF:Biomanufacturing; RELATED:185,187,189; COMPLEMENTARY:155",Deployed,Medium (crossref.org),KEEP
+191,Downstream Processing Intensification / Интенсификация очистки и выделения продукта,Метод,"PART-OF:Biomanufacturing; RELATED:186,185,187",Deployed,Medium (crossref.org),KEEP
+192,iPSC-Based Cell Manufacturing / Производство клеток на базе индуцированных стволовых клеток,Технология,"PART-OF:181; RELATED:176,181,193; COMPLEMENTARY:182",Experimental→Deployed,Low (crossref.org),KEEP
+193,Organ-on-Chip and Microphysiological Systems / Органы на чипе и микрофизиологические системы,Технология,"PART-OF:Biotech; RELATED:194,174,176; COMPLEMENTARY:192",Experimental→Deployed,High (crossref.org),KEEP
+194,3D Bioprinting / 3D-биопечать,Технология,"PART-OF:Biotech; RELATED:193,192,163; COMPLEMENTARY:151",Experimental→Deployed,High (crossref.org),KEEP
+195,Precision Fermentation / Прецизионная ферментация,Технология,"PART-OF:Biotech; RELATED:179,185,196; COMPLEMENTARY:139",Experimental→Deployed,High (crossref.org),KEEP
+196,Directed Evolution and Enzyme Engineering / Направленная эволюция и инженерия ферментов,Метод,"PART-OF:Biotech; RELATED:175,173,179; COMPLEMENTARY:174",Deployed,Medium (crossref.org),KEEP
+197,Biobanks and Omics Data Sharing / Биобанки и обмен омикс-данными,Инфраструктура,"PART-OF:Biotech; RELATED:109,176,171; COMPLEMENTARY:108",Deployed,Medium (crossref.org),KEEP
+198,DNA Synthesis Screening for Biosecurity / Скрининг заказов синтеза ДНК для биобезопасности,Практика,"PART-OF:Biotech; RELATED:177,199,172",Deployed,High (crossref.org),KEEP
+199,AI-Bio Convergence Governance / Управление рисками на стыке ИИ и биологии,Организационная модель,"PART-OF:Biotech; RELATED:198,174,001; COMPLEMENTARY:1014",Experimental,Medium (crossref.org),KEEP
+200,Biomanufacturing Outsourcing Networks / Сети аутсорсинга биопроизводства,Организационная модель,"PART-OF:Biomanufacturing; RELATED:181,182,189",Deployed,Medium (crossref.org),KEEP

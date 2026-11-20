@@ -1,0 +1,101 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+701,Algorithmic Information Theory / Алгоритмическая теория информации,Принцип,"PART-OF:Теория вычислений; RELATED:702,704,708; COMPLEMENTARY:708",Research,Medium (arxiv.org),KEEP
+702,Kolmogorov Complexity / Колмогоровская сложность,Метод,"IS-A:701; RELATED:704,705,706",Research,Medium (arxiv.org),KEEP
+703,Algorithmic Randomness / Алгоритмическая случайность,Принцип,"IS-A:701; RELATED:702,704",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+704,Solomonoff Induction / Индукция Соломонова,Метод,"IS-A:701; RELATED:702,705; COMPLEMENTARY:754",Research,Medium (arxiv.org),KEEP
+705,Minimum Description Length / Минимальная длина описания,Метод,"RELATED:702,704; COMPLEMENTARY:761",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+706,Normalized Compression Distance / Нормализованное расстояние сжатия,Метод,IS-A:702; RELATED:705,Experimental→Deployed,Medium (arxiv.org),KEEP
+707,Logical Depth / Логическая глубина,Принцип,IS-A:701; RELATED:702,Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+708,Shannon Information Theory / Теория информации Шеннона,Принцип,"RELATED:701,709; COMPLEMENTARY:701",Mainstream,Medium (arxiv.org),KEEP
+709,Mutual Information Estimation / Оценка взаимной информации,Метод,"IS-A:708; RELATED:710,711",Deployed,Medium (arxiv.org),KEEP
+710,Information Bottleneck / Информационное узкое место,Метод,IS-A:708; RELATED:709; RELATED:1001,Deployed,Medium (arxiv.org),KEEP
+711,Partial Information Decomposition / Частичное разложение информации,Метод,"RELATED:709,710; PART-OF:InformationTheory",Research→Experimental,Medium (arxiv.org),KEEP
+712,Information Geometry / Информационная геометрия,Принцип,"RELATED:708,753; PART-OF:InformationTheory",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+713,Computability and Undecidability / Вычислимость и неразрешимость,Принцип,"RELATED:702,714,722",Mainstream,Medium (arxiv.org),KEEP
+714,Proof Complexity / Сложность доказательств,Принцип,"RELATED:719,721; PART-OF:Теория сложности",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
+715,Experimental Mathematics / Экспериментальная математика,Метод,"RELATED:728,729; RELATED:730",Deployed,Medium (arxiv.org),KEEP
+716,Applied Category Theory / Прикладная теория категорий,Принцип,RELATED:718; COMPLEMENTARY:737,Experimental,Medium (arxiv.org),KEEP
+717,Homotopy Type Theory / Гомотопическая теория типов,Принцип,IS-A:718; RELATED:727,Research,Medium (arxiv.org),KEEP
+718,Dependent Type Theory / Теория зависимых типов,Принцип,"RELATED:717,727; PART-OF:Основания математики",Deployed,Medium (arxiv.org),KEEP
+719,SAT Solving / SAT-решатели,Технология,"PART-OF:Logic; RELATED:720,721,722; RELATED:714",Mainstream,Medium (arxiv.org),KEEP
+720,SMT Solving / SMT-решатели,Технология,"RELATED:719,731; PART-OF:Logic",Mainstream,Medium (arxiv.org),KEEP
+721,First-Order Automated Theorem Proving / Автоматическое доказательство теорем первого порядка,Технология,"RELATED:719,727,730",Deployed,Medium (arxiv.org),KEEP
+722,Temporal Logic and Model Checking / Темпоральная логика и проверка моделей,Метод,"RELATED:719,724; RELATED:582; RELATED:915",Deployed,Medium (arxiv.org),KEEP
+723,Epistemic and Doxastic Logic / Эпистемическая и доксастическая логика,Принцип,"RELATED:724,783; PART-OF:Logic",Research→Experimental,Medium (arxiv.org),KEEP
+724,Non-Monotonic Reasoning / Немонотонные рассуждения,Метод,"RELATED:725,726; PART-OF:Logic",Experimental→Deployed,Medium (arxiv.org),KEEP
+725,Argumentation Frameworks / Аргументационные фреймворки,Метод,"RELATED:724,790,791; RELATED:982",Experimental→Deployed,Medium (arxiv.org),KEEP
+726,Probabilistic Logic Programming / Вероятностное логическое программирование,Технология,"COMPLEMENTARY:753; RELATED:724,755",Experimental→Deployed,Medium (arxiv.org),KEEP
+727,Proof Assistants / Ассистенты доказательств,Технология,"RELATED:718,728,730; RELATED:582",Deployed→Mainstream,High (simonsfoundation.org),KEEP
+728,Formalized Mathematics Libraries / Библиотеки формализованной математики,Инфраструктура,"IS-A:727; RELATED:729,730",Experimental→Deployed,Medium (terrytao.wordpress.com),KEEP
+729,Computer-Assisted Proofs / Компьютерно-ассистированные доказательства,Метод,"RELATED:715,728",Deployed,Medium (terrytao.wordpress.com),KEEP
+730,LLM-Guided Theorem Proving / Доказательство теорем с большими языковыми моделями,Технология,"RELATED:721,727,728; RELATED:1001",Experimental,High (nature.com),KEEP
+731,Symbolic Execution / Символическое исполнение,Метод,"RELATED:720,732; PART-OF:FormalMethods",Deployed,Medium (arxiv.org),KEEP
+732,Abstract Interpretation Static Analysis / Статический анализ через абстрактную интерпретацию,Метод,RELATED:731; RELATED:582,Deployed,Medium (arxiv.org),KEEP
+733,Verified Compilers / Верифицированные компиляторы,Технология,"RELATED:582,734",Deployed,Medium (sel4.systems),KEEP
+734,Verified OS Kernels / Верифицированные ядра операционных систем,Технология,"RELATED:582,733; COMPLEMENTARY:971",Deployed,High (sel4.systems),KEEP
+735,Cryptographic Code Verification / Верификация криптографического кода,Практика,"PART-OF:FormalMethods; RELATED:733,736",Deployed,Medium (apple.com),KEEP
+736,Verifiable Computation (zk-SNARKs) / Верифицируемые вычисления (zk-SNARKs),Технология,RELATED:735; RELATED:075,Deployed,Medium (eprint.iacr.org),KEEP
+737,Knowledge Graphs / Графы знаний,Технология,"PART-OF:KnowledgeGraphs; RELATED:741,743,746",Mainstream,High (infoq.com),KEEP
+738,Enterprise Knowledge Graphs / Корпоративные графы знаний,Практика,IS-A:737; RELATED:741,Deployed,Medium (databricks.com),KEEP
+739,LLM-Based Knowledge Graph Construction / Построение графов знаний с помощью LLM,Практика,"RELATED:737,740; RELATED:1001",Deployed→Mainstream,Medium (arxiv.org),KEEP
+740,GraphRAG / Графовый RAG,Технология,"RELATED:737,739; RELATED:1001",Experimental→Deployed,High (microsoft.com),KEEP
+741,Ontologies (OWL 2) / Онтологии (OWL 2),Стандарт,"RELATED:737,742,752",Deployed,Medium (neo4j.com),KEEP
+742,RDF and Linked Data / RDF и связанные данные,Стандарт,"RELATED:741,743,745",Deployed,Medium (arxiv.org),KEEP
+743,GQL Graph Query Language / Язык запросов к графам GQL,Стандарт,"RELATED:737,742",Deployed,High (gqlstandards.org),KEEP
+744,Schema.org Structured Data / Структурированные данные Schema.org,Стандарт,RELATED:742; COMPLEMENTARY:737,Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+745,Wikidata and Wikibase / Wikidata и Wikibase,Инфраструктура,IS-A:737; RELATED:742,Mainstream,Medium (arxiv.org),KEEP
+746,Entity Resolution / Разрешение сущностей,Метод,PART-OF:KnowledgeGraphs; RELATED:737,Deployed→Mainstream,Medium (arxiv.org),KEEP
+747,Knowledge Graph Embeddings / Эмбеддинги графов знаний,Метод,RELATED:737; RELATED:1001,Deployed,Medium (arxiv.org),KEEP
+748,Biomedical Knowledge Graphs / Биомедицинские графы знаний,Система,IS-A:737; RELATED:776,Deployed,Medium (arxiv.org),KEEP
+749,Scholarly Knowledge Graphs / Наукометрические графы знаний,Инфраструктура,IS-A:737; RELATED:989,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+750,Commonsense Knowledge Bases / Базы знаний здравого смысла,Система,RELATED:737; RELATED:1001,Experimental,Medium (arxiv.org),KEEP
+751,Knowledge Editing in LLMs / Редактирование знаний в LLM,Метод,"RELATED:1001,737",Research→Experimental,Medium (arxiv.org),KEEP
+752,Controlled Vocabularies / Контролируемые словари,Стандарт,RELATED:741; PART-OF:KnowledgeGraphs,Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+753,Bayesian Networks / Байесовские сети,Технология,"RELATED:754,758; PART-OF:Probability",Mainstream,Medium (arxiv.org),KEEP
+754,Bayesian Inference with MCMC / Байесовский вывод методами MCMC,Метод,"RELATED:753,755,768; PART-OF:Probability",Mainstream,Medium (arxiv.org),KEEP
+755,Probabilistic Programming / Вероятностное программирование,Технология,RELATED:754; COMPLEMENTARY:726,Deployed,Medium (arxiv.org),KEEP
+756,Bayesian Model Averaging / Байесовское усреднение моделей,Метод,RELATED:754; RELATED:761,Deployed,Medium (arxiv.org),KEEP
+757,Bayesian Optimization / Байесовская оптимизация,Метод,RELATED:755; RELATED:1001,Mainstream,Medium (arxiv.org),KEEP
+758,Causal Inference / Каузальный вывод,Метод,"RELATED:759,760; COMPLEMENTARY:761",Deployed→Mainstream,Medium (fortunebusinessinsights.com),KEEP
+759,Structural Causal Models / Структурные каузальные модели,Принцип,IS-A:758; RELATED:753,Deployed,Medium (arxiv.org),KEEP
+760,Causal Discovery / Каузальный поиск,Метод,IS-A:758; RELATED:759,Experimental→Deployed,Medium (arxiv.org),KEEP
+761,Uncertainty Quantification / Количественная оценка неопределённости,Метод,"PART-OF:Uncertainty; RELATED:762,766,767",Deployed,Medium (researchgate.net),KEEP
+762,Conformal Prediction / Конформное предсказание,Метод,IS-A:761; RELATED:763,Experimental→Deployed,Medium (researchgate.net),KEEP
+763,Aleatoric vs Epistemic Uncertainty / Разделение aleatoric и epistemic неопределённости,Принцип,"PART-OF:Uncertainty; RELATED:762,767",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+764,Imprecise Probability and Credal Sets / Неточные вероятности и кредальные множества,Принцип,COMPLEMENTARY:753; RELATED:765,Research→Experimental,Medium (arxiv.org),KEEP
+765,Dempster-Shafer Evidence Theory / Теория свидетельств Демпстера-Шейфера,Принцип,RELATED:764; COMPLEMENTARY:753,Experimental,Low (researchgate.net),KEEP
+766,Sensitivity Analysis / Анализ чувствительности,Метод,"RELATED:761,758",Deployed,Medium (arxiv.org),KEEP
+767,Deep Ensembles for Uncertainty / Глубокие ансамбли для оценки неопределённости,Метод,IS-A:761; RELATED:763; RELATED:1001,Deployed,Medium (arxiv.org),KEEP
+768,Probabilistic Numerics / Вероятностные численные методы,Метод,RELATED:754; COMPLEMENTARY:761,Research→Experimental,Medium (arxiv.org),KEEP
+769,Study Pre-registration / Предварительная регистрация исследований,Практика,"RELATED:770,989; PART-OF:Open Science",Deployed,Medium (cos.io),KEEP
+770,Registered Reports / Зарегистрированные отчёты,Практика,IS-A:769; RELATED:989,Experimental→Deployed,High (direct.mit.edu),KEEP
+771,Statistical Power Analysis / Анализ статистической мощности,Метод,"RELATED:772,769",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+772,Effect Sizes and Meta-Analysis / Размеры эффекта и метаанализ,Метод,"RELATED:776,771",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+773,Multiple Testing Correction / Поправка на множественные проверки,Метод,"RELATED:775,771",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+774,Multiverse Analysis / Мультивселенский анализ,Метод,"RELATED:773,775",Experimental→Deployed,Medium (arxiv.org),KEEP
+775,Statistical Significance Reform / Реформа статистической значимости,Принцип,"RELATED:773,774",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+776,Systematic Evidence Synthesis / Систематический синтез доказательств,Метод,"RELATED:772,748,989",Deployed→Mainstream,Medium (arxiv.org),KEEP
+777,Measurement Uncertainty (GUM) / Неопределённость измерений (GUM),Стандарт,"PART-OF:Metrology; RELATED:778,780",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+778,Metrological Traceability / Метрологическая прослеживаемость,Принцип,"RELATED:777,779; PART-OF:Metrology",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+779,Interlaboratory Comparisons / Межлабораторные сравнения,Практика,RELATED:778,Deployed,Medium (arxiv.org),KEEP
+780,SI Constant-Based Units / Переопределение единиц SI через константы,Стандарт,RELATED:777; PART-OF:Metrology,Mainstream,Low (arxiv.org),KEEP
+781,Reproducibility Badges in Publishing / Значки воспроизводимости в научных изданиях,Практика,"RELATED:989,782",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+782,Reproducible Computational Environments / Воспроизводимые вычислительные среды,Практика,"RELATED:989,781,797",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+783,Bayesian Epistemology / Байесовская эпистемология,Принцип,"PART-OF:Epistemology; RELATED:753,784",Research→Experimental,Medium (arxiv.org),KEEP
+784,Judgment Aggregation / Агрегация суждений,Принцип,"RELATED:792,783; PART-OF:Epistemology",Research→Experimental,Medium (arxiv.org),KEEP
+785,Superforecasting and Calibration Practice / Суперфоркастинг и практика калибровки прогнозов,Практика,"RELATED:786,787",Deployed,Medium (arxiv.org),KEEP
+786,Prediction Markets and Forecasting Platforms / Рынки предсказаний и платформы прогнозов,Система,"RELATED:785,792",Deployed,Medium (arxiv.org),KEEP
+787,Scoring Rules and Forecast Evaluation / Правила подсчёта и оценка вероятностных прогнозов,Метод,RELATED:785; RELATED:762,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+788,Peer Prediction and Information Elicitation / Механизмы peer prediction и извлечения информации,Метод,"RELATED:789,786",Experimental→Deployed,Medium (arxiv.org),KEEP
+789,Truth Discovery / Обнаружение истины в потоках утверждений,Метод,RELATED:788; RELATED:746,Deployed,Medium (arxiv.org),KEEP
+790,Argument Mining / Майнинг аргументации,Технология,"RELATED:725,791; RELATED:982",Experimental→Deployed,Medium (arxiv.org),KEEP
+791,Collaborative Argument Mapping / Совместное картирование аргументации,Практика,"RELATED:790,725; RELATED:982",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+792,Wisdom of Crowds / Мудрость толпы,Принцип,"RELATED:784,786; PART-OF:Epistemology",Deployed,Medium (arxiv.org),KEEP
+793,LLM Answer Attribution / Атрибуция ответов языковых моделей,Технология,"RELATED:798,740; RELATED:982",Experimental→Deployed,Medium (arxiv.org),KEEP
+794,Dataset Documentation (Datasheets) / Документирование датасетов,Практика,RELATED:795; RELATED:030,Experimental→Deployed,Medium (arxiv.org),KEEP
+795,Data Provenance / Происхождение данных,Практика,"RELATED:794,797; RELATED:030",Deployed,Medium (arxiv.org),KEEP
+796,Persistent Identifiers / Устойчивые идентификаторы,Инфраструктура,"RELATED:795,749",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+797,Reproducible Builds / Воспроизводимые сборки,Практика,"RELATED:782,795",Deployed,Medium (arxiv.org),KEEP
+798,LLM Factuality Evaluation / Оценка фактичности ответов LLM,Метод,"RELATED:793,800; RELATED:1001",Experimental→Deployed,Medium (arxiv.org),KEEP
+799,Hierarchy of Evidence (GRADE) / Иерархия доказательности (GRADE),Стандарт,"RELATED:776,772",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+800,Benchmark Integrity and Contamination Control / Целостность бенчмарков и контроль загрязнения,Метод,"RELATED:798,781; RELATED:989",Experimental→Deployed,High (aclanthology.org),KEEP

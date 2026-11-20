@@ -1,0 +1,26 @@
+ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
+1021,AI Data Centers / ИИ-дата-центры,Инфраструктура,"PART-OF:AI Infrastructure Engineering; RELATED:1022,1023,1024; COMPLEMENTARY:1005,1007",Mainstream,High (iea.org),KEEP
+1022,AI Factories / ИИ-фабрики,Архитектура,"IS-A:1021; RELATED:1023,1024; COMPLEMENTARY:1005,1007",Deployed,Medium (атлас),KEEP
+1023,Liquid-Cooled Computing / Вычисления с жидкостным охлаждением,Технология,"PART-OF:1021; RELATED:1022,1024",Deployed,Medium (атлас),KEEP
+1024,Data Center Energy Engineering / Энергетическая инженерия дата-центров,Практика,PART-OF:1021; RELATED:1023; COMPLEMENTARY:423,Deployed,Medium (iea.org),KEEP
+1025,FinOps / FinOps: управление технологическими затратами,Практика,"RELATED:1003,1004,1026; COMPLEMENTARY:1024",Mainstream,High (finops.org),KEEP
+1026,Serverless Computing / Бессерверные вычисления,Архитектура,"RELATED:1025,1027",Mainstream,Medium (атлас),KEEP
+1027,Managed Services Architecture / Архитектура на управляемых сервисах,Архитектура,"RELATED:1025,1026,1028",Mainstream,Medium (атлас),KEEP
+1028,API-First Development / Разработка по принципу API-first,Практика,"COMPLEMENTARY:1029; RELATED:1026,1027",Mainstream,Medium (атлас),KEEP
+1029,API Economy / API-экономика,Организационная модель,COMPLEMENTARY:1028; RELATED:1030,Mainstream,Medium (атлас),KEEP
+1030,Low-Code / No-Code Development / Разработка с низким кодом или без кода,Практика,RELATED:1031; RELATED:1028,Mainstream,Medium (атлас),KEEP
+1031,Citizen Development / Гражданская разработка,Организационная модель,RELATED:1030,Deployed,Medium (атлас),KEEP
+1032,5G Advanced / 5G Advanced,Технология,"RELATED:1033,1034,1035",Deployed,Medium (атлас),KEEP
+1033,6G / IMT-2030 / 6G / IMT-2030,Стандарт,"RELATED:1032,1034; COMPLEMENTARY:1035",Research→Experimental,High (itu.int),KEEP
+1034,Low Earth Orbit Connectivity / Связь на низкой околоземной орбите,Инфраструктура,"COMPLEMENTARY:1032; RELATED:1035,1033",Deployed,Medium (broadbandbreakfast.com; ast-science.com),KEEP
+1035,Direct-to-Device Satellite / Спутниковая связь напрямую с устройством,Технология,"PART-OF:1034; RELATED:1032,1033",Experimental→Deployed,Medium (broadbandbreakfast.com; ast-science.com),KEEP
+1036,Smart Contracts / Смарт-контракты,Технология,"RELATED:1037,1038",Deployed,Medium (атлас),KEEP
+1037,Real-World Asset Tokenization / Токенизация реальных активов,Практика,"RELATED:1036,1038",Experimental→Deployed,Medium (propellerindustries.com; tech4impactsummit.com),KEEP
+1038,Stablecoin Payment Infrastructure / Платёжная инфраструктура стейблкоинов,Инфраструктура,"RELATED:1036,1037",Deployed,High (ssga.com),KEEP
+1039,Content Credentials / Content Credentials: учётные данные контента,Стандарт,"PART-OF:Digital Provenance; RELATED:030,1040,1041",Deployed,Medium (c2pa.org; contentcredentials.org),KEEP
+1040,C2PA Provenance / Провенанс C2PA,Стандарт,"PART-OF:Digital Provenance; RELATED:030,1039,1042",Deployed,Medium (c2pa.org; contentauthenticity.org),KEEP
+1041,Synthetic Media Detection / Детекция синтетических медиа,Метод,"COMPLEMENTARY:1042; RELATED:1039,1040",Experimental→Deployed,High (digital-strategy.ec.europa.eu; artificialintelligenceact.eu),KEEP
+1042,AI Content Watermarking / Водяные знаки в AI-контенте,Метод,"COMPLEMENTARY:1041; RELATED:1039,1040",Experimental,Medium (digital-strategy.ec.europa.eu; artificialintelligenceact.eu),KEEP
+1043,Accessibility by Design / Доступность по замыслу,Принцип,"PART-OF:Digital Accessibility; RELATED:1044,1045",Deployed,Medium (атлас),KEEP
+1044,Inclusive Interaction Design / Инклюзивный дизайн взаимодействий,Практика,"RELATED:1043,1045",Deployed,Medium (атлас),KEEP
+1045,Accessibility Engineering / Инженерия доступности,Практика,"RELATED:1043,1044",Deployed,Medium (атлас),KEEP

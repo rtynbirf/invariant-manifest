@@ -1,0 +1,121 @@
+ID,Normalized_EN,Normalized_RU,Type,Parent_Domain,Subdomain,Relations,Maturity_2026,Evidence_Level,Strategic_Priority,Notes,Verdict
+001,Multi-Agent Systems,Мультиагентные системы,Архитектура,A. AI & Compute,Agents,"RELATED:002,003,931; IS-A:Agentic Systems",Deployed,High (Gartner 2026),Critical,Core of agentic wave,KEEP
+002,Agentic Automation,Агентная автоматизация,Практика,A. AI & Compute,Agents,PART-OF:001; RELATED:1016,Experimental→Deployed,High (Deloitte 2026),Critical,"11% production, 38% pilots",KEEP
+003,AI Orchestration,ИИ-оркестрация,Практика/Архитектура,A. AI & Compute,Agents,"RELATED:001,002,820",Deployed,Medium-High,High,Coordination layer,KEEP
+004,Human-in-the-Loop,Человек в контуре управления,Принцип,A. AI & Compute,Control,"COMPLEMENTARY:005,924,940",Mainstream,High,High,Safety-critical classic,KEEP
+005,Human-on-the-Loop,Человек как управляющий системой,Принцип,A. AI & Compute,Control,RELATED:004; DIFFERENT control level,Deployed,Medium-High,High,Supervision model,KEEP
+006,Domain-Specific Language Models,Специализированные языковые модели,Технология,A. AI & Compute,Models,IS-A:1001; Gartner DSLMs,Deployed→Mainstream,High (Gartner 2026),Critical,"Higher accuracy, lower cost",KEEP
+007,Local / On-Device AI,Локальный ИИ,Архитектура,A. AI & Compute,Deployment,"RELATED:008,099,1008",Deployed→Mainstream,High,High,Privacy + latency,KEEP
+008,Hybrid AI,Гибридный ИИ,Архитектура,A. AI & Compute,Deployment,COMPLEMENTARY:007,Deployed,Medium,Medium,Local+Cloud pattern,KEEP
+009,Multimodal AI,Мультимодальный ИИ,Технология,A. AI & Compute,Models,RELATED:1002,Mainstream,High,High,Text+image+audio+video,KEEP
+010,Persistent AI Memory,ИИ с долговременной памятью,Метод/Компонент,A. AI & Compute,Agents,"RELATED:011,1009",Experimental→Deployed,Medium,High,Session continuity,KEEP
+011,Context-Aware Agents,Контекстно-зависимые агенты,Практика,A. AI & Compute,Agents,"RELATED:010,1009",Deployed,Medium-High,High,Context Engineering companion,KEEP
+012,Self-Verifying AI Systems,Самопроверяющиеся ИИ-системы,Метод,A. AI & Compute,Reliability,"RELATED:072-074,891-893",Experimental→Deployed,Medium,High,Tool-use + self-consistency,KEEP
+013,AI for Scientific Discovery,ИИ-исследователи,Применение,A. AI & Compute,Science,"RELATED:114,116",Deployed,High,High,AlphaFold-class impact,KEEP
+014,AI Software Engineering,ИИ-разработка ПО,Практика,A. AI & Compute,Engineering,"RELATED:021,1003",Deployed→Mainstream,High,Critical,Copilot/Cursor/Devin wave,KEEP
+015,AI Interface Generation,ИИ-генерация интерфейсов,Практика,A. AI & Compute,Engineering,RELATED:014,Deployed,Medium,Medium,Generative UI,KEEP
+016,Physical AI,Physical AI / Воплощённый ИИ,Архитектура,A. AI & Compute,Embodied,"SAME-FAMILY:017,1019; RELATED:809",Experimental→Deployed,High (Deloitte #1 2026),Critical,AI + physical world,KEEP
+017,Embodied AI,Воплощённый интеллект,Архитектура,A. AI & Compute,Embodied,CLOSE:016,Experimental→Deployed,High,Critical,Near-synonym of 016 in 2026 discourse,KEEP (soft-merge candidate)
+018,Swarm Intelligence,Роевые системы,Метод/Архитектура,A. AI & Compute,Collective,RELATED:802-803,Experimental→Deployed,Medium,Medium,Multi-robot coordination,KEEP
+019,Reinforcement Learning,Машинное обучение с подкреплением,Метод,A. AI & Compute,Learning,FOUNDATION for many agents,Mainstream,High,High,Classic + modern RL,KEEP
+020,Continual Learning,Непрерывное обучение,Метод,A. AI & Compute,Learning,RELATED:1000,Experimental→Deployed,Medium,High,Avoids full retraining,KEEP
+021,AI-Native Development,AI-Native Development,Практика,A. AI & Compute,Engineering,RELATED:014; Gartner AI-Native Platforms,Deployed,High (Gartner 2026),Critical,AI as first-class architecture citizen,KEEP
+022,Spec-Driven Development,Spec-Driven Development,Практика,A. AI & Compute,Engineering,RELATED:023,Deployed,Medium,Medium,Growing with LLM codegen,KEEP
+023,Test-Driven Development,Test-Driven Development (TDD),Практика,A. AI & Compute,Engineering,RELATED:024-026,Mainstream,High,Medium,Established,KEEP
+024,Property-Based Testing,Property-Based Testing,Метод,A. AI & Compute,Engineering,"RELATED:023,891",Deployed,Medium,Medium,Hypothesis/QuickCheck family,KEEP
+025,Mutation Testing,Mutation Testing,Метод,A. AI & Compute,Engineering,RELATED:023,Deployed,Medium,Low-Medium,Test suite quality,KEEP
+026,Differential Testing,Differential Testing,Метод,A. AI & Compute,Engineering,RELATED:893,Deployed,Medium,Medium,Compiler & LLM testing,KEEP
+027,Reproducible Builds,Reproducible Builds,Практика,A. AI & Compute,Security,"RELATED:868,900",Deployed→Mainstream,High,High,Supply-chain integrity,KEEP
+028,Software Supply Chain Security,Безопасность цепочки поставки ПО,Практика,A. AI & Compute,Security,"RELATED:029,030",Mainstream,High,Critical,"SLSA, SBOM mandates",KEEP
+029,Software Bill of Materials,SBOM,Стандарт/Артефакт,A. AI & Compute,Security,PART-OF:028,Mainstream,High,High,"NTIA, EU CRA",KEEP
+030,Digital Provenance,Digital Provenance,Принцип/Практика,A. AI & Compute,Trust,RELATED:1039-1040 (C2PA),Deployed,High,Critical,Content + model origin,KEEP
+031,Immutable Infrastructure,Immutable Infrastructure,Архитектура,A. AI & Compute,Infra,"RELATED:032,033",Mainstream,High,Medium,Cloud-native standard,KEEP
+032,Infrastructure as Code,Infrastructure as Code,Практика,A. AI & Compute,Infra,"RELATED:031,033",Mainstream,High,High,"Terraform, Pulumi",KEEP
+033,GitOps,GitOps,Практика,A. AI & Compute,Infra,IS-A:032,Mainstream,High,High,"ArgoCD, Flux",KEEP
+034,Platform Engineering,Platform Engineering,Организационная модель,A. AI & Compute,Org,RELATED:003,Deployed→Mainstream,High,High,Internal developer platforms,KEEP
+035,Microservices Architecture,Микросервисная архитектура,Архитектура,A. AI & Compute,Architecture,Classic,Mainstream,High,Medium,Still dominant,KEEP
+036,Event-Driven Architecture,Event-Driven Architecture,Архитектура,A. AI & Compute,Architecture,"RELATED:037,038",Mainstream,High,Medium,Kafka ecosystems,KEEP
+037,CQRS,CQRS,Паттерн,A. AI & Compute,Architecture,"RELATED:036,038",Deployed,Medium,Low-Medium,Established,KEEP
+038,Event Sourcing,Event Sourcing,Паттерн,A. AI & Compute,Architecture,"RELATED:036,037",Deployed,Medium,Low-Medium,Established,KEEP
+039,WebAssembly,WebAssembly (WASM),Технология,A. AI & Compute,Runtime,RELATED:098,Deployed→Mainstream,High,High,"Edge, browsers, plugins",KEEP
+040,Edge Computing,Edge Computing,Архитектура,A. AI & Compute,Deployment,"RELATED:007,093",Mainstream,High,High,Widespread,KEEP
+041,Data Mesh,Data Mesh,Архитектура,A. AI & Compute,Data,RELATED:042,Deployed,High,Medium,Zhamak Dehghani,KEEP
+042,Data Fabric,Data Fabric,Архитектура,A. AI & Compute,Data,RELATED:041,Deployed,Medium-High,Medium,Different emphasis from Mesh,KEEP
+043,Knowledge Graphs,Графы знаний,Технология,A. AI & Compute,Data,"RELATED:046,784",Deployed→Mainstream,High,High,Enterprise + RAG,KEEP
+044,Vector Databases,Векторные базы данных,Технология,A. AI & Compute,Data,RELATED:045,Mainstream,High,Critical,Core of RAG stacks,KEEP
+045,Retrieval-Augmented Generation,RAG,Метод,A. AI & Compute,Data,"RELATED:044,046",Mainstream,High,Critical,Default pattern 2024-26,KEEP
+046,GraphRAG,GraphRAG,Метод,A. AI & Compute,Data,IS-A:045+043,Deployed,Medium-High,High,Microsoft Research et al.,KEEP
+047,Semantic Search,Семантический поиск,Метод,A. AI & Compute,Data,"RELATED:044,045",Mainstream,High,Medium,,KEEP
+048,Data Lineage,Происхождение данных,Практика,A. AI & Compute,Data,"RELATED:049,050,790",Deployed→Mainstream,High,High,Governance requirement,KEEP
+049,Data Contracts,Контракты данных,Практика,A. AI & Compute,Data,RELATED:048,Deployed,Medium,Medium,Data Mesh companion,KEEP
+050,Data Observability,Наблюдаемость данных,Практика,A. AI & Compute,Data,RELATED:048,Deployed,Medium-High,Medium,Monte Carlo etc.,KEEP
+051,Confidential Computing,Конфиденциальные вычисления,Технология,A. AI & Compute,Security,Gartner 2026,Deployed,High (Gartner 2026),Critical,"TEEs, confidential VMs",KEEP
+052,Privacy-Enhancing Technologies,PETs,Класс технологий,A. AI & Compute,Security,"RELATED:053,054",Deployed,High,High,Broad category,KEEP
+053,Federated Learning,Федеративное обучение,Метод,A. AI & Compute,Learning,RELATED:591,Deployed,High,High,Cross-silo / device,KEEP
+054,Differential Privacy,Дифференциальная приватность,Метод,A. AI & Compute,Security,RELATED:052,Deployed,High,Medium,"Apple, Google, Census",KEEP
+055,Zero-Knowledge Proofs,Доказательства с нулевым разглашением,Технология,A. AI & Compute,Security,RELATED:056,Deployed,High,High,Blockchain + identity,KEEP
+056,Decentralized Identity,Децентрализованная идентичность,Архитектура,A. AI & Compute,Identity,"RELATED:057,593",Deployed,High,High,"DID, Verifiable Credentials",KEEP
+057,Self-Sovereign Identity,Self-Sovereign Identity,Принцип/Модель,A. AI & Compute,Identity,CLOSE:056,Deployed,Medium-High,Medium,Often principle inside 056,KEEP (soft-reclassify)
+058,Passkeys,Passkeys,Технология/Стандарт,A. AI & Compute,Identity,RELATED:056,Mainstream,High,High,FIDO2 / WebAuthn,KEEP
+059,Post-Quantum Cryptography,Постквантовая криптография,Технология,A. AI & Compute,Security,RELATED:051,Deployed (migration),High,High,NIST standards 2024+,KEEP
+060,Zero Trust Architecture,Архитектура нулевого доверия,Архитектура,A. AI & Compute,Security,Mainstream,Mainstream,High,Critical,"NIST, CISA",KEEP
+061,Preemptive Cybersecurity,Упреждающая кибербезопасность,Практика,A. AI & Compute,Security,Gartner 2026,Deployed,High (Gartner 2026),High,Shift-left + predictive,KEEP
+062,Continuous Security Validation,Непрерывная проверка безопасности,Практика,A. AI & Compute,Security,RELATED:063,Deployed,Medium-High,Medium,"BAS, continuous red team",KEEP
+063,Adversarial Testing,Adversarial Testing,Метод,A. AI & Compute,Security,"RELATED:064,072",Deployed,Medium,Medium,,KEEP
+064,Red Team / Blue Team,Red Team / Blue Team,Практика,A. AI & Compute,Security,Classic,Mainstream,High,Medium,,KEEP
+065,Chaos Engineering,Chaos Engineering,Практика,A. AI & Compute,Reliability,RELATED:887,Deployed→Mainstream,High,Medium,"Netflix, Gremlin",KEEP
+066,Fault-Tolerant Architecture,Отказоустойчивая архитектура,Архитектура,A. AI & Compute,Reliability,"RELATED:067,880",Mainstream,High,Medium,,KEEP
+067,Self-Healing Systems,Самовосстанавливающиеся системы,Архитектура/Свойство,A. AI & Compute,Reliability,"RELATED:914,974",Deployed,Medium-High,High,,KEEP
+068,Observability Engineering,Observability Engineering,Практика,A. AI & Compute,Reliability,RELATED:069,Mainstream,High,High,OpenTelemetry,KEEP
+069,Distributed Tracing,Распределённая трассировка,Метод,A. AI & Compute,Reliability,PART-OF:068,Mainstream,High,Medium,,KEEP
+070,Site Reliability Engineering,SRE,Организационная модель,A. AI & Compute,Reliability,RELATED:068,Mainstream,High,High,Google origin,KEEP
+071,Incident Response Automation,Автоматизация реагирования на инциденты,Практика,A. AI & Compute,Reliability,RELATED:070,Deployed,Medium-High,Medium,SOAR platforms,KEEP
+072,AI Security Testing,Тестирование безопасности ИИ,Практика,A. AI & Compute,Security,"RELATED:073,1015",Deployed,High,Critical,Growing fast,KEEP
+073,Model Red Teaming,Model Red Teaming,Практика,A. AI & Compute,Security,IS-A:072; RELATED:1015,Deployed,High,Critical,"Anthropic, OpenAI, etc.",KEEP
+074,Model Evaluation Frameworks,Фреймворки оценки моделей,Метод/Инструмент,A. AI & Compute,Reliability,RELATED:072,Deployed→Mainstream,High,High,"HELM, OpenAI Evals",KEEP
+075,AI Audit Trails,Журналы аудита ИИ,Практика,A. AI & Compute,Trust,"RELATED:030,986",Deployed,High,High,Governance requirement,KEEP
+076,Cryptographic Attestation,Криптографическая аттестация,Технология,A. AI & Compute,Security,RELATED:051,Deployed,Medium-High,Medium,,KEEP
+077,Secure-by-Design,Secure-by-Design,Принцип,A. AI & Compute,Security,RELATED:078,Mainstream,High,High,,KEEP
+078,Least Privilege,Принцип наименьших привилегий,Принцип,A. AI & Compute,Security,"RELATED:079,060",Mainstream,High,High,,KEEP
+079,Capability-Based Security,Capability-Based Security,Архитектура,A. AI & Compute,Security,RELATED:861-862,Deployed,Medium,Medium,,KEEP
+080,Fail-Safe Defaults,Безопасные значения по умолчанию,Принцип,A. AI & Compute,Security,RELATED:935,Mainstream,High,Medium,,KEEP
+081,AI Supercomputing,AI Supercomputing,Инфраструктура,A. AI & Compute,Infra,RELATED:1021-1022; Gartner 2026,Deployed→Mainstream,High (Gartner 2026),Critical,Orchestration of heterogeneous compute,KEEP
+082,Neuromorphic Computing,Нейроморфные вычисления,Технология,A. AI & Compute,Hardware,Research→Experimental,Research→Experimental,Medium,Medium,Energy-efficient path,KEEP
+083,Quantum Computing,Квантовые вычисления,Технология,A. AI & Compute,Hardware,Experimental (specialized),Experimental,High,Medium,NISQ era,KEEP
+084,Photonic Computing,Фотонные вычисления,Технология,A. AI & Compute,Hardware,Research→Experimental,Research→Experimental,Medium,Low-Medium,,KEEP
+085,Application-Specific Semiconductors,Специализированные полупроводники,Технология,A. AI & Compute,Hardware,RELATED:086,Mainstream (for AI),High,High,"TPU, Inferentia, etc.",KEEP
+086,Chiplet Architecture,Chiplet Architecture,Архитектура,A. AI & Compute,Hardware,RELATED:085,Deployed→Mainstream,High,Medium,"AMD, Intel, etc.",KEEP
+087,Heterogeneous Computing,Гетерогенные вычисления,Архитектура,A. AI & Compute,Hardware,"RELATED:081,085",Mainstream,High,High,CPU+GPU+NPU,KEEP
+088,Energy-Efficient Computing,Энергоэффективные вычисления,Принцип/Практика,A. AI & Compute,Infra,RELATED:1023-1024,Deployed,High,Critical,Critical for AI infra scale,KEEP
+089,Digital Twins,Цифровые двойники,Технология/Метод,A. AI & Compute,Simulation,"RELATED:145,579,882",Deployed→Mainstream,High,High,Industry + urban,KEEP
+090,Simulation-First Development,Simulation-First Development,Практика,A. AI & Compute,Engineering,RELATED:881-900,Deployed,Medium,Medium,,KEEP
+091,Spatial Computing,Пространственные вычисления,Архитектура,A. AI & Compute,Interface,RELATED:092,Deployed,High,Medium,"Apple Vision, Meta",KEEP
+092,Extended Reality,Extended Reality (XR),Технология,A. AI & Compute,Interface,RELATED:091,Deployed,High,Medium,,KEEP
+093,Ambient Computing,Ambient Computing,Архитектура,A. AI & Compute,Interface,"RELATED:040,945",Experimental→Deployed,Medium,Medium,,KEEP
+094,Internet of Things,Интернет вещей (IoT),Архитектура,A. AI & Compute,Infra,Classic,Mainstream,High,Medium,,KEEP
+095,Digital Product Passports,Цифровые паспорта продуктов,Стандарт/Практика,A. AI & Compute,Trust,RELATED:555,Deployed (EU regulation),High,High,"ESPR, battery passport",KEEP
+096,Interoperability by Design,Интероперабельность по дизайну,Принцип,A. AI & Compute,Architecture,RELATED:097,Deployed,Medium-High,High,,KEEP
+097,Open Standards,Открытые стандарты,Принцип,A. AI & Compute,Architecture,RELATED:096,Mainstream,High,High,,KEEP
+098,Portable Computing Environments,Переносимые вычислительные среды,Архитектура,A. AI & Compute,Runtime,"RELATED:039,867",Deployed,Medium-High,High,"WASM, containers",KEEP
+099,Offline-First Architecture,Offline-First Architecture,Архитектура,A. AI & Compute,Deployment,"RELATED:007,871-872",Deployed,High,High,Local-first software movement,KEEP
+100,User-Controlled Digital Ecosystems,Пользователь-контролируемые цифровые экосистемы,Принцип/Архитектура,A. AI & Compute,Sovereignty,"RELATED:870,876",Experimental→Deployed,Medium-High,High,Sovereignty trend,KEEP
+1001,Foundation Models,Фундаментальные модели,Технология,A. AI & Compute,Models,"PARENT of many; RELATED:006,009",Mainstream,High,Critical,Base layer of most AI systems,NEW
+1002,Multimodal Foundation Models,Мультимодальные фундаментальные модели,Технология,A. AI & Compute,Models,IS-A:1001; RELATED:009,Deployed→Mainstream,High,Critical,,NEW
+1003,MLOps,MLOps,Практика,A. AI & Compute,Engineering,"RELATED:014,1004",Mainstream,High,Critical,"Versioning, monitoring, CI/CD for models",NEW
+1004,LLMOps,LLMOps,Практика,A. AI & Compute,Engineering,IS-A:1003 specialization,Deployed,High,Critical,LLM-specific ops,NEW
+1005,Model Compression,Сжатие моделей,Метод,A. AI & Compute,Optimization,"RELATED:1006,1007",Deployed,High,High,General class,NEW
+1006,Knowledge Distillation,Дистилляция знаний,Метод,A. AI & Compute,Optimization,RELATED:1005,Deployed,High,High,Teacher→student,NEW
+1007,Model Quantization,Квантизация моделей,Метод,A. AI & Compute,Optimization,RELATED:1005,Mainstream,High,Critical,INT8/INT4 and below,NEW
+1008,Small Language Models,Малые языковые модели (SLM),Технология,A. AI & Compute,Models,"RELATED:007,1001",Deployed,High,High,Edge & local use,NEW
+1009,Context Engineering,Инженерия контекста,Практика,A. AI & Compute,Agents,"RELATED:010,011",Experimental→Deployed,High,Critical,Fast-rising 2025-26,NEW
+1010,Prompt Engineering,Промпт-инженерия,Практика,A. AI & Compute,Agents,RELATED:1009,Mainstream,High,Medium,Already commoditized,NEW
+1011,Mechanistic Interpretability,Механистическая интерпретируемость,Метод,A. AI & Compute,Trust,RELATED:1012,Research→Experimental,Medium-High,High,Internal mechanisms,NEW
+1012,Explainable AI,Объяснимый ИИ (XAI),Метод,A. AI & Compute,Trust,RELATED:1011,Deployed,High,High,More mature than mechanistic,NEW
+1013,AI Alignment Engineering,Инженерия выравнивания ИИ,Практика,A. AI & Compute,Trust,RELATED:1014,Experimental,Medium-High,High,Technical alignment,NEW
+1014,AI Governance,Управление ИИ,Организационная модель,A. AI & Compute,Trust,"RELATED:1013,1015",Deployed,High,Critical,Policies + processes + audit,NEW
+1015,AI Red Teaming,AI Red Teaming,Практика,A. AI & Compute,Security,"RELATED:072,073",Deployed,High,Critical,Systematic adversarial testing,NEW
+1016,Computer-Use Agents,"Агенты, управляющие компьютером",Технология,A. AI & Compute,Agents,"RELATED:002,1017",Experimental→Deployed,High,Critical,Browser + desktop control,NEW
+1017,Browser Automation Agents,Агенты автоматизации браузера,Технология,A. AI & Compute,Agents,IS-A:1016,Deployed,High,High,Specialized computer-use,NEW
+1018,Humanoid Robotics,Гуманоидная робототехника,Технология,A. AI & Compute,Embodied,"RELATED:016,1019",Experimental,High,High,Early industrial deployment,NEW
+1019,Physical AI,Physical AI,Архитектура,A. AI & Compute,Embodied,SAME-FAMILY:016; Deloitte #1,Experimental→Deployed,High (Deloitte 2026),Critical,AI + physical world convergence,NEW
+1020,Autonomous Vehicle Fleets,Автономные автопарки,Система,A. AI & Compute,Embodied,RELATED:1019,Deployed (limited geographies),High,High,,NEW
