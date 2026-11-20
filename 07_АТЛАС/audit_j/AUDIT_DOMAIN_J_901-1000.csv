@@ -14,7 +14,7 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 913,Digital Thread / Цифровая нить,Архитектура,"RELATED:911,914,984; PART-OF:911",Experimental→Deployed,Medium (incose.onlinelibrary.wiley.com),KEEP
 914,Digital Twin / Цифровой двойник,Технология,"RELATED:911,913,917; COMPLEMENTARY:908",Deployed,High (incose.onlinelibrary.wiley.com),KEEP
 915,Runtime Verification / Верификация времени исполнения,Метод,"RELATED:582,916,920; COMPLEMENTARY:941",Experimental→Deployed,High (dl.acm.org),KEEP
-916,Runtime Assurance / Гарантия времени исполнения,Архитектура,"COMPLEMENTARY:915; RELATED:932,940,582",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+916,Runtime Assurance / Гарантия времени исполнения,Архитектура,"COMPLEMENTARY:915; RELATED:932,940,582",Experimental,High (ntrs.nasa.gov),KEEP
 917,Simulation-Based Verification / Верификация симуляцией,Метод,"RELATED:908,914,968",Deployed,Medium (electronicdesign.com),KEEP
 918,Requirements Traceability / Трассируемость требований,Практика,"RELATED:905,911,913",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 919,Independent Verification and Validation / Независимая верификация и валидация,Практика,"RELATED:907,989,941; COMPLEMENTARY:982",Deployed,Medium (cto.mil),KEEP
@@ -25,19 +25,19 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 924,Agent Guardrails / Предохранители агентов,Технология,"PART-OF:923; RELATED:925,928,940",Deployed,Medium (eaj.ebujournals.lu),KEEP
 925,Least Privilege for Agents / Минимальные привилегии агентов,Принцип,"PART-OF:923; RELATED:924,930",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 926,Approval Gates / Шлюзы подтверждения,Паттерн,"PART-OF:923; RELATED:922,927; COMPLEMENTARY:929",Deployed→Mainstream,Medium (menlosecurity.com),KEEP
-927,Escalation Protocols / Протоколы эскалации,Практика,"RELATED:926,940,955",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-928,Autonomy Budgets / Бюджеты автономности,Паттерн,"PART-OF:923; RELATED:925,952",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+927,Escalation Protocols / Протоколы эскалации,Практика,"RELATED:926,940,955",Deployed,High (eur-lex.europa.eu),KEEP
+928,Autonomy Budgets / Бюджеты автономности,Паттерн,"PART-OF:923; RELATED:925,952",Experimental,High (nvlpubs.nist.gov),KEEP
 929,Autonomy Telemetry / Телеметрия автономности,Практика,"RELATED:920,923,981",Experimental→Deployed,Medium (grafana.com),KEEP
-930,Isolation Sandboxes for Agents / Песочницы для агентов,Технология,"RELATED:924,925; COMPLEMENTARY:932",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+930,Isolation Sandboxes for Agents / Песочницы для агентов,Технология,"RELATED:924,925; COMPLEMENTARY:932",Deployed,High (csrc.nist.gov),KEEP
 931,Meaningful Human Control / Осмысленный человеческий контроль,Принцип,"RELATED:004,923,940,934",Experimental→Deployed,Medium (papers.ssrn.com),KEEP
-932,Fail-Operational Design / Проектирование с продолжением работы при отказе,Архитектура,"RELATED:880,916,966; COMPLEMENTARY:959",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+932,Fail-Operational Design / Проектирование с продолжением работы при отказе,Архитектура,"RELATED:880,916,966; COMPLEMENTARY:959",Deployed,High (ntrs.nasa.gov),KEEP
 933,Supervisory Control Interfaces / Интерфейсы супервизорного управления,Технология,"RELATED:922,931,935,940",Deployed,Medium (artificialintelligenceact.eu),KEEP
 934,Trust Calibration / Калибровка доверия,Метод,"RELATED:931,933; COMPLEMENTARY:921",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 935,Operator Workload Management / Управление нагрузкой оператора,Метод,"RELATED:933,980,922",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 936,Decision Review Boards / Комитеты разбора решений,Организационная модель,"RELATED:931,973,926; COMPLEMENTARY:956",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-937,Abort Criteria Definition / Определение критериев прерывания,Практика,"RELATED:938,940,946,979",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-938,Safe Interruption Mechanisms / Механизмы безопасного прерывания,Технология,"RELATED:937,940,932; COMPLEMENTARY:923",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
-939,Operating Design Domain / Проектный домен эксплуатации,Принцип,"RELATED:921,979; COMPLEMENTARY:941",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+937,Abort Criteria Definition / Определение критериев прерывания,Практика,"RELATED:938,940,946,979",Deployed,High (ntrs.nasa.gov),KEEP
+938,Safe Interruption Mechanisms / Механизмы безопасного прерывания,Технология,"RELATED:937,940,932; COMPLEMENTARY:923",Experimental,High (knowledge.bsigroup.com),KEEP
+939,Operating Design Domain / Проектный домен эксплуатации,Принцип,"RELATED:921,979; COMPLEMENTARY:941",Deployed,High (knowledge.bsigroup.com),KEEP
 940,Autonomy Override Mechanisms / Механизмы перехвата автономии,Паттерн,"RELATED:923,931,938,933; COMPLEMENTARY:915",Deployed,Medium (artificialintelligenceact.eu),KEEP
 941,Assurance Case / Обоснование безопасности и надёжности,Метод,"PART-OF:Safety Engineering; RELATED:942,919,949; COMPLEMENTARY:982",Deployed,High (sres.ai),KEEP
 942,Goal Structuring Notation / Нотация структурирования целей,Стандарт,"IS-A:941; RELATED:981,919",Deployed,High (sres.ai),KEEP
@@ -45,8 +45,8 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 944,Fault Tree Analysis / Анализ дерева отказов,Метод,"RELATED:943,945,950",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 945,Failure Mode and Effects Analysis / Анализ видов и последствий отказов,Метод,"RELATED:944,970,943; COMPLEMENTARY:946",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 946,System-Theoretic Process Analysis / Системно-теоретический анализ процессов,Метод,"RELATED:943,937,903; COMPLEMENTARY:945",Experimental→Deployed,High (mdpi.com),KEEP
-947,IEC 61508 Functional Safety / Функциональная безопасность IEC 61508,Стандарт,"RELATED:948,966,941",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-948,SOTIF (ISO 21448) / Безопасность предполагаемой функциональности,Стандарт,"RELATED:939,947,946",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+947,IEC 61508 Functional Safety / Функциональная безопасность IEC 61508,Стандарт,"RELATED:948,966,941",Mainstream,High (webstore.iec.ch),KEEP
+948,SOTIF (ISO 21448) / Безопасность предполагаемой функциональности,Стандарт,"RELATED:939,947,946",Deployed,High (knowledge.bsigroup.com),KEEP
 949,UL 4600 Safety Case Standard / Стандарт обоснования безопасности автономных изделий,Стандарт,"IS-A:941; RELATED:948,939,942",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 950,"RAM Engineering / Инженерия надёжности, доступности, обслуживаемости",Практика,"RELATED:944,966,969",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 951,Site Reliability Engineering / Инженерия надёжности сервисов,Практика,"RELATED:952,956,957,920; COMPLEMENTARY:971",Mainstream,High (sre.google),KEEP
@@ -57,14 +57,14 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 956,Blameless Postmortems / Безвинные разборы инцидентов,Практика,"PART-OF:955; RELATED:973,976,929; COMPLEMENTARY:936",Mainstream,High (sre.google),KEEP
 957,Toil Reduction / Снижение рутинной нагрузки,Практика,"PART-OF:951; RELATED:951,996",Deployed,Medium (devopsinstitute.com),KEEP
 958,Capacity Planning / Планирование мощностей,Практика,"RELATED:968,952,965",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-959,Disaster Recovery Planning / Планирование аварийного восстановления,Практика,"RELATED:960,966,932; COMPLEMENTARY:909",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+959,Disaster Recovery Planning / Планирование аварийного восстановления,Практика,"RELATED:960,966,932; COMPLEMENTARY:909",Mainstream,High (csrc.nist.gov),KEEP
 960,Recovery Testing / Тестирование восстановления,Практика,"PART-OF:959; RELATED:954,968",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 961,Autonomic Computing / Автономные вычислительные контуры,Архитектура,"RELATED:962,915; COMPLEMENTARY:951",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 962,Self-Adaptive Systems (MAPE-K) / Самоадаптивные системы,Архитектура,"IS-A:961; RELATED:963,915",Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 963,Antifragile Design / Антихрупкое проектирование,Принцип,"RELATED:953,971; COMPLEMENTARY:962",Research,UNKNOWN,KEEP (эвиденция UNKNOWN)
-964,"Resilience Patterns (Circuit Breaker, Bulkhead) / Паттерны устойчивости",Паттерн,"RELATED:965,966,953; COMPLEMENTARY:952",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+964,"Resilience Patterns (Circuit Breaker, Bulkhead) / Паттерны устойчивости",Паттерн,"RELATED:965,966,953; COMPLEMENTARY:952",Mainstream,Medium (learn.microsoft.com),KEEP
 965,Load Shedding and Backpressure / Сброс нагрузки и обратное давление,Паттерн,"RELATED:964,958,952",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-966,"Redundancy (N+1, Active-Active) / Резервирование",Архитектура,"RELATED:932,959,950; COMPLEMENTARY:965",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+966,"Redundancy (N+1, Active-Active) / Резервирование",Архитектура,"RELATED:932,959,950; COMPLEMENTARY:965",Mainstream,Medium (docs.aws.amazon.com),KEEP
 967,Byzantine Fault Tolerance / Византийская отказоустойчивость,Метод,"RELATED:966,986,904",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 968,Stress Testing / Нагрузочные испытания до предела,Метод,"RELATED:958,907,953",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 969,MTBF/MTTR Metrics / Метрики отказов и восстановления,Метод,"PART-OF:950; RELATED:951,955",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
@@ -94,7 +94,7 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 993,Reference Architectures / Референсные архитектуры,Архитектура,"RELATED:992,904,911",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 994,Trade Study (Analysis of Alternatives) / Исследование альтернатив,Метод,"RELATED:911,995,998",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 995,Process Maturity Models (CMMI) / Модели зрелости процессов,Метод,"RELATED:991,992,996",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-996,Technical Debt Management / Управление техническим долгом,Практика,"RELATED:997,957,994",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+996,Technical Debt Management / Управление техническим долгом,Практика,"RELATED:997,957,994",Deployed→Mainstream,Medium (sei.cmu.edu),KEEP
 997,Incremental Legacy Modernization (Strangler Fig) / Поэтапная модернизация наследия,Паттерн,"RELATED:909,996,904",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 998,System Readiness Levels / Уровни системной готовности,Метод,"RELATED:999,906,994",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 999,Mission Engineering / Инженерия миссий,Метод,"RELATED:901,906,998",Experimental→Deployed,Medium (sercuarc.org),KEEP

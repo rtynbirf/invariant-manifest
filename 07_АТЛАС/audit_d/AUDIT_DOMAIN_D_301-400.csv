@@ -2,15 +2,15 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 301,Lifelong Learning / Обучение на протяжении жизни,Принцип,"PART-OF:Education Ecosystem; RELATED:302,304,308",Mainstream,Medium (oecd.org),KEEP
 302,Micro-Credentials / Микроудостоверения,Практика,"PART-OF:301; RELATED:303,309,392",Deployed→Mainstream,High (oecd.org; frontiersin.org),KEEP
 303,Digital Badges / Цифровые бейджи,Технология,"COMPLEMENTARY:302; RELATED:304,309",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-304,Recognition of Prior Learning / Признание предшествующего обучения,Метод,"RELATED:301,302; COMPLEMENTARY:309",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+304,Recognition of Prior Learning / Признание предшествующего обучения,Метод,"RELATED:301,302; COMPLEMENTARY:309",Deployed,High (oecd.org),KEEP
 305,Individual Learning Accounts / Индивидуальные счета обучения,Организационная модель,"RELATED:301,306",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 306,National Qualifications Frameworks / Национальные квалификационные рамки,Стандарт,"RELATED:302,304,309",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 307,UNESCO Global Network of Learning Cities / Глобальная сеть городов обучения UNESCO,Организационная модель,"PART-OF:301; RELATED:313,386",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-308,Workplace Learning / Обучение на рабочем месте,Практика,"PART-OF:301; RELATED:302,384,389",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+308,Workplace Learning / Обучение на рабочем месте,Практика,"PART-OF:301; RELATED:302,384,389",Mainstream,High (oecd.org),KEEP
 309,Stackable Credentials / Накапливаемые траектории удостоверений,Принцип,"RELATED:302,306; COMPLEMENTARY:304",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 310,Third-Age Learning / Обучение в третьем возрасте,Практика,"PART-OF:301; RELATED:307,386",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 311,Open Educational Resources / Открытые образовательные ресурсы,Практика,"PART-OF:Open Education; RELATED:301,313",Deployed→Mainstream,High (unesco.org; unesdoc.unesco.org),KEEP
-312,Skills Anticipation Systems / Системы предвосхищения навыков,Метод,"RELATED:306,389,394",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+312,Skills Anticipation Systems / Системы предвосхищения навыков,Метод,"RELATED:306,389,394",Deployed,High (cedefop.europa.eu),KEEP
 313,Public Libraries as Learning Hubs / Публичные библиотеки как узлы обучения,Инфраструктура,"RELATED:307,310,311",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 314,Metacognition Instruction / Обучение метакогниции,Метод,"RELATED:315,316,326",Deployed,High (educationendowmentfoundation.org.uk),KEEP
 315,Self-Regulated Learning / Саморегулируемое обучение,Метод,"RELATED:314,317,326; PART-OF:Metacognition",Mainstream,High (sciencedirect.com),KEEP
@@ -18,84 +18,84 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 317,Spaced Repetition / Интервальные повторения,Метод,COMPLEMENTARY:316; RELATED:319,Mainstream,Medium,KEEP
 318,Interleaving / Чередование задач,Метод,"PART-OF:Desirable Difficulties; RELATED:316,317",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 319,Desirable Difficulties / Полезные трудности,Принцип,"RELATED:316,317,318",Mainstream,Medium,KEEP
-320,Cognitive Load Theory / Теория когнитивной нагрузки,Принцип,"RELATED:321,335",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+320,Cognitive Load Theory / Теория когнитивной нагрузки,Принцип,"RELATED:321,335",Mainstream,High (sciencedirect.com),KEEP
 321,Worked Examples / Разобранные примеры,Метод,"RELATED:320,333",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 322,Dual Coding / Двойное кодирование,Метод,RELATED:320,Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 323,Transfer of Learning / Перенос обучения,Принцип,"RELATED:316,330",Mainstream,Medium (sciencedirect.com),KEEP
-324,Deliberate Practice / Осознанная практика,Метод,"COMPLEMENTARY:316; RELATED:334,383",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+324,Deliberate Practice / Осознанная практика,Метод,"COMPLEMENTARY:316; RELATED:334,383",Mainstream,High (hhs.purdue.edu),KEEP
 325,Growth Mindset Interventions / Вмешательства установки на рост,Метод,"RELATED:314,326",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-326,Motivation Design via Self-Determination Theory / Проектирование мотивации по теории самодетерминации,Принцип,"RELATED:314,315,325",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+326,Motivation Design via Self-Determination Theory / Проектирование мотивации по теории самодетерминации,Принцип,"RELATED:314,315,325",Mainstream,High (pmc.ncbi.nlm.nih.gov),KEEP
 327,Executive Function Training / Тренировка исполнительных функций,Метод,"RELATED:314,325",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 328,Habit Formation for Learning / Формирование учебных привычек,Практика,"RELATED:317,326",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-329,Mastery Learning / Обучение до полного усвоения,Метод,"RELATED:331,345; COMPLEMENTARY:332",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-330,Project-Based Learning / Проектное обучение,Практика,"RELATED:331,336; COMPLEMENTARY:333",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+329,Mastery Learning / Обучение до полного усвоения,Метод,"RELATED:331,345; COMPLEMENTARY:332",Deployed,High (jstor.org),KEEP
+330,Project-Based Learning / Проектное обучение,Практика,"RELATED:331,336; COMPLEMENTARY:333",Mainstream,High (eric.ed.gov),KEEP
 331,Inquiry-Based Learning / Обучение через исследование,Метод,"RELATED:330,333",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 332,Flipped Classroom / Перевёрнутый класс,Метод,"COMPLEMENTARY:329; RELATED:316,333",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 333,Direct Instruction / Прямое обучение,Метод,"RELATED:321,331; COMPLEMENTARY:330",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 334,Cognitive Apprenticeship / Когнитивное ученичество,Метод,"RELATED:308,324,336",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-335,Scaffolding / Опорная поддержка с убыванием,Принцип,"RELATED:320,321,329",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-336,Collaborative Learning / Совместное обучение,Практика,"RELATED:330,334,337",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+335,Scaffolding / Опорная поддержка с убыванием,Принцип,"RELATED:320,321,329",Mainstream,High (pmc.ncbi.nlm.nih.gov),KEEP
+336,Collaborative Learning / Совместное обучение,Практика,"RELATED:330,334,337",Mainstream,High (sciencedirect.com),KEEP
 337,Peer Instruction / Партнёрское обучение Мазура,Метод,"PART-OF:336; RELATED:316,332",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 338,Game-Based Learning / Обучение на основе игр,Практика,"RELATED:326,339,395",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 339,Maker Education / Мейкерское образование,Практика,"RELATED:330,338; COMPLEMENTARY:379",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 340,Formative Assessment / Формирующее оценивание,Метод,"RELATED:345,346,357",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-341,Authentic Assessment / Аутентичное оценивание,Метод,"RELATED:330,342,343",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+341,Authentic Assessment / Аутентичное оценивание,Метод,"RELATED:330,342,343",Experimental→Deployed,Medium (sciencedirect.com),KEEP
 342,Portfolio Assessment / Оценивание портфолио,Метод,"RELATED:304,341",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 343,Oral Assessment Revival / Возрождение устных форматов проверки,Практика,"RELATED:341,349,350",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 344,Computerized Adaptive Testing / Компьютерное адаптивное тестирование,Технология,"RELATED:345,354",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-345,Rubrics and Constructive Alignment / Рубрики и согласованное конструирование,Метод,"RELATED:340,341,346",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+345,Rubrics and Constructive Alignment / Рубрики и согласованное конструирование,Метод,"RELATED:340,341,346",Mainstream,High (link.springer.com),KEEP
 346,Learning Analytics Dashboards / Панели учебной аналитики,Система,"PART-OF:Learning Analytics; RELATED:340,347,348",Deployed,Medium (dl.acm.org; educationaldatamining.org),KEEP
-347,Early Warning Systems / Системы раннего предупреждения,Система,"PART-OF:Learning Analytics; RELATED:336,346",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+347,Early Warning Systems / Системы раннего предупреждения,Система,"PART-OF:Learning Analytics; RELATED:336,346",Deployed,High (ies.ed.gov),KEEP
 348,Educational Data Mining / Образовательный датамайнинг,Метод,"RELATED:346,355",Deployed,Medium (educationaldatamining.org),KEEP
 349,Remote Proctoring / Дистанционный прокторинг,Технология,"RELATED:343,350,365",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 350,AI Detection Tools / Инструменты детекции ИИ-текста,Технология,"RELATED:343,349,356",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 351,AI Tutoring Systems / ИИ-репетиторы на больших языковых моделях,Технология,"RELATED:352,353,354,1001",Experimental→Deployed,High (nature.com; brookings.edu),KEEP
 352,Intelligent Tutoring Systems / Классические интеллектуальные обучающие системы,Технология,"RELATED:351,354,355",Deployed,High (pmc.ncbi.nlm.nih.gov),KEEP
 353,Human Oversight of AI Tutoring / Человеческий надзор в ИИ-туторинге,Практика,"PART-OF:351; RELATED:004,352",Experimental→Deployed,Medium,KEEP
-354,Adaptive Learning Platforms / Адаптивные учебные платформы,Технология,"RELATED:329,344,352",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+354,Adaptive Learning Platforms / Адаптивные учебные платформы,Технология,"RELATED:329,344,352",Deployed,High (bera-journals.onlinelibrary.wiley.com),KEEP
 355,Knowledge Tracing / Трассировка знаний,Метод,"PART-OF:354; RELATED:348,352",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 356,Generative AI Writing Assistants in Education / Генеративные ИИ-ассистенты письма в образовании,Технология,"RELATED:350,357,369,1001",Mainstream,High (hepi.ac.uk; mdpi.com),KEEP
 357,AI Formative Feedback on Writing / ИИ-обратная связь по письму,Метод,"PART-OF:340; RELATED:356,362",Deployed,Medium (mdpi.com),KEEP
 358,AI Literacy for Students / ИИ-грамотность студентов,Практика,"PART-OF:360; RELATED:359,392",Deployed→Mainstream,High (unesco.org),KEEP
 359,UNESCO AI Competency Framework for Teachers / Рамка ИИ-компетенций UNESCO для учителей,Стандарт,"RELATED:358,360,363",Deployed,High (unesco.org),KEEP
 360,UNESCO AI Competency Framework for Students / Рамка ИИ-компетенций UNESCO для студентов,Стандарт,"RELATED:358,359,365",Deployed,High (unesco.org),KEEP
-361,National AI-in-Education Policies / Национальные политики ИИ в образовании,Организационная модель,"RELATED:359,360,365",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+361,National AI-in-Education Policies / Национальные политики ИИ в образовании,Организационная модель,"RELATED:359,360,365",Experimental→Deployed,High (unesco.org),KEEP
 362,Automated Essay Scoring / Автоматическое оценивание сочинений,Технология,"RELATED:345,356,357",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-363,AI Lesson Planning Assistants / ИИ-ассистенты планирования уроков,Технология,"RELATED:333,335,359",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+363,AI Lesson Planning Assistants / ИИ-ассистенты планирования уроков,Технология,"RELATED:333,335,359",Deployed,High (oecd.org),KEEP
 364,Engagement and Emotion Analytics / Аналитика вовлечённости и эмоций,Технология,"RELATED:346,349",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 365,Age-Appropriate AI Safety in Schools / Возрастные нормы ИИ-безопасности в школах,Принцип,"RELATED:358,361; COMPLEMENTARY:1014",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 366,Human-AI Co-Creation / Человеко-ИИ сотворчество,Практика,"RELATED:367,368,370,374",Deployed,Medium (arxiv.org; link.springer.com),KEEP
 367,Human-AI Creative Workflows / Человеко-ИИ творческие конвейеры,Практика,"PART-OF:366; RELATED:370,372,373",Experimental→Deployed,Medium (ecrea.eu),KEEP
 368,AI Ideation and Brainstorming / ИИ-идеация и брейншторм,Метод,"PART-OF:366; RELATED:369,380",Deployed,Medium (arxiv.org),KEEP
 369,LLM Co-Writing / Совместное письмо с языковыми моделями,Практика,"PART-OF:366; RELATED:356,357,368",Deployed,Medium (arxiv.org),KEEP
-370,AI-Assisted Visual Design / ИИ-ассистированный визуальный дизайн,Практика,"PART-OF:367; RELATED:366,375,377",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+370,AI-Assisted Visual Design / ИИ-ассистированный визуальный дизайн,Практика,"PART-OF:367; RELATED:366,375,377",Deployed,Medium (onlinelibrary.wiley.com),KEEP
 371,Generative Music Tools / Генеративные музыкальные инструменты,Технология,"PART-OF:367; RELATED:366,372",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 372,AI Video Generation for Storytelling / ИИ-генерация видео для сторителлинга,Технология,"PART-OF:367; RELATED:370,375",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 373,Iterative Refinement Loops / Циклы итеративной доработки,Паттерн,"PART-OF:366; RELATED:368,369,374; COMPLEMENTARY:1010",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 374,AI Roles in Co-Creation / Роли ИИ в сотворчестве,Паттерн,PART-OF:366; RELATED:373,Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 375,AI Content Provenance / Провенанс ИИ-контента,Стандарт,"PART-OF:Content Credentials; RELATED:030,376",Deployed,Medium,KEEP
-376,Copyright and Licensing of AI Outputs / Авторское право и лицензирование результатов ИИ,Принцип,"RELATED:375,377",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
+376,Copyright and Licensing of AI Outputs / Авторское право и лицензирование результатов ИИ,Принцип,"RELATED:375,377",Experimental,High (federalregister.gov),KEEP
 377,Style Consent and Dataset Ethics / Согласие на стиль и этика датасетов,Принцип,"RELATED:370,376",Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
 378,Participatory Design / Партиципаторное проектирование,Метод,"RELATED:366,379; COMPLEMENTARY:396",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-379,Design Thinking / Дизайн-мышление,Метод,"RELATED:330,339,378",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+379,Design Thinking / Дизайн-мышление,Метод,"RELATED:330,339,378",Mainstream,High (onlinelibrary.wiley.com),KEEP
 380,Computational Creativity / Вычислительное творчество,Метод,"RELATED:366,368",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-381,Communities of Practice / Сообщества практики,Организационная модель,"RELATED:308,383,388",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+381,Communities of Practice / Сообщества практики,Организационная модель,"RELATED:308,383,388",Mainstream,High (emerald.com),KEEP
 382,Learning Organizations / Обучающиеся организации,Организационная модель,"PART-OF:301; RELATED:381,384",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-383,Mentoring Programs / Программы наставничества,Практика,"RELATED:334,381,384",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-384,Instructional Coaching / Инструктивный коучинг педагогов,Практика,"RELATED:333,335,383",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+383,Mentoring Programs / Программы наставничества,Практика,"RELATED:334,381,384",Mainstream,High (onlinelibrary.wiley.com),KEEP
+384,Instructional Coaching / Инструктивный коучинг педагогов,Практика,"RELATED:333,335,383",Deployed,High (journals.sagepub.com),KEEP
 385,Study Circles / Учебные кружки,Организационная модель,"RELATED:310,381,313",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 386,Intergenerational and Family Learning / Межпоколенческое и семейное обучение,Практика,"RELATED:307,310,313",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 387,EdTech Innovation Labs / Лаборатории образовательных инноваций,Организационная модель,"RELATED:361,363",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-388,Teacher Professional Learning Communities / Профессиональные сообщества учителей,Организационная модель,"RELATED:359,381,384",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+388,Teacher Professional Learning Communities / Профессиональные сообщества учителей,Организационная модель,"RELATED:359,381,384",Mainstream,High (tandfonline.com),KEEP
 389,Upskilling and Reskilling Programs / Программы повышения и смены квалификации,Практика,"PART-OF:301; RELATED:302,308,312,390",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-390,Apprenticeships and Dual VET / Ученичество и дуальное профобразование,Организационная модель,"RELATED:308,334,391",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-391,Skills-Based Curriculum Design / Проектирование программ от навыков,Практика,"RELATED:331,345,394",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-392,Digital Skills Frameworks / Рамки цифровых навыков,Стандарт,"RELATED:358,391,394",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-393,Green Skills Training / Обучение зелёным навыкам,Практика,"RELATED:389,391",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-394,Assessment of Transferable Skills / Оценка переносимых навыков,Метод,"RELATED:341,391,400",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-395,Simulation-Based Training / Обучение на симуляторах,Метод,"RELATED:324,338,354",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+390,Apprenticeships and Dual VET / Ученичество и дуальное профобразование,Организационная модель,"RELATED:308,334,391",Mainstream,High (bibb.de),KEEP
+391,Skills-Based Curriculum Design / Проектирование программ от навыков,Практика,"RELATED:331,345,394",Deployed,High (gov.uk),KEEP
+392,Digital Skills Frameworks / Рамки цифровых навыков,Стандарт,"RELATED:358,391,394",Deployed,High (joint-research-centre.ec.europa.eu),KEEP
+393,Green Skills Training / Обучение зелёным навыкам,Практика,"RELATED:389,391",Experimental→Deployed,High (joint-research-centre.ec.europa.eu),KEEP
+394,Assessment of Transferable Skills / Оценка переносимых навыков,Метод,"RELATED:341,391,400",Deployed,Medium (act.org),KEEP
+395,Simulation-Based Training / Обучение на симуляторах,Метод,"RELATED:324,338,354",Deployed,High (jamanetwork.com),KEEP
 396,Universal Design for Learning / Универсальный дизайн для обучения,Принцип,"RELATED:1043,1044; COMPLEMENTARY:397",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-397,Assistive Technology in Education / Ассистивные технологии в образовании,Технология,"RELATED:396,1045",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-398,Language Learning with AI / Изучение языков с ИИ,Технология,"PART-OF:301; RELATED:328,351",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+397,Assistive Technology in Education / Ассистивные технологии в образовании,Технология,"RELATED:396,1045",Deployed,High (who.int),KEEP
+398,Language Learning with AI / Изучение языков с ИИ,Технология,"PART-OF:301; RELATED:328,351",Deployed,High (link.springer.com),KEEP
 399,Homeschooling and Microschools / Семейное обучение и микрошколы,Организационная модель,"RELATED:386,351",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-400,Twenty-First Century Skills Frameworks / Рамки навыков XXI века,Принцип,"RELATED:358,391,394",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+400,Twenty-First Century Skills Frameworks / Рамки навыков XXI века,Принцип,"RELATED:358,391,394",Mainstream,High (eur-lex.europa.eu),KEEP

@@ -24,8 +24,8 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 623,Non-Invasive Silent-Speech BCI / Неинвазивный нейроинтерфейс молчаливой речи,Технология,COMPLEMENTARY:619; RELATED:611,Research→Experimental,Medium (nature.com),KEEP
 624,BCI Translation Protocols / Протоколы трансляции нейроинтерфейсов,Метод,"RELATED:619,621,625",Deployed,High (nature.com),KEEP
 625,Commercial Implanted BCI / Коммерческие имплантируемые нейроинтерфейсы,Технология,"RELATED:619,621,624",Experimental→Deployed,"Medium (neuralink.com, nih.gov)",KEEP
-626,Adaptive Deep Brain Stimulation / Адаптивная глубокая стимуляция мозга,Технология,COMPLEMENTARY:625; RELATED:638,Research→Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
-627,Neuroethics and Neurorights / Нейроэтика и нейроправа,Принцип,"RELATED:625,645; COMPLEMENTARY:623",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+626,Adaptive Deep Brain Stimulation / Адаптивная глубокая стимуляция мозга,Технология,COMPLEMENTARY:625; RELATED:638,Research→Experimental,High (pubmed.ncbi.nlm.nih.gov),KEEP
+627,Neuroethics and Neurorights / Нейроэтика и нейроправа,Принцип,"RELATED:625,645; COMPLEMENTARY:623",Deployed,High (unesco.org),KEEP
 628,Neuromorphic Computing / Нейроморфные вычисления,Технология,"PART-OF:635; RELATED:629,630,636",Experimental→Deployed,Medium (innovationnewnetwork.com),KEEP
 629,Neuromorphic Training Architecture / Многоядерная архитектура обучения глубоких спайковых сетей,Архитектура,"IS-A:628; RELATED:630,635",Research→Experimental,High (nature.com),KEEP
 630,Trustworthy Spiking Networks / Доверительные байесовские спайковые сети,Метод,COMPLEMENTARY:629; RELATED:628,Research→Experimental,Medium (wiley.com),KEEP
@@ -52,7 +52,7 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 651,Organ-on-Chip Systems / Системы орган-на-чипе,Технология,COMPLEMENTARY:645; PART-OF:645,Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 652,Complex Adaptive Systems / Сложные адаптивные системы,Принцип,"RELATED:653,654,663; IS-A:657",Deployed,Medium (frontiersin.org),KEEP
 653,Scaling Laws for Functional Diversity / Законы масштабирования функционального разнообразия,Метод,PART-OF:652,Research→Experimental,Medium (pnas.org),KEEP
-654,Network Science / Наука о сетях,Метод,"PART-OF:652; RELATED:609,662",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+654,Network Science / Наука о сетях,Метод,"PART-OF:652; RELATED:609,662",Deployed,High (api.crossref.org),KEEP
 655,Early Warning Signals for Tipping Points / Сигналы раннего предупреждения точек невозврата,Метод,"RELATED:656,657,658",Experimental→Deployed,High (nature.com),KEEP
 656,Time-Irreversibility Tipping Indicators / Необратимость времени как индикатор приближения порога,Метод,IS-A:655; RELATED:658,Research→Experimental,High (nature.com),KEEP
 657,Ecological Tipping Points / Точки невозврата в экологических системах,Принцип,"PART-OF:652; RELATED:655,659",Deployed,High (nature.com),KEEP

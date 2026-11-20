@@ -61,7 +61,7 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 760,Causal Discovery / Каузальный поиск,Метод,IS-A:758; RELATED:759,Experimental→Deployed,Medium (arxiv.org),KEEP
 761,Uncertainty Quantification / Количественная оценка неопределённости,Метод,"PART-OF:Uncertainty; RELATED:762,766,767",Deployed,Medium (researchgate.net),KEEP
 762,Conformal Prediction / Конформное предсказание,Метод,IS-A:761; RELATED:763,Experimental→Deployed,Medium (researchgate.net),KEEP
-763,Aleatoric vs Epistemic Uncertainty / Разделение aleatoric и epistemic неопределённости,Принцип,"PART-OF:Uncertainty; RELATED:762,767",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+763,Aleatoric vs Epistemic Uncertainty / Разделение aleatoric и epistemic неопределённости,Принцип,"PART-OF:Uncertainty; RELATED:762,767",Deployed,High (proceedings.neurips.cc),KEEP
 764,Imprecise Probability and Credal Sets / Неточные вероятности и кредальные множества,Принцип,COMPLEMENTARY:753; RELATED:765,Research→Experimental,Medium (arxiv.org),KEEP
 765,Dempster-Shafer Evidence Theory / Теория свидетельств Демпстера-Шейфера,Принцип,RELATED:764; COMPLEMENTARY:753,Experimental,Low (researchgate.net),KEEP
 766,Sensitivity Analysis / Анализ чувствительности,Метод,"RELATED:761,758",Deployed,Medium (arxiv.org),KEEP
@@ -69,18 +69,18 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 768,Probabilistic Numerics / Вероятностные численные методы,Метод,RELATED:754; COMPLEMENTARY:761,Research→Experimental,Medium (arxiv.org),KEEP
 769,Study Pre-registration / Предварительная регистрация исследований,Практика,"RELATED:770,989; PART-OF:Open Science",Deployed,Medium (cos.io),KEEP
 770,Registered Reports / Зарегистрированные отчёты,Практика,IS-A:769; RELATED:989,Experimental→Deployed,High (direct.mit.edu),KEEP
-771,Statistical Power Analysis / Анализ статистической мощности,Метод,"RELATED:772,769",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-772,Effect Sizes and Meta-Analysis / Размеры эффекта и метаанализ,Метод,"RELATED:776,771",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-773,Multiple Testing Correction / Поправка на множественные проверки,Метод,"RELATED:775,771",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+771,Statistical Power Analysis / Анализ статистической мощности,Метод,"RELATED:772,769",Mainstream,High (fda.gov),KEEP
+772,Effect Sizes and Meta-Analysis / Размеры эффекта и метаанализ,Метод,"RELATED:776,771",Mainstream,High (cochrane.org),KEEP
+773,Multiple Testing Correction / Поправка на множественные проверки,Метод,"RELATED:775,771",Mainstream,High (fda.gov),KEEP
 774,Multiverse Analysis / Мультивселенский анализ,Метод,"RELATED:773,775",Experimental→Deployed,Medium (arxiv.org),KEEP
 775,Statistical Significance Reform / Реформа статистической значимости,Принцип,"RELATED:773,774",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 776,Systematic Evidence Synthesis / Систематический синтез доказательств,Метод,"RELATED:772,748,989",Deployed→Mainstream,Medium (arxiv.org),KEEP
-777,Measurement Uncertainty (GUM) / Неопределённость измерений (GUM),Стандарт,"PART-OF:Metrology; RELATED:778,780",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+777,Measurement Uncertainty (GUM) / Неопределённость измерений (GUM),Стандарт,"PART-OF:Metrology; RELATED:778,780",Mainstream,High (bipm.org),KEEP
 778,Metrological Traceability / Метрологическая прослеживаемость,Принцип,"RELATED:777,779; PART-OF:Metrology",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 779,Interlaboratory Comparisons / Межлабораторные сравнения,Практика,RELATED:778,Deployed,Medium (arxiv.org),KEEP
 780,SI Constant-Based Units / Переопределение единиц SI через константы,Стандарт,RELATED:777; PART-OF:Metrology,Mainstream,Low (arxiv.org),KEEP
 781,Reproducibility Badges in Publishing / Значки воспроизводимости в научных изданиях,Практика,"RELATED:989,782",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-782,Reproducible Computational Environments / Воспроизводимые вычислительные среды,Практика,"RELATED:989,781,797",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+782,Reproducible Computational Environments / Воспроизводимые вычислительные среды,Практика,"RELATED:989,781,797",Mainstream,High (nature.com),KEEP
 783,Bayesian Epistemology / Байесовская эпистемология,Принцип,"PART-OF:Epistemology; RELATED:753,784",Research→Experimental,Medium (arxiv.org),KEEP
 784,Judgment Aggregation / Агрегация суждений,Принцип,"RELATED:792,783; PART-OF:Epistemology",Research→Experimental,Medium (arxiv.org),KEEP
 785,Superforecasting and Calibration Practice / Суперфоркастинг и практика калибровки прогнозов,Практика,"RELATED:786,787",Deployed,Medium (arxiv.org),KEEP

@@ -13,14 +13,14 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 412,Stormwater Capture and Reuse / Захват и повторное использование ливневых вод,Технология,IS-A:411; RELATED:415,Deployed,Medium (weforum.org),KEEP
 413,Permeable Pavements / Водопроницаемые покрытия,Технология,IS-A:411; RELATED:406,Deployed,Medium (weforum.org),KEEP
 414,Greywater Recycling / Рециклинг серых вод,Технология,"RELATED:415,459",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-415,Municipal Water Reuse / Муниципальное повторное использование воды,Технология,"RELATED:405,414,417",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+415,Municipal Water Reuse / Муниципальное повторное использование воды,Технология,"RELATED:405,414,417",Deployed→Mainstream,High (epa.gov),KEEP
 416,Smart Irrigation / Точное орошение,Технология,RELATED:477,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 417,Smart Water Metering and Leak Detection / Умный учёт воды и поиск утечек,Технология,RELATED:415,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-418,Room for the River / Пространство для реки,Практика,"RELATED:411,445",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+418,Room for the River / Пространство для реки,Практика,"RELATED:411,445",Deployed,High (rijkswaterstaat.nl),KEEP
 419,Urban Stream Daylighting / Вывод городских рек на поверхность,Практика,"IS-A:401; RELATED:409,418",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-420,Flood and Drought Early Warning / Раннее предупреждение наводнений и засух,Система,RELATED:499; COMPLEMENTARY:418,Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-421,Distributed Rooftop Solar / Распределённая солнечная генерация,Технология,"RELATED:423,426; PART-OF:Energy Transition",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-422,Virtual Power Plants / Виртуальные электростанции,Архитектура,"COMPLEMENTARY:001; RELATED:421,426,428",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+420,Flood and Drought Early Warning / Раннее предупреждение наводнений и засух,Система,RELATED:499; COMPLEMENTARY:418,Deployed→Mainstream,High (wmo.int),KEEP
+421,Distributed Rooftop Solar / Распределённая солнечная генерация,Технология,"RELATED:423,426; PART-OF:Energy Transition",Mainstream,High (iea.org),KEEP
+422,Virtual Power Plants / Виртуальные электростанции,Архитектура,"COMPLEMENTARY:001; RELATED:421,426,428",Experimental→Deployed,High (energy.gov),KEEP
 423,Community Energy Cooperatives / Энергосообщества и кооперативы,Организационная модель,"RELATED:421,424; PART-OF:Energy Democracy",Deployed→Mainstream,High (eca.europa.eu; sciencedirect.com; catf.us),KEEP
 424,Community Microgrids / Квартальные микросети,Инфраструктура,"RELATED:423,425,426; COMPLEMENTARY:428",Deployed,High (pnnl.gov; domesticpreparedness.com),KEEP
 425,Microgrid Islanding and Control / Островной режим и управление микросетью,Технология,PART-OF:424; RELATED:426,Experimental→Deployed,Medium (pnnl.gov),KEEP
@@ -34,68 +34,68 @@ ID,Normalized_Name,Type,Relations,Maturity_2026,Evidence,Verdict
 433,Energy Management Systems (ISO 50001) / Энергоменеджмент по ISO 50001,Стандарт,"RELATED:431,434",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 434,Home Energy Monitoring / Домашний мониторинг энергии,Технология,"RELATED:433,435",Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 435,Net-Zero and Positive-Energy Buildings / Здания нулевого энергобаланса,Принцип,"RELATED:421,432",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-436,Low-Carbon Concrete / Низкоуглеродный бетон,Технология,"RELATED:437,438",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-437,Mass Timber Construction / Массивная деревянная конструкция,Технология,"RELATED:436,438",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-438,Circular Construction / Циркулярное строительство и городской майнинг,Практика,"RELATED:436,437",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-439,Industrialized Deep Retrofit / Заводская ретрофитация зданий,Технология,IS-A:431; RELATED:432,Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+436,Low-Carbon Concrete / Низкоуглеродный бетон,Технология,"RELATED:437,438",Experimental→Deployed,High (unep.org),KEEP
+437,Mass Timber Construction / Массивная деревянная конструкция,Технология,"RELATED:436,438",Experimental→Deployed,High (fs.usda.gov),KEEP
+438,Circular Construction / Циркулярное строительство и городской майнинг,Практика,"RELATED:436,437",Experimental→Deployed,High (cinea.ec.europa.eu),KEEP
+439,Industrialized Deep Retrofit / Заводская ретрофитация зданий,Технология,IS-A:431; RELATED:432,Experimental→Deployed,High (energy.ec.europa.eu),KEEP
 440,Cool Roofs and Cool Pavements / Отражающие крыши и покрытия,Технология,COMPLEMENTARY:404; RELATED:441,Deployed,High (epa.gov; mdpi.com),KEEP
 441,Urban Heat Island Mitigation / Смягчение острова городского тепла,Практика,"RELATED:402,440,442,443,444",Deployed→Mainstream,High (epa.gov; mdpi.com; sciencedirect.com),KEEP
 442,Shade and Cooling Infrastructure / Тень и пункты охлаждения,Инфраструктура,IS-A:441; RELATED:443,Deployed,Medium (epa.gov),KEEP
-443,Heat-Health Warning Systems / Системы предупреждения жаровой опасности,Система,"RELATED:441,442,499",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+443,Heat-Health Warning Systems / Системы предупреждения жаровой опасности,Система,"RELATED:441,442,499",Deployed→Mainstream,High (who.int),KEEP
 444,Urban Ventilation Corridors / Вентилируемые коридоры города,Практика,IS-A:441; RELATED:446,Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 445,City Climate Adaptation Planning / Планирование климатической адаптации города,Практика,"PART-OF:City Governance; RELATED:401,411,418,441,499",Deployed→Mainstream,Medium (c40knowledgehub.org; unhabitat.org),KEEP
 446,Barcelona Superblocks / Суперблоки Барселоны,Паттерн,"IS-A:447; RELATED:444,449",Deployed,Medium (pmc.ncbi.nlm.nih.gov; sciencedirect.com; cities4health.org),KEEP
-447,15-Minute City / 15-минутный город,Принцип,"RELATED:446,448,452",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-448,Complete Streets / Улицы для всех,Практика,"RELATED:449,450",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-449,Protected Bicycle Networks / Сеть защищённых велополос,Инфраструктура,"IS-A:448; RELATED:446,451",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-450,Low-Emission and Congestion Zones / Зоны низких выбросов и платы за въезд,Практика,"RELATED:448,451",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-451,Bus Rapid Transit / Выскорейший автобусный транспорт,Инфраструктура,"RELATED:448,450,453",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+447,15-Minute City / 15-минутный город,Принцип,"RELATED:446,448,452",Deployed→Mainstream,High (worldbank.org),KEEP
+448,Complete Streets / Улицы для всех,Практика,"RELATED:449,450",Deployed,High (transportation.gov),KEEP
+449,Protected Bicycle Networks / Сеть защищённых велополос,Инфраструктура,"IS-A:448; RELATED:446,451",Deployed,High (unep.org),KEEP
+450,Low-Emission and Congestion Zones / Зоны низких выбросов и платы за въезд,Практика,"RELATED:448,451",Deployed→Mainstream,High (tfl.gov.uk),KEEP
+451,Bus Rapid Transit / Выскорейший автобусный транспорт,Инфраструктура,"RELATED:448,450,453",Deployed→Mainstream,High (worldbank.org),KEEP
 452,Mobility as a Service / Мобильность как сервис,Система,"RELATED:447,451",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-453,Electric Bus Fleets / Электрификация автобусных парков,Технология,RELATED:451; COMPLEMENTARY:421,Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+453,Electric Bus Fleets / Электрификация автобусных парков,Технология,RELATED:451; COMPLEMENTARY:421,Deployed→Mainstream,High (iea.org),KEEP
 454,Tactical Urbanism and School Streets / Тактический урбанизм и школьные улицы,Паттерн,"RELATED:446,448",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 455,Urban Freight Microhubs and Cargo Bikes / Микрохабы логистики и грузовые велосипеды,Практика,"RELATED:450,453",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-456,Low-Cost Air Quality Sensor Networks / Сети недорогих датчиков качества воздуха,Система,RELATED:441; PART-OF:Environmental Monitoring,Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+456,Low-Cost Air Quality Sensor Networks / Сети недорогих датчиков качества воздуха,Система,RELATED:441; PART-OF:Environmental Monitoring,Deployed→Mainstream,High (epa.gov),KEEP
 457,Clean Cooking / Чистые способы приготовления пищи,Практика,"RELATED:459,460",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-458,Ventilation of Schools and Public Buildings / Вентиляция школ и общественных зданий,Практика,RELATED:456; PART-OF:Public Health,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+458,Ventilation of Schools and Public Buildings / Вентиляция школ и общественных зданий,Практика,RELATED:456; PART-OF:Public Health,Deployed,High (cdc.gov),KEEP
 459,"WASH Infrastructure / Водоснабжение, санитария и гигиена",Инфраструктура,"RELATED:405,415,457",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-460,Community Health Workers / Общественные работники здоровья,Организационная модель,"RELATED:459,467",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+460,Community Health Workers / Общественные работники здоровья,Организационная модель,"RELATED:459,467",Deployed→Mainstream,High (who.int),KEEP
 461,One Health Approach / Подход Единого здоровья,Принцип,"PART-OF:Public Health; RELATED:463,401",Deployed→Mainstream,High (who.int; cdc.gov; onehealthinitiative.com),KEEP
-462,Wastewater-Based Epidemiology / Эпидемиология по сточным водам,Метод,"RELATED:461,463",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+462,Wastewater-Based Epidemiology / Эпидемиология по сточным водам,Метод,"RELATED:461,463",Deployed,High (cdc.gov),KEEP
 463,Zoonotic Spillover Surveillance / Надзор за зоонозными рисками,Система,IS-A:461; RELATED:462,Experimental→Deployed,Medium (cdc.gov),KEEP
-464,Antimicrobial Stewardship / Сдерживание антимикробной резистентности,Практика,RELATED:461,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-465,Vaccine Cold Chain / Холодовая цепь вакцин,Инфраструктура,RELATED:460,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-466,Urban Mental Health / Городское психическое здоровье,Практика,"RELATED:402,469",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+464,Antimicrobial Stewardship / Сдерживание антимикробной резистентности,Практика,RELATED:461,Deployed,High (who.int),KEEP
+465,Vaccine Cold Chain / Холодовая цепь вакцин,Инфраструктура,RELATED:460,Deployed,High (unicef.org),KEEP
+466,Urban Mental Health / Городское психическое здоровье,Практика,"RELATED:402,469",Experimental→Deployed,High (who.int),KEEP
 467,Social Prescribing and Green Prescriptions / Социальные и зелёные рецепты,Практика,"RELATED:460,469",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-468,Healthy Food Access Programs / Доступ к здоровой пище,Практика,"RELATED:469,470",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+468,Healthy Food Access Programs / Доступ к здоровой пище,Практика,"RELATED:469,470",Deployed,High (nifa.usda.gov),KEEP
 469,Community Gardens and Urban Agriculture / Общественные сады и городское сельское хозяйство,Практика,"RELATED:402,468",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-470,School Meals Programs / Программы школьного питания,Организационная модель,RELATED:468,Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+470,School Meals Programs / Программы школьного питания,Организационная модель,RELATED:468,Deployed→Mainstream,High (wfp.org),KEEP
 471,Regenerative Agriculture / Регенеративное сельское хозяйство,Практика,"PART-OF:Food System; RELATED:472,473,478,488",Experimental→Deployed,High (aspe.hhs.gov; mdpi.com; adm.com),KEEP
 472,No-Till Farming / Нулевая обработка почвы,Метод,IS-A:471; RELATED:473,Deployed,Medium (mdpi.com),KEEP
 473,Cover Cropping / Покровные культуры,Метод,IS-A:471; RELATED:472,Deployed,Medium (mdpi.com),KEEP
-474,Agroforestry / Агролесоводство,Практика,"RELATED:471,487",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+474,Agroforestry / Агролесоводство,Практика,"RELATED:471,487",Experimental→Deployed,High (fao.org),KEEP
 475,Managed Grazing / Управляемый выпас,Практика,RELATED:471,Experimental,UNKNOWN,KEEP (эвиденция UNKNOWN)
-476,Integrated Pest Management / Интегрированная защита растений,Метод,"RELATED:471,493",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-477,Precision Agriculture / Точное сельское хозяйство,Технология,"RELATED:416,471",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+476,Integrated Pest Management / Интегрированная защита растений,Метод,"RELATED:471,493",Deployed,High (fao.org),KEEP
+477,Precision Agriculture / Точное сельское хозяйство,Технология,"RELATED:416,471",Deployed→Mainstream,High (ers.usda.gov),KEEP
 478,Soil Health and Carbon Monitoring / Мониторинг здоровья почвы,Метод,"RELATED:471,482,488",Experimental→Deployed,Medium (aspe.hhs.gov),KEEP
-479,Municipal Composting / Городское компостирование,Практика,RELATED:480,Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-480,Food Waste Reduction / Сокращение пищевых отходов,Практика,"RELATED:479,481",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+479,Municipal Composting / Городское компостирование,Практика,RELATED:480,Deployed,High (epa.gov),KEEP
+480,Food Waste Reduction / Сокращение пищевых отходов,Практика,"RELATED:479,481",Deployed→Mainstream,High (unep.org),KEEP
 481,Nutrient Recovery from Wastewater / Извлечение биогенов из стоков,Технология,"RELATED:405,480",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 482,Biochar / Биочар,Технология,RELATED:478,Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 483,Payments for Ecosystem Services / Платежи за экосистемные услуги,Организационная модель,"PART-OF:Nature Finance; RELATED:408,486,489",Deployed,Medium (nature.org),KEEP
-484,Biodiversity Net Gain / Нетто-прирост биоразнообразия,Стандарт,"RELATED:483,485",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+484,Biodiversity Net Gain / Нетто-прирост биоразнообразия,Стандарт,"RELATED:483,485",Deployed,High (gov.uk),KEEP
 485,TNFD Nature-Related Disclosures / Раскрытие природных рисков по TNFD,Стандарт,"PART-OF:Nature Finance; RELATED:484,486",Experimental→Deployed,High (tnfd.global; undp.org),KEEP
 486,Biodiversity Credits / Биокредиты,Инфраструктура,"RELATED:483,485",Experimental,Medium (nature.org),KEEP
-487,Jurisdictional REDD+ / Юрисдикционные лесные программы,Система,"RELATED:474,490",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+487,Jurisdictional REDD+ / Юрисдикционные лесные программы,Система,"RELATED:474,490",Deployed,High (unfccc.int),KEEP
 488,Carbon Farming / Углеродное фермерство,Практика,"RELATED:471,478",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 489,Land Trusts and Conservation Easements / Земельные трасты и природоохранные сервитуты,Организационная модель,"RELATED:483,490",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
-490,Area-Based Conservation and 30x30 / Охраняемые территории и цель 30x30,Практика,"RELATED:487,489,492",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+490,Area-Based Conservation and 30x30 / Охраняемые территории и цель 30x30,Практика,"RELATED:487,489,492",Deployed,High (cbd.int),KEEP
 491,Rewilding / Ревайлдинг,Практика,"RELATED:490,492",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-492,Wildlife Corridors / Экологические коридоры для дикой природы,Инфраструктура,"RELATED:409,491",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-493,Invasive Species Management / Управление инвазивными видами,Практика,"RELATED:410,476",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
+492,Wildlife Corridors / Экологические коридоры для дикой природы,Инфраструктура,"RELATED:409,491",Deployed,High (iucn.org),KEEP
+493,Invasive Species Management / Управление инвазивными видами,Практика,"RELATED:410,476",Deployed,High (ipbes.net),KEEP
 494,Citizen Science Biodiversity Monitoring / Гражданский мониторинг биоразнообразия,Метод,"RELATED:495,496",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
 495,Environmental DNA Monitoring / Мониторинг по экологической ДНК,Метод,"RELATED:494,496",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 496,Acoustic Biodiversity Monitoring / Акустический мониторинг биоразнообразия,Метод,"RELATED:494,495",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 497,Light Pollution Reduction / Снижение светового загрязнения,Практика,"RELATED:493,496",Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
 498,Urban Climate Digital Twins / Цифровые двойники города для климата,Система,"RELATED:001,445",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
-499,City Disaster Risk Reduction / Снижение риска бедствий в городе,Практика,"RELATED:420,443,445",Deployed→Mainstream,UNKNOWN,KEEP (эвиденция UNKNOWN)
+499,City Disaster Risk Reduction / Снижение риска бедствий в городе,Практика,"RELATED:420,443,445",Deployed→Mainstream,High (undrr.org),KEEP
 500,Voluntary Local Reviews (SDG 11) / Добровольные локальные обзоры ЦУР 11,Практика,"RELATED:445,499",Experimental→Deployed,UNKNOWN,KEEP (эвиденция UNKNOWN)
