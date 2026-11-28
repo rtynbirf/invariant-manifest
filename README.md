@@ -19,8 +19,20 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 1175 | 28 | 153 | 2026-11-28 | 0 |
+| 1175 | 28 | 1 | 2026-11-28 | 0 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# invariant-manifest
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/invariant-manifest"><img src="banner.png" width="100%" alt="invariant-manifest — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+
+
+
 
 # invariant-manifest
 
