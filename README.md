@@ -4,9 +4,13 @@
 
 </div>
 
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/banner.png" width="100%" alt="штандарт invariant-manifest" />
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/repo-muse.svg" width="100%" alt="Муза invariant-manifest: мастерская КУЗНЯ ПОЛИМАТ, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <br/>
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/forge-divider.svg" width="62%" alt="делитель мастерской КУЗНЯ ПОЛИМАТ" />
 </div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
 
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
 <div align="center">
@@ -15,8 +19,24 @@
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 1174 | 28 | 151 | 2026-11-28 | 0 |
+| 1174 | 28 | 1 | 2026-11-28 | 0 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# invariant-manifest
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/.github/social-preview.png" alt="invariant-manifest" width="100%"></p>
+
+<div align="center">
+
+<a href="https://github.com/rtynbirf/invariant-manifest"><img src="banner.png" width="100%" alt="invariant-manifest — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/banner.png" width="100%" alt="штандарт invariant-manifest" />
+</div>
+
+
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/rtynbirf/invariant-manifest@main/forge-divider.svg" width="62%" alt="делитель МАСТЕРСКАЯ ИНВАРИАНТОВ" />
@@ -72,3 +92,5 @@ python3 test_mutations.py   # 8/8 PASS, exit 0
 
 ---
 seed 7170 · stdlib-only · 8/8 mutation tests PASS · W3 semantic judge: Z.ai
+
+<!--ФОРЖ:ПОДВАЛ-->
